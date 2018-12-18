@@ -1,0 +1,186 @@
+body {
+	background: #f6f4f5;
+	font-family: "微软雅黑";
+}
+.main_bg {
+	background: #fff;
+	padding: 40px;
+}
+.web_set_row {
+	margin: 50px 0;
+	border-bottom: 1px dashed #666;
+}
+.main_bg img {
+	margin-bottom: 15px;
+}
+@media (max-width: 992px) {
+ .main_bg img {
+ 	display: block;
+ 	margin: 0 auto;
+ }
+}
+@media (max-width: 768px) {
+ .main_bg img {
+ 	display: block;
+ 	width: 300px;
+ 	height: 300px;
+ }
+}
+#share {
+	border-bottom: 1px solid #d6d6d6;
+	padding: 5px;
+}
+#share a {
+	margin-right: 5px;
+}
+.share_icon {
+	padding-top: 13px;
+}
+/*快速排名开始*/
+.keyword_inner {
+	background: #fff;
+	padding-top: 20px;
+}
+.keyword {
+	width: 100%;
+	background: #fe9901;
+	padding: 80px 100px;
+}
+.keyword_cont {
+	background: #fff;
+	border-radius: 20px;
+	line-height: 90px;
+	color: #383838;
+	font-size: 40px;
+	font-weight: 800;
+	text-align: center;
+}
+.keyword_cont span {
+	color: #bc0101;
+}
+.keyword_inner h2 {
+	color: #383838;
+	font-size: 30px;
+	font-weight: 800;
+	text-indent: 30px;
+}
+.what_question {
+	background: #fe9901;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 800;
+	padding: 60px;
+	padding-left: 70px;
+}
+.what_question span {
+	color: #bc0100;
+}
+.open_account {
+	padding: 40px;
+	background: #fe9901;
+}
+.open_account p {
+	font-size: 18px;
+	margin-left: 100px;
+}
+@media (max-width: 768px) {
+  .keyword {
+  	padding: 0;
+  }
+  .keyword_cont {
+  	font-size: 18px;
+  }
+  .keyword_inner h2 {
+  	font-size: 16px;
+  	line-height: 40px;
+  }
+  .what_question {
+  	padding: 30px;
+  	font-size: 14px;
+  }
+  .open_account p {
+	font-size: 14px;
+	margin-left: 0px;
+}
+
+}
+@media (max-width: 992px) {
+	.disnone_768 {
+	display: none;
+}
+}
+/*快速排名结束*/
+/*网站优化咨询开始*/
+#youhua {
+	background: #fff;
+	padding-bottom: 30px;
+}
+#youhua h3 {
+	color: #f7941c;
+	margin-bottom: 20px;
+}
+.youhua_msg li {
+	text-decoration: none;
+	line-height: 38px;
+	border-bottom: 1px dashed #999;
+}
+.youhua_msg li a {
+	color: #333333;
+	text-decoration: none;
+}
+.youhua_msg li a span {
+	float: right;
+}
+@media (max-width: 768px) {
+ .xs-hidde {
+ 	display: none;
+ }
+}
+
+
+/*网站优化咨询结束*/
+/*网站成功案例开始*/
+#website_suceess {
+	background: #fff;
+}
+#website_suceess h3 {
+	color: #f7941c;
+	margin-bottom: 20px;
+}
+#website_suceess  img {
+	width: 220px;
+	height: 180px;
+	border: 1px solid #d6d6d6;
+}
+.suceess_div {
+	position: relative;
+	margin: 20px 0;
+}
+.msg {
+	position: absolute;
+	left: 14px;
+	bottom: -9px;
+	width: 220px;
+	padding: 7px;
+	background: #000;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+}
+.layer {
+	position: absolute;
+	left: 14px;
+	bottom: 0;
+	width: 220px;
+	height: 180px;
+	background: #f7941c;
+	text-align: center;
+	line-height: 180px;
+	color: #fff;
+	font-size: 22px;
+	display: none;
+}
+.suceess_div:hover .layer {
+	display: block;
+}
+/*网站成功案例结束*/

@@ -1,0 +1,223 @@
+﻿body {
+  font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+/*ps：这是遇到的难题*/
+@media (min-width: 1200px) {
+  .container {
+	width: 1000px;
+}
+}
+
+/*header开始*/
+header {
+	background: #fff;
+}
+.top_row {
+	padding: 20px 0 10px 0;
+}
+.top_concat p{
+	font-size: 16px;
+	color: #0000bb;
+	margin: 0;
+	padding: 0;
+}
+.top_concat span {
+	font-size: 22px;
+
+}
+.p10 {
+	padding: 13px 0 0 27px;
+}
+
+/*导航栏开始*/
+.navbar-toggle {
+	margin-right: 30px;
+}
+.brand_logo {
+	display: block;
+	width: 180px;
+	height: 50px;
+}
+.brand_logo img {
+	display: block;
+	width: 120px;
+	height: 45px;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0px 37px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar {
+ 
+   margin-bottom: 0px; 
+}
+.navbar_bg {
+	background: url(../img/index_img/nav_bg.jpg) repeat-x;
+}
+/*给nav一个margin-bottom距离*/
+@media (max-width: 768px) {
+  .navbar_bg {
+  	
+  	padding-top: 20px;
+	margin-bottom: 20px;
+	background: #fff;
+}
+.navbar-default .navbar-nav  li {
+	padding-left: 30px;
+}
+}
+@media (min-width: 768px) {
+  .navbar-collapse .navbar-nav li a {
+    color: #fff;
+}
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+   font-size: 14px;
+  background: url(../img/index_img/nav_active_bg.jpg) no-repeat;
+}
+
+/*修改bootcss的样式*/
+.navbar-default {
+  /* background-color: #f8f8f8; */
+  border: 0;
+}
+
+/*导航栏结束*/
+/*header结束*/
+
+/*底部开始*/
+footer {
+	padding-top: 5px;
+	box-sizing: border-box;
+	
+}
+.company_msg {
+	width: 100%;
+	text-align: center;
+	line-height: 38px;
+	color: #e3e3e3;
+	background: url(../img/index_img/footer_bg_top.jpg) repeat-x;
+}
+.company_msg a {
+	font-size: 12px;
+	margin: 10px;
+	color: #fff;
+}
+.sort_ad {
+	padding-top: 15px;
+	background: #313131;
+}
+.sort_ad dt {
+	margin-bottom: 10px;
+	color: #fff;
+}
+.sort_ad dd a{
+	font-size: 12px;
+	color: #878686;
+}
+.footer_bottom {
+
+}
+.friendLink {
+	padding: 20px;
+	background: #222222;
+}
+.footer_bottom span {
+	color: #585757;
+}
+.footer_bottom a {
+	font-size: 12px;
+	margin-right: 12px;
+	color: #8c8c8c;
+}
+.hotline {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	opacity: 0.7;
+	color: #ffff00;
+	font-size: 18px;
+	text-align: center;
+	background: #2a2a2a;
+}
+.ht_line_empty {
+	width: 100%;
+	background: #2a2a2a;
+}
+.bg10 {
+	height: 10px;
+	background: #696969;
+}
+@media (min-width: 768px) {
+  .hotline {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	opacity: 0.7;
+	color: #ffff00;
+	font-size: 18px;
+	text-align: center;
+	line-height: 60px;
+	background: #2a2a2a;
+}
+.ht_line_empty {
+	width: 100%;
+	background: #2a2a2a;
+	height: 60px;
+}
+}
+/*底部结束*/
+
+/*qq*/
+.qq_scroll {
+	position: absolute;
+	right: 20px;
+	top: 200px;
+	width: 110px;
+	height: 170px;
+}
+.qq_scroll span {
+	position: absolute;
+	right: 0px;
+	top: 2px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+.qq_scroll img {
+	display: block;
+	margin: 0 auto;
+}
+.qq_con {
+	height: 80px;
+	background: #e1dfff;
+}
+.my_self {
+	margin-top: 10px;
+	font-weight: 800;
+	font-size: 14px;
+}
+.work_time {
+	text-align: center;
+	font-weight: 600;
+	font-size: 12px;
+	margin-bottom: 12px;
+}
+/*qq*/
+  
