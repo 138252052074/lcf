@@ -1,0 +1,148 @@
+body {
+  overflow: auto;
+  background-color: #eee;
+}
+#data {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 1.76rem;
+  background-image: linear-gradient(to bottom, #eeeeee 60%, #cccccc 100%);
+}
+#data img {
+  position: absolute;
+  width: 1.44rem;
+  height: 1.36rem;
+  bottom: 35%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 5px;
+}
+.signWrap {
+  position: relative;
+  padding: 0.88rem 0 0.44rem;
+  background: #ffcf44 url("../img/04Sign/signbg.png");
+  background-size: cover;
+}
+.signWrap .myScore,
+.signWrap .signRule {
+  position: absolute;
+  top: 0.48rem;
+  font-size: 0.6rem;
+  text-align: center;
+  color: #fff;
+}
+.signWrap .myScore {
+  left: 0.8rem;
+}
+.signWrap .myScore a {
+  display: block;
+  color: #fff;
+}
+.signWrap .myScore a em {
+  color: #F77B79;
+  font-style: normal;
+  font-weight: bold;
+}
+.signWrap .signRule {
+  right: 0.8rem;
+}
+.signWrap .signClick {
+  position: relative;
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto 0.8rem;
+  border-radius: 82px;
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  text-align: center;
+  overflow: hidden;
+}
+.signWrap .signClick a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  font-size: 0.48rem;
+  background: #F77B79;
+}
+.signWrap .signClick a span:nth-of-type(1) {
+  display: block;
+  padding: 0.48rem 0 0.24rem;
+  font-size: 0.64rem;
+  font-weight: bold;
+  vertical-align: middle;
+  width: 70%;
+  margin: 0 auto;
+  border-bottom: 1px solid #fa9767;
+  margin-bottom: 0.2rem;
+}
+.signWrap .signClick a em {
+  font-style: normal;
+}
+.sale {
+  margin: 0 0.32rem 0.4rem;
+}
+.sale .saletitle {
+  padding: 0 0.48rem;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+}
+.sale .saletitle a {
+  display: block;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  font-size: 0.56rem;
+  color: #333;
+  background: url("../img/04Sign/open.png") right center no-repeat;
+  background-size: 8px auto;
+}
+.sale .saletop {
+  overflow: hidden;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+  margin: 0.4rem 0 0;
+}
+.sale .saletop .saletoplist li {
+  float: left;
+  width: 33.3333333%;
+  text-align: center;
+  margin: 0;
+  box-sizing: border-box;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.sale .saletop .saletoplist li a > * {
+  display: block;
+  width: 100%;
+}
+.sale .saletop .saletoplist li a span {
+  padding: 0 0.16rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sale .saletop .saletoplist li a b {
+  padding: 0 0.16rem;
+  color: #ff0000;
+}
+.sale .salebottom {
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+  margin: 0.4rem 0 0;
+}
+.sale .salebottom .saletitle {
+  border-bottom: none;
+}
+.sale .salebottom .salebottombanner {
+  margin: 0 0.48rem 0.2rem;
+}
+.sale .salebottom .salebottombanner img {
+  display: block;
+  width: 100%;
+}

@@ -1,0 +1,92 @@
+body {
+  background: #eee;
+}
+div.search_k {
+  width: 15rem;
+  height: auto;
+}
+div.search_k .fix_top {
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+div.search_k .fix_top header div.relative {
+  padding: 0.4rem 0;
+  margin-left: 10%;
+  width: 65%;
+}
+div.search_k .fix_top header div.relative input {
+  width: 100%;
+  height: 1rem;
+  border: none;
+  border: 0.04rem solid #cccccc;
+  padding: 0 1.2rem 0 0.4rem;
+  box-sizing: border-box;
+  font-size: 0.56rem;
+  outline: none;
+  border-radius: 0.1rem;
+}
+div.search_k .fix_top header div.relative span {
+  width: 1.6rem;
+  height: 0.92rem;
+  background: url(../img/index/ico-srch.png) center center no-repeat;
+  background-size: 0.6rem auto;
+  right: 0.2rem;
+  top: 0.44rem;
+}
+div.search_k section {
+  margin-top: 2rem;
+}
+div.search_k section div.l_aside {
+  width: 3.6rem;
+  background: #fff;
+}
+div.search_k section div.l_aside ul li {
+  height: 1.6rem;
+  text-align: center;
+  line-height: 1.6rem;
+  background: #fff;
+  font-size: 0.52rem;
+  border-bottom: 0.04rem solid #dddddd;
+  border-right: 0.04rem solid #dddddd;
+}
+div.search_k section div.l_aside ul li.active3 {
+  background: #eee;
+  color: red;
+  border-color: #eee;
+}
+div.search_k section div.r_aside {
+  width: 11.2rem;
+}
+div.search_k section div.r_aside div.r_div {
+  display: none;
+}
+div.search_k section div.r_aside div.r_div img.t {
+  width: 100%;
+  margin-bottom: 0.4rem;
+}
+div.search_k section div.r_aside div.r_div p {
+  text-align: center;
+  font-size: 0.64rem;
+  padding: 0.4rem 0;
+}
+div.search_k section div.r_aside div.r_div ul {
+  background: #fff;
+}
+div.search_k section div.r_aside div.r_div ul li {
+  float: left;
+  width: 33.3333333%;
+  padding: 0.2rem 0.1rem;
+  margin-bottom: 0.4rem;
+}
+div.search_k section div.r_aside div.r_div ul li img {
+  width: 100%;
+  padding: 0 0.6rem 0.2rem;
+}
+div.search_k section div.r_aside div.r_div ul li span {
+  display: block;
+  font-size: 0.48rem;
+  color: #666;
+  text-align: center;
+}

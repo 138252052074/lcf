@@ -1,0 +1,155 @@
+@r: 50rem;
+body {
+    overflow: auto;
+    background-color: #eee;
+}
+//签到日期
+#data {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 88/@r;
+    background-image: linear-gradient(to bottom, rgba(238, 238, 238, 1) 60%,#ccc 100%);
+    img {
+        position: absolute;
+        width: 72/@r;
+        height: 68/@r;
+        bottom: 35%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        padding: 5px;
+    }
+}
+//热门商品推荐
+.signWrap {
+    position: relative;
+    padding: 44/@r 0 22/@r;
+    background: #FFCF44 url("../img/04Sign/signbg.png");
+    background-size: cover;
+    .myScore,
+    .signRule {
+        position: absolute;
+        top: 24/@r;
+        font-size: 30/@r;
+        text-align: center;
+        color: #fff;
+    }
+    .myScore {
+        left: 40/@r;
+        a {
+            display: block;
+            color: #fff;
+            em {
+                color: #F77B79;
+                font-style: normal;
+                font-weight: bold;
+            }
+        }
+    }
+    .signRule {
+        right: 40/@r;
+    }
+    .signClick {
+        position: relative;
+        width: 200/@r;
+        height: 200/@r;
+        margin: 0 auto 40/@r;
+        border-radius: 82px;
+        border: 10px solid rgba(255,255,255,.5);
+        text-align: center;
+        overflow: hidden;
+        a {
+            display: block;
+            height: 100%;
+            width: 100%;
+            color: #fff;
+            font-size: 24/@r;
+            background: #F77B79;
+            span:nth-of-type(1) {
+                display: block;
+                padding: 24/@r 0 12/@r;
+                font-size: 32/@r;
+                font-weight: bold;
+                vertical-align: middle;
+                width: 70%;
+                margin: 0 auto;
+                border-bottom: 1px solid #fa9767;
+                margin-bottom: 10/@r;
+            }
+            em {
+                font-style: normal;
+            }
+        }
+    }
+}
+.sale {
+    margin: 0 16/@r 20/@r;
+    .saletitle {
+        padding: 0 24/@r;
+        position: relative;
+        border-bottom: 1px solid #ddd;
+        a {
+            display: block;
+            height: 80/@r;
+            line-height: 80/@r;
+            font-size: 28/@r;
+            color: #333;
+            background: url("../img/04Sign/open.png") right center no-repeat;
+            background-size: 8px auto;
+        }
+    }
+    .saletop {
+        overflow: hidden;
+        border: 1px solid #e8e8e8;
+        background-color: #fff;
+        margin: 20/@r 0 0;
+        .saletoplist {
+            li {
+                float: left;
+                width: 33.3333333%;
+                text-align: center;
+                margin: 0;
+                box-sizing: border-box;
+                border-right: 1px solid #eee;
+                border-bottom: 1px solid #eee;
+                a>* {
+                    display: block;
+                    width: 100%;
+                }
+                a {
+                    span {
+                        padding: 0 8/@r;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                    b {
+                        padding: 0 8/@r;
+                        color: #ff0000;
+                    }
+                }
+            }
+        }
+    }
+    .salebottom {
+        border: 1px solid #e8e8e8;
+        background-color: #fff;
+        margin: 20/@r 0 0;
+        .saletitle {
+            border-bottom: none;
+        }
+        .salebottombanner {
+            margin: 0 24/@r 10/@r;
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}

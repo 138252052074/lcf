@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,user-scalable=no"/>
+		<title></title>
+		<script type="text/javascript">
+			(function(){
+				var html=document.documentElement;
+				var hWidth=html.getBoundingClientRect().width;
+				html.style.fontSize=hWidth/15+'px';
+			})()
+		</script>
+		<link rel="stylesheet" type="text/css" href="bs/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<script src="bs/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="bs/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="screen_warp">
+			<header class="public">
+				<div class="headerTop left">
+					<a href="javascript:history.go(-1);" class="block width-height-100"><img src="img/login/new-back.png"/></a>
+				</div>
+				<h4 class="left">登录</h4>
+			</header>
+			<section class="choose_type">
+				<div class="lo_re clear" id="lo_re">
+					<div class="regist left">
+						<span class="block active1">账户注册</span>
+					</div>
+					<div class="login right">
+						<span class="block">账户登录</span>
+					</div>
+				</div>
+			</section>
+			<section id="regist_section">
+				<form class="regist_form">
+					<div>
+						<input type="text" class="inptxt" name="uid" id="uid" placeholder="用户名/邮箱"/>
+						<span class="close"></span>
+					</div>
+					<div>
+						<input type="password" class="inptxt" name="pwd" id="pwd" placeholder="密码" />
+						<span class="close"></span>
+					</div>
+					<div>
+						<input type="password" class="inptxt" name="ispwd" id="ispwd" placeholder="确认密码"/>
+						<span class="close"></span>
+					</div>
+					<div>
+						<input type="text" class="inptxt" name="tel" id="tel" placeholder="手机号码"/>
+						<span class="close"></span>
+					</div>
+					<div class="get_yzm relative clear">
+						<input type="text" class="inptxt" name="yzm" id="yzm" placeholder="验证码" class="left"/>
+						<span class="absolute close"></span>
+						<a href="javascript:" class="block absolute">获取验证码</a>
+					</div>
+					<p id="wrong_tip"></p>
+					<input type="button" id="regist_btn" value="注册"/>
+					<p class="regist_p">未注册的手机号码验证后自动创建优购账户</p>
+				</form>
+			</section>
+			<section id="login_section">
+				<form class="login_form">
+					<div>
+						<input type="text" class="inptxt" name="uid1" id="uid1" placeholder="用户名/手机号/邮箱"/>
+						<span class="close"></span>
+					</div>
+					<div>
+						<input type="password" class="inptxt" name="pwd1" id="pwd1" placeholder="密码" />
+						<span class="close"></span>
+						<i class="block absolute"></i>
+					</div>
+					<p id="wrong_tip1"></p>
+					<input type="button" id="login_btn" value="登录"/>
+					<p class="login_p"><a href="javascript:">忘记密码</a></p>
+				</form>
+				<aside>
+					<div class="relative clear">
+						<span class="absolute block">第三方平台登录</span>
+					</div>
+					<div class="share">
+						<a href="javascript:"><img src="img/login/QQ.png" alt="" /></a>
+						<a href="javascript:"><img src="img/login/pay.png" alt="" /></a>
+						<a href="javascript:"><img src="img/login/sina.png" alt="" /></a>
+					</div>
+				</aside>
+			</section>
+			<footer class="clear">
+				<p>
+					<img src="img/login/ensure.png"/>
+					<span>正品保障</span>
+				<p>
+					<img src="img/login/ensure.png"/>
+					<span>10天退货</span>
+				</p>
+				<p>
+					<img src="img/login/ensure.png"/>
+					<span>10天补差价</span>
+				</p>
+			</footer>
+		</div>
+	</body>
+	<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/createdb.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/lo_re.js" type="text/javascript" charset="utf-8"></script>
+</html>

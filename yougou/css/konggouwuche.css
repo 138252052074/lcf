@@ -1,0 +1,158 @@
+body {
+  overflow-x: hidden;
+  background-color: #eeeeee;
+  font-size: 0.5rem;
+}
+.gouwuche {
+  width: 100%;
+  height: auto;
+}
+.gouwuche .header {
+  width: 100%;
+  height: 2rem;
+  background-color: #f8f8f8;
+}
+.gouwuche .header .leftarea {
+  width: 1.72rem;
+  height: 2rem;
+  float: left;
+}
+.gouwuche .header .leftarea > a {
+  width: 1.72rem;
+  display: inline-block;
+  margin-left: 0.4rem;
+  margin-top: 0.5rem;
+}
+.gouwuche .header .leftarea > a > img {
+  width: 0.6rem;
+  height: 1rem;
+  display: block;
+}
+.gouwuche .header .header_title {
+  line-height: 1.8rem;
+  font-size: 0.8rem;
+  color: #333333;
+  text-align: center;
+  width: 11.2rem;
+  height: 2rem;
+  float: left;
+}
+.gouwuche .header .sitebar {
+  width: 1.8rem;
+  height: 2rem;
+  float: left;
+}
+.gouwuche .header .sitebar > a {
+  width: 2rem;
+  height: 1.2rem;
+  display: inline-block;
+  margin-left: 0.4rem;
+  margin-top: 0.5rem;
+}
+.gouwuche .header .sitebar > a > img {
+  width: 60%;
+  height: 1rem;
+  display: block;
+}
+.foo {
+  width: 100%;
+  height: 2.3rem;
+  position: fixed;
+  background: white;
+  left: 0;
+  bottom: 0;
+}
+.foo .foo_left {
+  width: 73%;
+  height: 2.3rem;
+  float: left;
+}
+.foo .foo_left .foo_p {
+  width: 30%;
+  height: 2.2rem;
+}
+.foo .foo_left .foo_p .foo_sp {
+  width: 1.04rem;
+  height: 1.04rem;
+  display: inline-block;
+  border-radius: 50%;
+  margin-top: 20%;
+  margin-left: 10%;
+  border: 1px solid gainsboro;
+  float: left;
+}
+.foo .foo_left .foo_p em {
+  float: left;
+  margin-left: 3%;
+  line-height: 2.2rem;
+  font-size: 0.64rem;
+}
+.foo .foo_left .foo_p2 {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  width: 47%;
+  height: 2.2rem;
+  display: inline-block;
+}
+.foo .foo_left .foo_p2 .foo_p2_sp {
+  line-height: 1.4rem;
+  font-size: 0.6rem;
+}
+.foo .foo_left .foo_p2 .foo_p2_sp b {
+  color: red;
+}
+.foo .foo_left .foo_p2_em {
+  float: right;
+}
+.foo .foo_right {
+  width: 27%;
+  height: 2.3rem;
+  float: left;
+}
+.foo .foo_right input {
+  width: 100%;
+  height: 2.2rem;
+  background: red;
+  border: none;
+  text-align: center;
+  color: white;
+  font-size: 0.7rem;
+}
+.modal-content {
+  height: 8rem;
+  max-width: 100%;
+  margin-top: 8rem;
+}
+.modal-title {
+  margin-top: 10%;
+  font-size: 1rem;
+}
+.close {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.shanchu {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.modal-body {
+  margin-top: 5%;
+  margin-right: 15%;
+}
+.modal-body .btn-sm {
+  width: 4rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+.kong {
+  width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  margin-top: 20%;
+  font-size: 1rem;
+}
+.kong > p > a {
+  border-bottom: 1px solid #337ab7;
+}

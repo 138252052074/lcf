@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/gouwuche.css" />
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="bootstrap/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/Size.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/gouwuche.js" type="text/javascript" charset="utf-8"></script>	
+		
+	</head>
+
+	<body>
+		<!--购物车网页-->
+		<section class="gouwuche">
+			<!--头部部分-->
+			<header class="header">
+				<div class="leftarea">
+					<a href="xiangqingy.html"><img src="img/xiangqingy/new-back.png" /></a>
+				</div>
+				<div class="header_title">购物车</div>
+				<div class="sitebar">
+					<a href="#" class="mainnav"><img src="img/xiangqingy/ico-menu.png" /></a>
+				</div>
+			</header>			
+			<!--商品信息-->			
+			<div class="shopcart" id="shopcart">
+				<p class="shopcart_p">
+					<input class="shopcart_sp" type="checkbox" id="shopcart_sp" checked="checked"/>
+					<em>百丽优购</em>
+				</p>
+				<div class="activeWrap ">
+					<div class="zengpin">
+						<a href="#" class="zengpin_a">选择赠品</a>
+					</div>
+					<div class="item">
+						<a class="title">Senda/森达2017春季时尚黑色牛皮男鞋WDF10AM7 </a>
+						<div class="item_xinxi">
+							<a href="#" class="xin_a"><img src="img/xiangqingy/100475418_01_m.jpg" id="g_img"/></a>
+							<p class="jiaoB">限时</p>
+							<div class="info">
+								<ul class="info_ul">
+									<li>颜色：<span id="col">棕色</span><font style="margin-left:30%;">￥</font><span class="info_sp" id="price"></span></li>
+									<li>尺码：<span id="Size">38</span></li>
+									<li>发货：<span>百丽优购</span></li>
+								</ul>
+								<p class="info_p">
+									<a href="#" class="info_p_A" id="jian"><img src="img/gouwuche/minusN.png" /></a>
+									<input type="text" value="1" min="1" max="3" readonly="readonly" class="input" id="input"/>
+									<a href="#" class="info_p_B" id="jia"><img src="img/gouwuche/addN.png" /></a>
+								    <span class="info_span" data-toggle="modal" data-target="#layer"><img src="img/gouwuche/del.png"/></span>
+								</p>
+								<p class="info_p2">第二件起打八折<i></i></p>
+							</div>
+						</div>
+						<input class="shopcart_spp" type="checkbox" id="shopcart_spp" checked="checked"/>
+					</div>
+					<!--赠品-->
+					<div class="zeng" id="zeng">
+						<p class="zeng_p"><img src="img/gouwuche/gifts-img.jpg"/></p>
+						<span class="jiaoC">赠券</span>
+						<ul class="zeng_ul">
+							<li>20元礼品</li>
+							<li>数量：<i>1</i></li>
+						</ul>
+					</div>
+				</div>
+			</div>			
+		</section>	
+		<!--底部固定-->
+		<footer class="foo">
+			<div class="foo_left">
+				<p class="foo_p">
+					<input class="foo_sp" type="checkbox" id="foo_sp" />
+					<em>全部</em>
+				</p>
+				<p class="foo_p2">
+					<span class="foo_p2_sp">总计：<font color="red">￥</font><b id="zongjia">0</b>(不含运费)</span>
+					<br />
+					<span class="foo_p2_em" style="margin-right: 5%;">数量: <b style="color: red;" id="aa">0</b></span>
+					
+				</p>
+			</div>
+			<div class="foo_right">
+				<input type="text" name="" id="btn_price" value="去结算" readonly="readonly" data-toggle="modal" data-target="#layer1"/>				
+			</div>
+		</footer>
+		<!--确认删除商品 模态框-->
+		<div role="dialog" class="modal fade bs-example-modal-sm" id="layer">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span class="shanchu">X</span>
+                        </button>
+                        <h2 class="modal-title" style="text-align: center;">确认商品删除么?</h2>
+                    </div>
+                    <div class="modal-body text-right">
+                        <button data-dismiss="modal" class="btn btn-primary btn-sm">取消</button>
+                        <a data-dismiss="modal" class="btn btn-danger btn-sm" id="info_span">确认</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div role="dialog" class="modal fade bs-example-modal-sm" id="layer1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span class="shanchu">X</span>
+                        </button>
+                        <h2 class="modal-title" style="text-align: center;">确认要去结算吗？</h2>
+                    </div>
+                    <div class="modal-body text-right">
+                        <button data-dismiss="modal" class="btn btn-primary btn-sm">取消</button>
+                        <a id="btn3" href="javascript:;" class="btn btn-primary btn-sm">确认</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>

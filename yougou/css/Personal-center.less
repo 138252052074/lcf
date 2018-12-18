@@ -1,0 +1,283 @@
+@r: 50rem;
+body {
+    background: #eee;
+}
+/*顶部下载APP*/
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 90/@r;
+}
+#downApp {
+    background: 96% center no-repeat #000;
+    color: #fff;
+    #close {
+        width: 33/@r;
+        height: 31/@r;
+    }
+    div {
+        height: 100%;
+        line-height: 90/@r;
+        margin-top: 10/@r;
+        img {
+            width: 81/@r;
+            height: 81/@r;
+        }
+        ul {
+            float: right;
+            height: 100%;
+            margin-top: 10/@r;
+            margin-left: 47/@r;
+            li {
+                line-height: 36/@r;
+            }
+        }
+    }
+    p {
+        width: 20%;
+        height: 51/@r;
+        line-height: 51/@r;
+        text-align: center;
+        background: #fff;
+        border-radius: 8/@r;
+        color: #e60012;
+        font-size: 28/@r;
+    }
+}
+//头部
+.header {
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    background: #f8f8f8;
+    .upperLevel {
+        display: block;
+        margin-top: 12/@r;
+        margin-left: 21/@r;
+        img {
+            width: 26/@r;
+        }
+    }
+    h1 {
+        font-weight: 400;
+        font-size: 39/@r;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .menu {
+        display: block;
+        margin-top: 12/@r;
+        margin-right: 19/@r;
+        img {
+            width: 45/@r;
+        }
+    }
+}
+//导航栏
+#nav {
+    display: block;
+    width: 100%;
+    background: #666;
+    height: 100/@r;
+    overflow: hidden;
+    li {
+        float: left;
+        width: 25%;
+        a {
+            display: block;
+            height: 100%;
+            text-align: center;
+            padding-top: 60/@r;
+            color: #fff;
+            font-size: 29/@r;
+            box-sizing: border-box;
+        }
+    }
+    li:nth-of-type(1) {
+        background: url("../img/01index/01top/homec.png") no-repeat center 18/@r;
+        background-size: auto 40/@r;
+    }
+    li:nth-of-type(2) {
+        background: url("../img/01index/01top/seoulc.png") no-repeat center 18/@r;
+        background-size: auto 40/@r;
+    }
+    li:nth-of-type(3) {
+        background: url("../img/01index/01top/ico-shopcartc.png") no-repeat center 18/@r;
+        background-size: auto 40/@r;
+    }
+    li:nth-of-type(4) {
+        background: #555 url("../img/01index/01top/ico-personc.png") no-repeat center 18/@r;
+        background-size: auto 40/@r;
+    }
+}
+//个人信息
+.person {
+    position: relative;
+    height: 180/@r;
+    padding: 23/@r;
+    background: url("../img/01index/02middle/top-backgroundc.jpg") no-repeat center center;
+    box-sizing: border-box;
+    color: #fff;
+    a {
+        color: #fff;
+    }
+    dl {
+        dt {
+            float: left;
+            img {
+                width: 106/@r;
+                height: 107/@r;
+            }
+        }
+        dd {
+            margin-left: 127/@r;
+            p {
+                width: 100%;
+                font-size: 31/@r;
+            }
+            span {
+                display: inline-block;
+                padding: 0 13/@r;
+                margin-top: 12/@r;
+                line-height: 50/@r;
+                font-size: 27/@r;
+                background-color: #bd2302;
+                border-radius: 20/@r;
+            }
+        }
+    }
+    #management {
+        position: absolute;
+        right: 26/@r;
+        bottom: 25/@r;
+        font-style: normal;
+        font-size: 27/@r;
+    }
+    #manageInfo {
+        position: absolute;
+        top: 26/@r;
+        right: 23/@r;
+        img {
+            width: 45/@r;
+            height: 45/@r;
+        }
+    }
+}
+//信息内容
+.userInfo {
+    .userlink {
+        position: relative;
+        display: block;
+        text-align: left;
+        padding: 16/@r 37/@r;
+        font-size: 32/@r;
+        color: #333;
+        border-bottom: 1px solid #ddd;
+        em {
+            position: absolute;
+            display: block;
+            top: 26/@r;
+            right: 40/@r;
+            font-size: 12/@r;
+            font-style: normal;
+            color: #a0a0a0;
+        }
+        em:after {
+            position: absolute;
+            content: '';
+            width: 9px;
+            height: 100%;
+            top: -5/@r;
+            right: -25/@r;
+            background: url("../img/01index/02middle/gray-open.png") center center no-repeat;
+            background-size: 8px auto;
+        }
+    }
+    .userCont {
+        overflow: hidden;
+        padding: 28/@r 0 23/@r;
+        a {
+            float: left;
+            width: 33%;
+            text-align: center;
+            img {
+                width: 26px;
+            }
+            p {
+                padding-top: 7/@r;
+                font-size: 26/@r;
+                color: #333;
+            }
+        }
+    }
+    .userlist {
+        background-color: #fff;
+    }
+    .userWallet {
+        margin-top: 16/@r;
+        background-color: #fff;
+    }
+    .userWallet {
+        .userCont a {
+            width: 25%;
+            font-size: 26/@r;
+            b {
+                line-height: 56/@r;
+                color: #333;
+                font-weight: 700;
+                font-size: 34/@r;
+                img {
+                    vertical-align: top;
+                    width: 23px;
+                }
+            }
+            p {
+                padding-top: 14/@r;
+                font-size: 28/@r;
+                color: #333;
+            }
+        }
+    }
+}
+//底部
+footer {
+    border-top: 1px solid #ddd;
+    padding: 16/@r 0 24/@r;
+    background: #f8f8f8;
+    .foologin {
+        position: relative;
+        padding: 0 30/@r;
+        line-height: 2.5em;
+        text-align: right;
+        color: #666;
+        span {
+            position: absolute;
+            left: 15px;
+            color: #a0a0a0;
+            a{
+                display: inline-block;
+                line-height: 22/@r;
+            }
+            em{
+                margin: 0 20/@r;
+            }
+        }
+        p{
+            a{
+                display: inline-block;
+                line-height: 22px;
+                padding: 1px 3px;
+                margin: 0 5px;
+            }
+        }
+    }
+    .version{
+        padding-top: 10/@r;
+        text-align: center;
+        color: #a0a0a0;
+        p:nth-of-type(1){
+            margin-top: 6/@r;
+        }
+    }
+}

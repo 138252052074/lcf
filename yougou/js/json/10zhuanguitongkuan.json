@@ -1,0 +1,104 @@
+{
+	"cls": [
+		{
+			"adBanners": [],
+			"thrCls": [
+				{
+					"categoryId": "853de7dfc22c451290162cde4d887f95",
+					"name": "百丽",
+					"pic": "http://i1.ygimg.cn/pics/mobile/homepage/2017/02/1487212174648.jpg",
+					"parent": "b318f35a75d54b37941a6dbee617bab8",
+					"url": "a96f82f66eeb4219acb4b38d6bc3a614",
+					"type": 3,
+					"skiptype": 5
+				}, {
+					"categoryId": "e23bec97d06d49bcad16a7e4c9453051",
+					"name": "他她",
+					"pic": "http://i1.ygimg.cn/pics/mobile/homepage/2017/02/1487212183369.jpg",
+					"parent": "b318f35a75d54b37941a6dbee617bab8",
+					"url": "0ff4283412624884a7257c9513ecc436",
+					"type": 3,
+					"skiptype": 5
+				}, {
+					"categoryId": "16246285b447437d92864f5963282745",
+					"name": "思加图",
+					"pic": "http://i1.ygimg.cn/pics/mobile/homepage/2017/02/1487212267510.jpg",
+					"parent": "b318f35a75d54b37941a6dbee617bab8",
+					"url": "d210d250f1b74a3c99ab8af7effdd6bc",
+					"type": 3,
+					"skiptype": 5
+				}, {
+					"categoryId": "62546c6f57a4462f9b3f514efd8b579b",
+					"name": "天美意",
+					"pic": "http://i1.ygimg.cn/pics/mobile/homepage/2017/02/1487212275328.jpg",
+					"parent": "b318f35a75d54b37941a6dbee617bab8",
+					"url": "490310a860af407197108eb71e687883",
+					"type": 3,
+					"skiptype": 5
+				}, {
+					"categoryId": "6d170e7af64d4008b0d1c3b553703226",
+					"name": "百思图",
+					"pic": "http://i1.ygimg.cn/pics/mobile/homepage/2017/02/1487212288637.jpg",
+					"parent": "b318f35a75d54b37941a6dbee617bab8",
+					"url": "62546f898492479fad56c2f164cc1586",
+					"type": 3,
+					"skiptype": 5
+				}, {
+					"categoryId": "cc43dea3212b4e42a50b27ed653a595f",
+					"name": "森达",
+					"pic": "http://i1.ygimg.cn/pics/mobile/homepage/2017/02/1487212309366.jpg",
+					"parent": "b318f35a75d54b37941a6dbee617bab8",
+					"url": "04a2792cdfcf4fb494fb27567729ff8d",
+					"type": 3,
+					"skiptype": 5
+				}, {
+					"categoryId": "1bb4f84fa192443c887f0a72ede84d0e",
+					"name": "拔佳",
+					"pic": "http://i1.ygimg.cn/pics/mobile/homepage/2017/02/1487212317678.jpg",
+					"parent": "b318f35a75d54b37941a6dbee617bab8",
+					"url": "9e947e1b61df4be7ac69d7765c1f058c",
+					"type": 3,
+					"skiptype": 5
+				}, {
+					"categoryId": "7dd1ed38bab34c53b00e18a64dc1f20a",
+					"name": "暇步士",
+					"pic": "http://i1.ygimg.cn/pics/mobile/homepage/2017/02/1487212344038.jpg",
+					"parent": "b318f35a75d54b37941a6dbee617bab8",
+					"url": "e16cec24d4e9486e8bfd59a16bd921ca",
+					"type": 3,
+					"skiptype": 5
+				}, {
+					"categoryId": "daf645789bda42a59b7e5c2e37d0ea73",
+					"name": "真美诗",
+					"pic": "http://i1.ygimg.cn/pics/mobile/homepage/2017/02/1487212356119.jpg",
+					"parent": "b318f35a75d54b37941a6dbee617bab8",
+					"url": "a1b3c05ad3ef44aeadfc5e9ef6c3924d",
+					"type": 3,
+					"skiptype": 5
+				}, {
+					"categoryId": "ce8965e838f84443a16426c574064735",
+					"name": "妙丽",
+					"pic": "http://i1.ygimg.cn/pics/mobile/homepage/2017/02/1487212365712.jpg",
+					"parent": "b318f35a75d54b37941a6dbee617bab8",
+					"url": "46b1acafc3aa472e9610b247496d6369",
+					"type": 3,
+					"skiptype": 5
+				}
+			],
+			"categoryId": "b318f35a75d54b37941a6dbee617bab8",
+			"name": "热门品牌",
+			"pic": "",
+			"parent": "b87f064e98414833b66fa22726f588af"
+		}
+	],
+	"ads": [
+		{
+			"adName": "百丽O2O",
+			"imgUrl": "http://i1.ygimg.cn/pics/mobile/homepage/2016/10/1476249988728.jpg",
+			"position": 0,
+			"categoryId": "3b1162682a594956a9ed45d14adb0598",
+			"url": "",
+			"type": 1026
+		}
+	]
+}

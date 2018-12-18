@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no"/>
+		<title></title>
+		<script type="text/javascript">
+			(function(){
+				var html=document.documentElement;
+				var hWidth=html.getBoundingClientRect().width;
+				html.style.fontSize=hWidth/15+'px';
+			})()
+		</script>
+		<link rel="stylesheet" type="text/css" href="bs/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/message.css"/>
+		<script src="bs/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="bs/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="message" id="message">
+			<header class="public relative">
+				<div class="headerTop left">
+					<a href="index.html" class="block width-height-100"><img src="img/login/new-back.png"/></a>
+				</div>
+				<h4 class="left">消息盒子</h4>
+				<a href="###" class="menu" id="menu"><img src="img/01index/01top/ico-menu.png"/></a>
+			</header>
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="###">海外购</a></li>
+					<li><a href="kong.html">购物车</a></li>
+					<li><a href="Personal-center.html">我的优购</a></li>
+				</ul>
+			</nav>
+			<section class="notice" id="notice">
+				<div class="courier_mes" id="courier_mes">
+					<div class="mes_img">
+						<img src="img/index/1487821090551.png"/>
+					</div>
+					<div class="mes_text">
+						<h4>交易物流消息</h4>
+						<p>订单已签收！您购买的<span id="mes_title"></span></p>
+					</div>
+				</div>
+				<div class="notice_mes">
+					<div class="mes_img">
+						<img src="img/index/1487821090551.png"/>
+					</div>
+					<div class="mes_text">
+						<h4>通知消息</h4>
+						<p>快来领专属最高30元粮票，周边热销餐馆都在使用粮票...</p>
+					</div>
+				</div>
+				<div class="play_mes">
+					<div class="mes_img">
+						<img src="img/index/1487821090551.png"/>
+					</div>
+					<div class="mes_text">
+						<h4>互动消息</h4>
+						<p>购友(XXX)有问题向你求助哦</p>
+					</div>
+				</div>
+			</section>
+			<section class="discount">
+				<aside>
+					<div class="relative clear">
+						<span class="absolute block">优惠促销</span>
+					</div>
+				</aside>
+				<div class="hall">
+					<h4>天美意品牌日</h4>
+					<img src="img/message/1493107350171.jpg"/>
+					<p>初夏尚新爱不释脚，天美意品牌日低至2.1折！</p>
+				</div>
+				<div class="hall">
+					<h4>尚新欢鞋靴分会场</h4>
+					<img src="img/message/1492755413817.jpg"/>
+					<p>尚新还鞋靴分会场，折后最高使用200元礼品卡！</p>
+				</div>
+				<div class="hall">
+					<h4>他她好货低价</h4>
+					<img src="img/message/1492587192042.jpg"/>
+					<p>他她好货低价，手快有手慢无！售完为止！</p>
+				</div>
+			</section>
+		</div>
+		<div class="transaction none" id="transaction">
+			<header class="public relative">
+				<div class="headerTop left">
+					<a href="javascript:;" class="block width-height-100" id="gomes"><img src="img/login/new-back.png"/></a>
+				</div>
+				<h4 class="left">交易物流消息</h4>
+			</header>
+			<section class="trans_info">
+				<div class="order_info">
+					<span class="block">2017年4月22日</span>
+					<div class="order_div">
+						<h3>订单已签收<small>(中通快递)</small></h3>
+						<div class="order_img left">
+							<img src="img/index/1487821090551.png"/>
+						</div>
+						<div class="order_text left">
+							<h4 id="h_title">米奈 便捷式指环支架 通用平板手机支架卡扣粘贴式金属环旋转定制</h4>
+							<p>运单编号：435127539648</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</body>
+	<script src="js/createdb.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/message.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/normal.js" type="text/javascript" charset="utf-8"></script>
+</html>

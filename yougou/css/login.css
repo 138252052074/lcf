@@ -1,0 +1,234 @@
+body {
+  background: #fff;
+}
+.screen_warp {
+  width: 15rem;
+  height: 100%;
+}
+.screen_warp section.choose_type .lo_re {
+  padding: 0 0.4rem;
+  box-sizing: border-box;
+}
+.screen_warp section.choose_type .lo_re .regist,
+.screen_warp section.choose_type .lo_re .login {
+  width: 50%;
+  padding-top: 0.88rem;
+  border-bottom: 0.04rem solid #d9d9d9;
+}
+.screen_warp section.choose_type .lo_re .regist span,
+.screen_warp section.choose_type .lo_re .login span {
+  width: 100%;
+  height: 1.44rem;
+  line-height: 1.44rem;
+  font-size: 0.56rem;
+  text-align: center;
+}
+.screen_warp section.choose_type .lo_re .regist span.active1,
+.screen_warp section.choose_type .lo_re .login span.active1 {
+  color: #FF4664;
+  border-bottom: 0.1rem solid #ff4664;
+}
+.screen_warp section#regist_section .regist_form,
+.screen_warp section#login_section .regist_form,
+.screen_warp section#regist_section .login_form,
+.screen_warp section#login_section .login_form {
+  padding: 0 0.4rem;
+  box-sizing: border-box;
+}
+.screen_warp section#regist_section .regist_form div,
+.screen_warp section#login_section .regist_form div,
+.screen_warp section#regist_section .login_form div,
+.screen_warp section#login_section .login_form div {
+  position: relative;
+  border-bottom: 0.04rem solid #d9d9d9;
+}
+.screen_warp section#regist_section .regist_form div input,
+.screen_warp section#login_section .regist_form div input,
+.screen_warp section#regist_section .login_form div input,
+.screen_warp section#login_section .login_form div input {
+  width: 100%;
+  height: 1.76rem;
+  margin-top: 0.3rem;
+  padding-left: 0.3rem;
+  outline: none;
+  box-sizing: border-box;
+  border: none;
+  font-size: 0.56rem;
+}
+.screen_warp section#regist_section .regist_form div span,
+.screen_warp section#login_section .regist_form div span,
+.screen_warp section#regist_section .login_form div span,
+.screen_warp section#login_section .login_form div span {
+  display: block;
+  width: 1.28rem;
+  height: 1.28rem;
+  background: url(../img/login/clear.png) no-repeat;
+  background-size: 60% 60%;
+  position: absolute;
+  top: 0.7rem;
+  right: 0;
+  display: none;
+}
+.screen_warp section#regist_section .regist_form div input#pwd1 + span,
+.screen_warp section#login_section .regist_form div input#pwd1 + span,
+.screen_warp section#regist_section .login_form div input#pwd1 + span,
+.screen_warp section#login_section .login_form div input#pwd1 + span {
+  left: 75%;
+}
+.screen_warp section#regist_section .regist_form div i,
+.screen_warp section#login_section .regist_form div i,
+.screen_warp section#regist_section .login_form div i,
+.screen_warp section#login_section .login_form div i {
+  width: 1.84rem;
+  height: 0.68rem;
+  background: url(../img/login/black.png) no-repeat;
+  background-size: 45% 45%;
+  top: 1rem;
+  right: -0.4rem;
+}
+.screen_warp section#regist_section .regist_form div.get_yzm #yzm,
+.screen_warp section#login_section .regist_form div.get_yzm #yzm,
+.screen_warp section#regist_section .login_form div.get_yzm #yzm,
+.screen_warp section#login_section .login_form div.get_yzm #yzm {
+  width: 70%;
+}
+.screen_warp section#regist_section .regist_form div.get_yzm span,
+.screen_warp section#login_section .regist_form div.get_yzm span,
+.screen_warp section#regist_section .login_form div.get_yzm span,
+.screen_warp section#login_section .login_form div.get_yzm span {
+  top: 0.8rem;
+  left: 60%;
+}
+.screen_warp section#regist_section .regist_form div.get_yzm a,
+.screen_warp section#login_section .regist_form div.get_yzm a,
+.screen_warp section#regist_section .login_form div.get_yzm a,
+.screen_warp section#login_section .login_form div.get_yzm a {
+  width: 28%;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  color: #000;
+  border-left: 0.04rem solid #d9d9d9;
+  top: 0.6rem;
+  right: 0.3rem;
+  font-size: 0.56rem;
+}
+.screen_warp section#regist_section .regist_form #regist_btn,
+.screen_warp section#login_section .regist_form #regist_btn,
+.screen_warp section#regist_section .login_form #regist_btn,
+.screen_warp section#login_section .login_form #regist_btn,
+.screen_warp section#regist_section .regist_form #login_btn,
+.screen_warp section#login_section .regist_form #login_btn,
+.screen_warp section#regist_section .login_form #login_btn,
+.screen_warp section#login_section .login_form #login_btn {
+  width: 100%;
+  height: 1.76rem;
+  line-height: 1.76rem;
+  text-align: center;
+  background: #999;
+  color: #fff;
+  margin-top: 1.6rem;
+  border: none;
+  font-size: 0.64rem;
+  outline: none;
+}
+.screen_warp section#regist_section .regist_form p,
+.screen_warp section#login_section .regist_form p,
+.screen_warp section#regist_section .login_form p,
+.screen_warp section#login_section .login_form p {
+  width: 100%;
+  margin-top: 0.3rem;
+  font-size: 0.48rem;
+  color: #666;
+}
+.screen_warp section#regist_section .regist_form p.regist_p,
+.screen_warp section#login_section .regist_form p.regist_p,
+.screen_warp section#regist_section .login_form p.regist_p,
+.screen_warp section#login_section .login_form p.regist_p {
+  text-align: center;
+}
+.screen_warp section#regist_section .regist_form p.login_p,
+.screen_warp section#login_section .regist_form p.login_p,
+.screen_warp section#regist_section .login_form p.login_p,
+.screen_warp section#login_section .login_form p.login_p {
+  text-align: right;
+}
+.screen_warp section#regist_section .regist_form p.login_p a,
+.screen_warp section#login_section .regist_form p.login_p a,
+.screen_warp section#regist_section .login_form p.login_p a,
+.screen_warp section#login_section .login_form p.login_p a {
+  color: #666;
+  font-size: 0.52rem;
+}
+.screen_warp section#regist_section .regist_form p#wrong_tip,
+.screen_warp section#login_section .regist_form p#wrong_tip,
+.screen_warp section#regist_section .login_form p#wrong_tip,
+.screen_warp section#login_section .login_form p#wrong_tip,
+.screen_warp section#regist_section .regist_form p#wrong_tip1,
+.screen_warp section#login_section .regist_form p#wrong_tip1,
+.screen_warp section#regist_section .login_form p#wrong_tip1,
+.screen_warp section#login_section .login_form p#wrong_tip1 {
+  color: red;
+}
+.screen_warp section#regist_section aside,
+.screen_warp section#login_section aside {
+  margin-top: 3.6rem;
+  padding: 0 1.6rem;
+}
+.screen_warp section#regist_section aside div.clear,
+.screen_warp section#login_section aside div.clear {
+  height: 1.28rem;
+  background: url(../img/login/point.png) left center repeat-x;
+}
+.screen_warp section#regist_section aside div.clear span,
+.screen_warp section#login_section aside div.clear span {
+  padding: 0 0.2rem;
+  background: #fff;
+  top: 0.4rem;
+  left: 35%;
+  font-size: 0.4rem;
+  color: #a0a0a0;
+}
+.screen_warp section#regist_section aside div.share,
+.screen_warp section#login_section aside div.share {
+  padding: 0.4rem 0;
+  box-sizing: border-box;
+}
+.screen_warp section#regist_section aside div.share a,
+.screen_warp section#login_section aside div.share a {
+  height: 1.52rem;
+  padding: 0 1.14rem;
+  box-sizing: border-box;
+}
+.screen_warp section#regist_section aside div.share a img,
+.screen_warp section#login_section aside div.share a img {
+  width: 1.52rem;
+  height: 1.52rem;
+}
+.screen_warp section#login_section {
+  display: none;
+}
+.screen_warp footer {
+  padding: 0 1.2rem;
+  margin-top: 3.6rem;
+  margin-bottom: 0.8rem;
+}
+.screen_warp footer p {
+  width: 33%;
+  float: left;
+  padding-left: 0.6rem;
+  box-sizing: border-box;
+}
+.screen_warp footer p img {
+  width: 0.52rem;
+  height: 0.52rem;
+  float: left;
+  vertical-align: middle;
+}
+.screen_warp footer p span {
+  display: block;
+  vertical-align: middle;
+  float: left;
+  font-size: 0.48rem;
+  margin-left: 0.1rem;
+}

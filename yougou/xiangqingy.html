@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情页-触屏版</title>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/xiangqingy.css" />
+		<link rel="stylesheet" type="text/css" href="css/idangerous.swiper.css" />
+		<!--<link rel="stylesheet" type="text/css" href="css/style.css"/>-->
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="bootstrap/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/Size.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/xiangqingy.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<!--big-box-->
+		<div class="box">
+			<!--header开始-->
+			<header class="header">
+				<div class="leftarea">
+					<a href="manshose.html"><img src="img/xiangqingy/new-back.png" /></a>
+				</div>
+				<div class="header_title">商品详情</div>
+				<div class="sitebar">
+					<a href="#" class="mainnav"><img src="img/xiangqingy/ico-menu.png" /></a>
+				</div>
+			</header>
+			<!--商品-->
+			<section class="section_con">
+				<!--lunbo-->
+				<div class="lunbo">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"> <img src="img/xiangqingy/100475418_01_m.jpg"> </div>
+							<div class="swiper-slide"> <img src="img/xiangqingy/100475418_02_m.jpg"> </div>
+							<div class="swiper-slide"> <img src="img/xiangqingy/100475418_03_m.jpg"> </div>
+							<div class="swiper-slide"> <img src="img/xiangqingy/100475418_04_m.jpg"> </div>
+							<div class="swiper-slide"> <img src="img/xiangqingy/100475418_05_m.jpg"> </div>
+							<div class="swiper-slide"> <img src="img/xiangqingy/100475418_06_m.jpg"> </div>
+						</div>
+					</div>
+					<div class="pagination"></div>
+				</div>
+				<div class="proCountDown">
+					<div class="proCountDowntime">
+						<span class="proCountDown_left">秒杀</span>
+						<div class="proTime">
+							<span class="proTime_sp">距结束仅剩 :</span>
+							<!--<div class="time">
+								<span class="hour">19</span> :
+								<span class="min">20</span> :
+								<span class="sec">10</span>
+							</div>-->
+							<div id="countdown">
+                               <span id="hours"></span>
+                               <span id="minutes"></span>
+                               <span id="seconds"></span>
+                            </div>
+                            <b class="timeb">:</b>
+                             <b class="timec">:</b>
+						</div>
+					</div>
+				</div>
+				<div class="huodong">
+					<div class="titleW">
+						<h1 id="h1">Senda/森达2017春季时尚黑色牛皮男鞋WDF10AM7</h1>
+						<a class="title_share">
+							<img src="img/xiangqingy/share.png" />
+							<span>分享</span>
+						</a>
+					</div>
+					<ul class="price">
+						<li><span>￥198</span></li>
+						<li><s>￥898</s></li>
+						<li><span>不可使用优惠劵</span></li>
+					</ul>
+					<div class="kong"></div>
+				</div>
+			</section>
+			<!--尺码部分-->
+			<section class="size" id="size">
+				<div class="chima" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+					<span>选择    ：</span>
+					<span id="yanse" class="sizea">颜色</span>
+					<span class="sizea">/</span>
+					<span id="mashu" class="sizea">尺码</span>
+					<img src="img/xiangqingy/open.png" />
+				</div>
+				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+					<div role="document">
+						<div class="modal-content">
+							<p class="close" data-dismiss="modal" aria-label="Close"><img src="img/xiangqingy/close.png" /></p>
+							<div class="size_img">
+								<img src="img/xiangqingy/100475418_01_m.jpg" id="img1" />
+							</div>
+							<p class="sp1">
+								<font color="red">￥</font><span id="pri">198</span>
+								<br />
+								<em>
+									<span id="yan">颜色</span>
+									<span>/</span>
+									<span id="chi">尺码</span>
+								</em>
+							</p>
+							<hr class="hr" />
+							<h4 class="hh2">颜色</h4>
+							<dl class="size_dd" id="size_dd">
+								<dd><img src="img/xiangqingy/100475418_01_m.jpg" /></dd>
+								<dd><img src="img/xiangqingy/100475418_02_m.jpg" /></dd>
+								<dd><img src="img/xiangqingy/100475418_03_m.jpg" /></dd>
+								<dd><img src="img/xiangqingy/100475418_04_m.jpg" /></dd>
+								<dd><img src="img/xiangqingy/100475418_05_m.jpg" /></dd>
+							</dl>
+							<div class="mashu">
+								<ul id="mashu_ul">
+									<li style="pointer-events: none;background: gray;">35</li>
+									<li>36</li>
+									<li style="pointer-events: none;background: gray;">37</li>
+									<li>38</li>
+									<li style="pointer-events: none;background: gray;">39</li>
+									<li>40</li>
+									<li>41</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--评论方面-->
+			<section class="pinglun" id="pinglun">
+				<a class="ping_A" href="#nav">
+				<div class="Ahima">
+					<span>评论   ：</span>
+					<span>(<b id="b_b"></b>)</span>
+					<img src="img/xiangqingy/open.png" />
+				</div>
+				</a>	
+			</section>
+			<!--评价内容-->
+			<section class="pingjia">
+				<dl class="ping_dl">
+					<dt>yan****</dt>
+					<dt><img src="img/xiangqingy/a1.JPG"/></dt>
+					<dt>2016-11-9</dt>
+				</dl>
+				<p class="ping_p">鞋子还是漂亮但质量不怎么样，珠子很容易掉，掉了之后是编织布鞋子还是漂亮</p>
+			</section>
+			<!--发货地址-->
+			<section class="fahuo">
+				<div class="fa_a">
+					<img src="img/xiangqingy/senda506405009.jpg" class="fa_img" />
+					<ul class="fa_p">
+						<li>品牌：<span>森达</span></li>
+						<li>发货：<span>广州市</span></li>
+					</ul>
+					<img src="img/xiangqingy/open.png" class="fa_btn" />
+				</div>
+			</section>
+			<section class="shangpin">
+				<div class="shang">
+					<span>喜欢此商品的人还买了</span>
+					<img src="img/xiangqingy/open.png" />
+				</div>
+			</section>
+			<!--动态添加数据-->
+			<section class="shang1" id="shang1">
+				<ul class="shang1_ul" id="shang1_ul"></ul>
+			</section>
+			<!--联系客服-->
+			<section class="kefu">
+				<div class="kefu_a">
+					<img src="img/xiangqingy/service.png" />
+					<p>联系客服</p>
+					<img src="img/xiangqingy/open.png" />
+				</div>
+			</section>
+			<!--nav-->
+			<section class="nav" id="nav">
+				<ul class="nav_ul" id="nav_ul">
+					<li id="li1"><a href="#nav">详情</a></li>
+					<li id="li2" style="border-bottom: 2px solid red;"><a href="#nav">评论<span id="ping"></span></a></li>
+					<li id="li3"><a href="#nav">推荐</a></li>
+				</ul>
+				<div class="nav_di1" id="nav_div" >
+					<div class="nav_div1" id="div1">
+						<div class="div1">
+							<h5>参数对照表</h5>
+							<ul class="div1_ul">
+								<li><img src="img/xiangqingy/100115878_01_b.jpg"/></li>
+								<li><img src="img/xiangqingy/100115878_06_b.jpg"/></li>
+								<li><img src="img/xiangqingy/100115878_09_b.jpg"/></li>
+								<li><img src="img/xiangqingy/100115878_07_b.jpg"/></li>
+								<li><img src="img/xiangqingy/100115878_51_b.jpg"/></li>
+							</ul>
+						</div>
+					</div>
+					<div class="nav_div1" id="div2" style="margin-top: 15%;">									   
+					  <div class="commentStar">
+							<dl>
+								<dd><img src="img/xiangqingy/star.png" /></dd>
+								<dd><img src="img/xiangqingy/star.png" /></dd>
+								<dd><img src="img/xiangqingy/star.png" /></dd>
+								<dd><img src="img/xiangqingy/star.png" /></dd>
+								<dd><img src="img/xiangqingy/star.png" /></dd>
+							</dl>
+							<p>9.6分</p>
+						</div>
+						<div class="commentTitle">
+							<a href="javascript:;">全部</a>
+							<a href="javascript:;">晒单</a>
+						</div>
+						<ul class="evaluateCon" id="evaluateCon">
+							<!--<li><dl><dt>yan****</dt><dt><img src="img/xiangqingy/a1.JPG"/></dt><dt>2016-11-9</dt></dl><p>鞋子还是漂亮但质量不怎么样，珠子很容易掉，掉了之后是编织布鞋子还是漂亮</p><p>颜色：<span>棕色</span>尺码：<span>38</span>(合适) </p></li>-->
+						</ul>
+						<h4 id="h4">已全部显示</h4>
+					</div>				
+					<div class="nav_div1" id="div3">						
+						<ul class="shang_div1" id="shang_div1"></ul>				
+					</div>
+				</div>
+			</section>
+			<!--底部固定栏-->
+		<footer class="foo">
+			<a href="javascript:;">
+				<img src="img/xiangqingy/like.png"/>
+				<em>收藏</em>
+			</a>
+			<a href="javascript:;" id="gouwuche">
+				<img src="img/xiangqingy/car1.png"/>
+				<em>购物车</em>
+			</a> 
+			<p class="cart_info" id="cart_info">请选择颜色和尺码！</p>
+			<a href="javascript:;" class="foo_a" id="cart">加入购物车</a>
+			<a href="javascript:;" class="foo_a">立即购买</a>
+		</footer>
+		</div>
+		
+		
+		
+
+	</body>
+	<!--lunbo-->
+	<script src="js/idangerous.swiper.min.js" type="text/javascript" charset="utf-8"></script>
+    <!--倒计时-->
+    <script src="js/bootstrap-tooltip.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.countdown.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.custom.js" type="text/javascript" charset="utf-8"></script>
+</html>

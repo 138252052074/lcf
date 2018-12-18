@@ -1,0 +1,98 @@
+@r:50rem;
+body{
+    background: #eee;
+}
+div.search_k{
+    width: 750/@r;
+    height: auto;
+    .fix_top{
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        header{
+            div.relative{
+                padding: 20/@r 0;
+                margin-left: 10%;
+                width: 65%;
+                input{
+                    width: 100%;
+                    height: 50/@r;
+                    border: none;
+                    border: 2/@r solid #ccc;
+                    padding: 0 60/@r 0 20/@r;
+                    box-sizing: border-box;
+                    font-size: 28/@r;
+                    outline: none;
+                    border-radius: 5/@r;
+                }
+                span{
+                    width: 80/@r;
+                    height: 46/@r;
+                    background: url(../img/index/ico-srch.png) center center no-repeat;
+                    background-size: 30/@r auto;
+                    right: 10/@r;
+                    top: 22/@r;
+                }
+            }
+        }
+    }
+    
+    section{
+        margin-top: 100/@r;
+        div.l_aside{
+            width: 180/@r;
+            background: #fff;
+            ul{
+                li{
+                    height: 80/@r;
+                    text-align: center;
+                    line-height: 80/@r;
+                    background: #fff;
+                    font-size: 26/@r;
+                    border-bottom: 2/@r solid #ddd;
+                    border-right: 2/@r solid #ddd;
+                }
+                li.active3{
+                    background: #eee;
+                    color: red;
+                    border-color: #eee;
+                }
+            }
+        }
+        div.r_aside{
+            width: 560/@r;
+            div.r_div{
+                display: none;
+                img.t{
+                    width: 100%;
+                    margin-bottom: 20/@r;
+                }
+                p{
+                    text-align: center;
+                    font-size: 32/@r;
+                    padding: 20/@r 0;
+                }
+                ul{
+                    background: #fff;
+                    li{
+                        float: left;
+                        width: 33.3333333%;
+                        padding: 10/@r 5/@r;
+                        margin-bottom: 20/@r;
+                        img{
+                            width: 100%;
+                            padding: 0 30/@r 10/@r;
+                        }
+                        span{
+                            display: block;
+                            font-size: 24/@r;
+                            color: #666;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

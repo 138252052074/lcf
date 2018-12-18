@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no"/>
+		<title></title>
+		<script type="text/javascript">
+			(function(){
+				var html=document.documentElement;
+				var hWidth=html.getBoundingClientRect().width;
+				html.style.fontSize=hWidth/15+'px';
+			})()
+		</script>
+		<link rel="stylesheet" type="text/css" href="bs/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/logistics.css"/>
+		<script src="bs/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="logistics">
+			<header class="public">
+				<div class="headerTop left">
+					<a href="index.html" class="block width-height-100"><img src="img/login/new-back.png"/></a>
+				</div>
+				<h4 class="left">物流查询</h4>
+			</header>
+			<section class="product_info clear">
+				<div class="left product_img">
+					<img src="img/index/1487821090551.png"/>
+				</div>
+				<div class="left product_state">
+					<p>
+						<span>物流状态：</span><span class="c_state">已签收</span>
+					</p>
+					<p>
+						<span>承运公司：</span><span id="company"></span>
+					</p>
+					<p>
+						<span>运单编号：</span><span id="no"></span>
+					</p>
+					<p>
+						<span>官方电话：</span><span>暂无</span>
+					</p>
+				</div>
+			</section>
+			<section class="courier clear">
+				<div class="left courier_img">
+					<span class="glyphicon glyphicon-user"></span>
+				</div>
+				<div class="left courier_name">
+					<p>派送员</p>
+					<p>卓智</p>
+				</div>
+				<div class="right courier_tel">
+					<span class="glyphicon glyphicon-earphone block left"></span>
+					<i class="left block"></i>
+				</div>
+			</section>
+			<section class="courier_info clear">
+				<div class="cngg clear">
+					<span class="glyphicon glyphicon-fire left"></span>
+					<p class="left">本数据由<a href="javascript:">菜鸟裹裹</a>提供</p>
+					<i class="right block"></i>
+				</div>
+				<div class="c_info clear">
+					<div class="left img" id="c_img">
+						
+					</div>
+					<div class="left text" id="c_info">
+						
+					</div>
+				</div>
+			</section>
+			<footer class="fixed clear">
+				<span class="right block">派件评价</span>
+				<span class="right block">物流投诉</span>
+				<span class="right block">物流客服</span>
+			</footer>
+		</div>
+	</body>
+	<script src="js/logistics.js" type="text/javascript" charset="utf-8"></script>
+</html>

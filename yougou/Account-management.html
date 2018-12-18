@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<!--选择性别|填写生日|省份，城市-->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!---->
+		<!--选择性别|填写生日|省份，城市-->
+		<link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+		<link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
+		<!---->
+		<link rel="stylesheet" type="text/css" href="css/InitializationMob.css" />
+		<link rel="stylesheet" type="text/css" href="css/HeadABottom.css"/>
+		<link rel="stylesheet" type="text/css" href="css/Account-management.css" />
+
+		<script type="text/javascript">
+			document.getElementsByTagName('html')[0].style.fontSize = window.screen.width / 15 + 'px';
+		</script>
+	</head>
+
+	<body>
+		<!--头部-->
+		<header>
+			<a href="Personal-center.html"><img src="img/02Account-management/new-back.png" /></a>
+			<a href="###" id="menu"><img src="img/02Account-management/ico-menu.png" /></a>
+			<h1>账户管理</h1>
+		</header>
+		<!--导航栏-->
+		<nav id="nav">
+			<ul>
+				<li><a href="###">首页</a></li>
+				<li><a href="###">海外购</a></li>
+				<li><a href="###">购物车</a></li>
+				<li><a href="Personal-center.html">我的优购</a></li>
+			</ul>
+		</nav>
+		<section class="userinfo">
+			<div class="userCont">
+				<p class="fl">用户名</p>
+				<p class="fr" id="username">###</p>
+			</div>
+			<div class="userCont">
+				<p class="fl">性别</p>
+				<p class="fr unsend" id="sex"><a href="#" class="create-actions">设置后不可修改</a></p>
+			</div>
+			<div class="userCont">
+				<p class="fl">生日</p>
+				<!--填写生日-->
+				<input type="text" name="my-input" id="my-input" value=" 年 / 月 / 日" />
+				<!---->
+			</div>
+			<div class="userCont">
+				<p class="fl">地区</p>
+				<p class="fr unsend" id="city">&ensp;</p>
+				<input type="text" placeholder="" id='city-picker' value="省份,城市" />
+			</div>
+			<div class="userCont" id="address">
+				<a href="Receiving-address.html"></a>
+				<p class="fl">收货地址管理</p>
+				<p class="fr unsend">&ensp;</p>
+			</div>
+			<div class="userCont">
+				<p class="fl">修改密码</p>
+				<p class="fr unsend">&ensp;</p>
+			</div>
+			<div class="userCont">
+				<p class="fl">绑定手机号</p>
+				<p class="fr unsend">&ensp;</p>
+			</div>
+		</section>
+		<footer>
+			<div class="foologin">
+				<span>
+					<a href="lo_re.html" id="user">请登录</a>
+					<i>|</i>
+					<a href="lo_re.html" id="signout">注册</a>
+				</span>
+				<p>
+					<a href="###">电脑版</a>
+					<a href="###">客户端</a>
+					<a href="###">微信</a>
+				</p>
+			</div>
+			<div class="version">
+				<p>百丽国际旗下购物网站</p>
+				<p>Copyright © 2011-2017 优购 m.yougou.com</p>
+			</div>
+		</footer>
+	</body>
+	<!--选择性别|填写生日|省份，城市-->
+	<script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+	<script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
+	<script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
+	<script type="text/javascript" src="//g.alicdn.com/msui/sm/0.6.2/js/sm-city-picker.min.js" charset="utf-8"></script>
+	<!---->
+	<script type="text/javascript">
+		//省份，城市
+		$("#city-picker").cityPicker({
+			toolbarTemplate: '<header class="bar bar-nav">\
+    <button class="button button-link pull-right close-picker">确定</button>\
+    <h1 class="title">地区</h1>\
+    </header>'
+		});
+		//填写生日
+		$("#my-input").calendar({
+			value: ['2015-12-05']
+		});
+		//选择性别
+		$(document).on('click', '.create-actions', function() {
+			var buttons1 = [{
+				text: '请选择',
+				label: true
+			}, {
+				text: '男',
+				bold: true,
+				color: 'danger',
+				onClick: function() {
+					$('#sex a').text('男');
+					fnChangetest('sex','男');
+				}
+			}, {
+				text: '女',
+				onClick: function() {
+					$('#sex a').text('女');
+					fnChangetest('sex','女');
+				}
+			}];
+			var buttons2 = [{
+				text: '取消',
+				bg: 'danger'
+			}];
+			var groups = [buttons1, buttons2];
+			$.actions(groups);
+		});
+	</script>
+	<script src="js/createdb.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+	<!--<script src="js/createLanded.js" type="text/javascript" charset="utf-8"></script>-->
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8" defer="defer"></script>
+	<script src="js/normal.js" type="text/javascript" charset="utf-8" defer="defer"></script>
+	<script src="js/Account-management.js" type="text/javascript" charset="utf-8"></script>
+	
+</html>

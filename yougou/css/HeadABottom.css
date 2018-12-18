@@ -1,0 +1,107 @@
+header {
+  overflow: hidden;
+  height: 1.76rem;
+  line-height: 1.76rem;
+  text-align: center;
+  background: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+header a:nth-of-type(1) {
+  float: left;
+  width: 36px;
+  padding-top: 0.36rem;
+}
+header a:nth-of-type(1) img {
+  width: 12px;
+}
+header a:nth-of-type(2) {
+  float: right;
+  width: 42px;
+  height: 30px;
+  padding-top: 0.6rem;
+  line-height: 20px;
+}
+header a:nth-of-type(2) img {
+  width: 0.8rem;
+}
+header h1 {
+  font-size: 0.72rem;
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+  white-space: nowrap;
+}
+#nav {
+  display: none;
+  width: 100%;
+  background: #666;
+  height: 2rem;
+  overflow: hidden;
+}
+#nav li {
+  float: left;
+  width: 25%;
+}
+#nav li a {
+  display: block;
+  height: 100%;
+  text-align: center;
+  padding-top: 1.2rem;
+  color: #fff;
+  font-size: 0.58rem;
+  box-sizing: border-box;
+}
+#nav li:nth-of-type(1) {
+  background: url("../img/01index/01top/homec.png") no-repeat center 0.36rem;
+  background-size: auto 0.8rem;
+}
+#nav li:nth-of-type(2) {
+  background: url("../img/01index/01top/seoulc.png") no-repeat center 0.36rem;
+  background-size: auto 0.8rem;
+}
+#nav li:nth-of-type(3) {
+  background: url("../img/01index/01top/ico-shopcartc.png") no-repeat center 0.36rem;
+  background-size: auto 0.8rem;
+}
+#nav li:nth-of-type(4) {
+  background: #555555 url("../img/01index/01top/ico-personc.png") no-repeat center 0.36rem;
+  background-size: auto 0.8rem;
+}
+footer {
+  border-top: 1px solid #ddd;
+  padding: 0.32rem 0 0.48rem;
+  background: #f8f8f8;
+}
+footer .foologin {
+  position: relative;
+  padding: 0 0.6rem;
+  line-height: 2.5em;
+  text-align: right;
+  color: #666;
+}
+footer .foologin span {
+  position: absolute;
+  left: 15px;
+  color: #a0a0a0;
+}
+footer .foologin span a {
+  display: inline-block;
+  line-height: 0.44rem;
+}
+footer .foologin span em {
+  margin: 0 0.4rem;
+}
+footer .foologin p a {
+  display: inline-block;
+  line-height: 22px;
+  padding: 1px 3px;
+  margin: 0 5px;
+}
+footer .version {
+  padding-top: 0.2rem;
+  text-align: center;
+  color: #a0a0a0;
+}
+footer .version p:nth-of-type(1) {
+  margin-top: 0.12rem;
+}

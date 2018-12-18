@@ -1,0 +1,393 @@
+body {
+    overflow-x: hidden;
+    background-color: #eeeeee;
+    font-size: 25/@r;
+}
+@r: 50rem; //购物车网页
+.gouwuche {
+    width: 100%;
+    height: auto;
+    .header {
+        width: 100%;
+        height: 100/@r;
+        background-color: #f8f8f8;
+        .leftarea {
+            width: 86/@r;
+            height: 100/@r;
+            float: left;
+            >a {
+                width: 86/@r;
+                display: inline-block;
+                margin-left: 20/@r;
+                margin-top: 25/@r;
+                >img {
+                    width: 30/@r;
+                    height: 50/@r;
+                    display: block;
+                }
+            }
+        }
+        .header_title {
+            line-height: 90/@r;
+            font-size: 40/@r;
+            color: #333333;
+            text-align: center;
+            width: 560/@r;
+            height: 100/@r;
+            float: left;
+        }
+        .sitebar {
+            width: 90/@r;
+            height: 100/@r;
+            float: left;
+            >a {
+                width: 100/@r;
+                height: 60/@r;
+                display: inline-block;
+                margin-left: 20/@r;
+                margin-top: 25/@r;
+                >img {
+                    width: 60%;
+                    height: 50/@r;
+                    display: block;
+                }
+            }
+        }
+    }
+    .shopcart {
+        width: 100%;
+        height: auto;
+        background: white;
+        margin-top: 5%;
+        .shopcart_p {
+            width: 100%;
+            height: 110/@r;
+            background: #f5f5f5;
+            .shopcart_sp {
+                width: 52/@r;
+                height: 52/@r;
+                display: inline-block;
+                background: white;
+                border-radius: 50%;
+                margin-top: 4%;
+                margin-left: 4%;
+                border: 1px solid gainsboro;
+                float: left;
+                background: url("../img/gouwuche/roundcheck-fill.png") no-repeat;
+            }
+            em {
+                float: left;
+                margin-left: 3%;
+                line-height: 110/@r;
+                font-size: 40/@r;
+            }
+        }
+    }
+    .activeWrap {
+        width: 100%;
+        height: auto;
+        .zengpin {
+            width: 100%;
+            height: 60/@r;
+            .zengpin_a {
+                width: 30%;
+                height: 60/@r;
+                line-height: 60/@r;
+                float: right;
+                display: inline-block;
+                border-left: 1px solid gray;
+                padding-left: 5%;
+                color: black;
+            }
+        }
+        .item {
+            width: 100%;
+            height: 360/@r;
+            margin-top: 3%;
+            position: relative;
+            .title {
+                width: 600/@r;
+                height: 60/@r;
+                line-height: 70/@r;
+                margin-left: 12%;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                font-size: 30/@r;
+                display: inline-block;
+                color: black;
+            }
+            .item_xinxi {
+                width: 88%;
+                height: 300/@r;
+                float: right;
+                position: relative;
+                .xin_a {
+                    width: 230/@r;
+                    height: 230/@r;
+                    border: 1px solid gainsboro;
+                    float: left;
+                    display: inline-block;
+                    >img {
+                        width: 100%;
+                        height: 98%;
+                        display: block;
+                        margin-top: 2%;
+                    }
+                }
+                .jiaoB {
+                    width: 75/@r;
+                    height: 40/@r;
+                    line-height: 35/@r;
+                    display: inline-block;
+                    text-align: center;
+                    position: absolute;
+                    top: 0;
+                    left: 24%;
+                    color: white;
+                    background: red;
+                }
+                .info {
+                    width: 400/@r;
+                    height: 280/@r;
+                    float: left;
+                    .info_ul li {
+                        margin-left: 7%;
+                    }
+                    span {
+                        font-size: 30/@r;
+                    }
+                    .info_sp {
+                        float: right;
+                        font-weight: bold;
+                    }
+                    .info_p {
+                        width: 60%;
+                        height: 60/@r;
+                        position: relative;
+                        margin-left: 6%;
+                        .info_p_A {
+                            width: 70/@r;
+                            height: 60/@r;
+                            display: inline-block;
+                            border: 1px solid darkgray;
+                            float: left;
+                            img {
+                                width: 40/@r;
+                                height: 5/@r;
+                                display: block;
+                                position: absolute;
+                                top: 48%;
+                                left: 6%;
+                            }
+                        }
+                        .info_p_B {
+                            width: 70/@r;
+                            height: 60/@r;
+                            display: inline-block;
+                            border: 1px solid darkgray;
+                            float: left;
+                            img {
+                                width: 45/@r;
+                                height: 40/@r;
+                                display: block;
+                                position: absolute;
+                                top: 17%;
+                                left: 64%;
+                            }
+                        }
+                        .input {
+                            width: 70/@r;
+                            height: 60/@r;
+                            border: 1px solid darkgray;
+                            text-align: center;
+                            float: left;
+                        }
+                        .info_span {
+                            width: 60/@r;
+                            height: 70/@r;
+                            display: inline-block;
+                            position: absolute;
+                            right: -50%;
+                            top: 20%;
+                            img {
+                                width: 100%;
+                                height: 80%;
+                                display: block;
+                            }
+                        }
+                    }
+                    .info_p2 {
+                        width: auto;
+                        height: 50/@r;
+                        line-height: 50/@r;
+                        text-align: center;
+                        border: 1px solid red;
+                        display: inline-block;
+                        margin-left: 5%;
+                        border-radius: 5%;
+                        color: red;
+                        font-size: 35/@r;
+                        position: relative;
+                        margin-top: 2%;
+                    }
+                }
+            }
+            .shopcart_spp {
+                width: 52/@r;
+                height: 52/@r;
+                display: inline-block;
+                background: red;
+                border-radius: 50%;
+                border: 1px solid gainsboro;
+                background: url("../img/gouwuche/roundcheck-fill.png") no-repeat;
+                float: left;
+                position: absolute;
+                left: 3%;
+                top: 40%;
+            }
+        }
+        .zeng {
+            width: 500/@r;
+            height: 150/@r;
+            margin-left: 13%;
+            position: relative;
+            .zeng_p {
+                margin-right: 7%;
+                width: 130/@r;
+                height: 140/@r;
+                display: inline-block;
+                border: 1px solid gainsboro;
+                float: left;
+                img {
+                    width: 100%;
+                    height: 99%;
+                    display: block;
+                }
+            }
+            .jiaoC {
+                width: 65/@r;
+                height: 40/@r;
+                line-height: 35/@r;
+                display: inline-block;
+                text-align: center;
+                position: absolute;
+                top: 6%;
+                left: 13%;
+                color: white;
+                background: red;
+            }
+            .zeng_ul {
+                margin-top: 2%;
+                li {
+                    padding-top: 2%;
+                }
+            }
+        }
+    }
+}
+//底部固定
+.foo {
+    width: 100%;
+    height: 115/@r;
+    position: fixed;
+    background: white;
+    left: 0;
+    bottom: 0;
+    .foo_left {
+        width: 73%;
+        height: 115/@r;
+        float: left;
+        .foo_p {
+            width: 30%;
+            height: 110/@r;
+            .foo_sp {
+                width: 52/@r;
+                height: 52/@r;
+                display: inline-block;
+                border-radius: 50%;
+                margin-top: 20%;
+                margin-left: 10%;
+                border: 1px solid gainsboro;
+                float: left;
+            }
+            em {
+                float: left;
+                margin-left: 3%;
+                line-height: 110/@r;
+                font-size: 32/@r;
+            }
+        }
+        .foo_p2 {
+            position: absolute;
+            top: 0;
+            left: 25%;
+            width: 47%;
+            height: 110/@r;
+            display: inline-block;
+            .foo_p2_sp {
+                line-height: 70/@r;
+                font-size: 30/@r;
+                b {
+                    color: red;
+                }
+            }
+        }
+        .foo_p2_em {
+            float: right;
+        }
+    }
+    .foo_right {
+        width: 27%;
+        height: 115/@r;
+        float: left;
+        input {
+            width: 100%;
+            height: 110/@r;
+            background: red;
+            border: none;
+            text-align: center;
+            color: white;
+            font-size: 35/@r;
+        }
+    }
+}
+.modal-content {
+    height: 400/@r;
+    max-width: 100%;
+    margin-top: 400/@r;
+}
+.modal-title {
+    margin-top: 10%;
+    font-size: 50/@r;
+}
+.close {
+    width: 60/@r;
+    height: 60/@r;
+}
+.shanchu {
+    width: 60/@r;
+    height: 60/@r;
+}
+.modal-body {
+    margin-top: 5%;
+    margin-right: 15%;
+    .btn-sm {
+        width: 200/@r;
+        height: 100/@r;
+        font-size: 50/@r;
+    }
+}
+//  判断购物车是否为空
+.kong {
+    width: 100%;
+    height: 200/@r;
+    line-height: 200/@r;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 50/@r;
+    display: none;
+    >p>a {
+         border-bottom: 1px solid #337ab7;
+    }
+}

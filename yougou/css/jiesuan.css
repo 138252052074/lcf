@@ -1,0 +1,386 @@
+body {
+  overflow-x: hidden;
+  background-color: #eeeeee;
+  font-size: 0.7rem;
+}
+.box {
+  width: 100%;
+}
+.box .header {
+  width: 100%;
+  height: 2rem;
+  background: #f8f8f8;
+}
+.box .header > a {
+  width: 2rem;
+  height: 1.7rem;
+  display: inline-block;
+  padding-left: 3%;
+  padding-top: 3%;
+  float: left;
+}
+.box .header > a img {
+  width: 0.6rem;
+  height: 1rem;
+  display: block;
+}
+.box .header h3 {
+  float: left;
+  margin-top: 2%;
+  margin-left: 20%;
+  font-size: 1.1rem;
+}
+.box .shouhuo {
+  width: 100%;
+  height: 4rem;
+  background: white;
+  margin-top: 3%;
+}
+.box .shouhuo .dizhi_a {
+  width: 93%;
+  height: 1.6rem;
+  border-bottom: 1px solid gainsboro;
+  margin-left: 4%;
+}
+.box .shouhuo .dizhi_a a {
+  width: 0.7rem;
+  height: 0.7rem;
+  display: inline-block;
+  margin-top: 4%;
+  float: left;
+}
+.box .shouhuo .dizhi_a a img {
+  width: 0.7rem;
+  height: 0.7rem;
+  display: block;
+}
+.box .shouhuo .dizhi_a span {
+  line-height: 1.6rem;
+  margin-left: 2%;
+}
+.box .shouhuo .dizhi_b {
+  width: 93%;
+  height: 1.6rem;
+  margin-left: 4%;
+}
+.box .shouhuo .dizhi_b a {
+  width: 0.8rem;
+  height: 1rem;
+  display: inline-block;
+  margin-top: 6%;
+  float: right;
+}
+.box .shouhuo .dizhi_b a img {
+  width: 0.5rem;
+  height: 0.9rem;
+  display: block;
+}
+.box .shouhuo .dizhi_b span {
+  line-height: 2.4rem;
+  margin-left: 2%;
+}
+.box .peisong {
+  position: relative;
+  width: 100%;
+  margin-top: 2%;
+  height: auto;
+  border: 1px solid white;
+  background: white;
+}
+.box .peisong .peisong_a {
+  width: 93%;
+  height: 1.6rem;
+  margin-left: 4%;
+  border: 1px solid white;
+}
+.box .peisong .peisong_a a {
+  width: 0.8rem;
+  height: 1rem;
+  margin-right: 2%;
+  margin-top: 5%;
+  display: inline-block;
+}
+.box .peisong .peisong_a a img {
+  width: 0.9rem;
+  height: 0.8rem;
+  display: block;
+}
+.box .peisong .peisong_a span {
+  position: absolute;
+  left: 12%;
+  top: 9%;
+}
+.box .peisong .peisong_b {
+  width: 93%;
+  height: auto;
+  margin-left: 4%;
+  border: 1px solid gainsboro;
+}
+.box .peisong .peisong_b li {
+  width: 100%;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  border: 1px solid gainsboro;
+  font-size: 0.6rem;
+  padding-left: 2%;
+}
+.box .peisong .peisong_c {
+  width: 93%;
+  height: auto;
+  margin-left: 4%;
+  border-top: 1px solid gainsboro;
+}
+.box .peisong .peisong_c li {
+  width: 100%;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  border-top: 1px solid gainsboro;
+  font-size: 0.6rem;
+  padding-left: 2%;
+}
+.box .peisong .peisong_c a {
+  color: black;
+}
+.box .peisong .peisong_c a > img {
+  float: right;
+  margin-right: 5%;
+  margin-top: 2%;
+  width: 0.5rem;
+}
+.box .shangpin {
+  position: relative;
+  width: 100%;
+  margin-top: 2%;
+  height: auto;
+  background: white;
+  padding-bottom: 3%;
+}
+.box .shangpin .shangpin_a {
+  width: 93%;
+  height: 1.8rem;
+  margin-left: 4%;
+  border: 1px solid white;
+}
+.box .shangpin .shangpin_a a {
+  width: 0.8rem;
+  height: 1rem;
+  margin-right: 2%;
+  margin-top: 4%;
+  display: inline-block;
+}
+.box .shangpin .shangpin_a a img {
+  width: 0.7rem;
+  height: 0.8rem;
+  display: block;
+}
+.box .shangpin .shangpin_a span {
+  position: absolute;
+  left: 12%;
+  top: 10%;
+}
+.box .shangpin .shangpin_b {
+  width: 3.8rem;
+  height: 3.8rem;
+  border: 1px solid darkgray;
+  position: relative;
+  margin-left: 7%;
+  margin-top: 2%;
+  overflow: hidden;
+}
+.box .shangpin .shangpin_b img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.box .shangpin .shangpin_b .activeTextTip {
+  width: 2.6rem;
+  font-size: 0.5rem;
+  font-weight: 700;
+  text-align: center;
+  background: #ff4c4c;
+  color: #fff;
+  position: absolute;
+  top: 5%;
+  right: -0.76rem;
+  transform: rotate(45deg);
+}
+.box .shangpin .settlementProDe {
+  width: 9rem;
+  height: 3.8rem;
+  position: absolute;
+  right: 7%;
+  top: 35%;
+  color: gray;
+}
+.box .shangpin li > a:nth-of-type(1) {
+  width: 9rem;
+  height: 2.4rem;
+  font-size: 0.4rem;
+  display: inline-block;
+  padding-left: 6%;
+  color: black;
+}
+.box .shangpin .ssp1 {
+  font-size: 0.5rem;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  margin-right: 0.4rem;
+}
+.box .shangpin .ssp2 {
+  font-size: 0.5rem;
+  position: absolute;
+  top: 40%;
+  left: 18%;
+  margin-right: 0.4rem;
+}
+.box .shangpin .clearfix {
+  margin-left: 5%;
+}
+.box .shangpin .clearfix em {
+  font-size: 0.4rem;
+}
+.box .shangpin .clearfix span {
+  font-size: 0.8rem;
+  color: black;
+  font-weight: bold;
+}
+.box .zengjuan {
+  width: 100%;
+  height: 4.4rem;
+  background: white;
+  position: relative;
+  margin-top: 1%;
+}
+.box .zengjuan .zengjuan_a {
+  width: 93%;
+  height: 1.6rem;
+  margin-left: 4%;
+  border-bottom: 1px solid gainsboro;
+  margin-top: 3%;
+}
+.box .zengjuan .zengjuan_a a {
+  width: 0.8rem;
+  height: 1rem;
+  margin-right: 2%;
+  margin-top: 2%;
+  display: inline-block;
+}
+.box .zengjuan .zengjuan_a a img {
+  width: 0.7rem;
+  height: 0.8rem;
+  display: block;
+}
+.box .zengjuan .zengjuan_a span {
+  position: absolute;
+  top: 5%;
+}
+.box .zengjuan .zengjuan_b {
+  width: 93%;
+  height: 1.6rem;
+  margin-left: 4%;
+  color: gray;
+}
+.box .zengjuan .zengjuan_b .aa {
+  color: black;
+  font-size: 0.6rem;
+}
+.box .zengjuan .zengjuan_b .aaa {
+  color: gray;
+  font-size: 0.4rem;
+}
+.box .zengjuan .zengjuan_b ul li {
+  float: left;
+  margin-left: 5%;
+}
+.box .zengjuan .zengjuan_b ul em {
+  float: right;
+}
+.box .mingxi {
+  width: 100%;
+  height: auto;
+  background: white;
+  margin-top: 1%;
+}
+.box .mingxi .mingxi_a {
+  width: 93%;
+  height: 1.4rem;
+  margin-left: 4%;
+  border-bottom: 1px solid gainsboro;
+  margin-top: 3%;
+}
+.box .mingxi .mingxi_a a {
+  width: 0.8rem;
+  height: 1rem;
+  margin-right: 2%;
+  padding-top: 2%;
+  display: inline-block;
+}
+.box .mingxi .mingxi_a a img {
+  width: 0.9rem;
+  height: 0.8rem;
+  display: block;
+}
+.box .mingxi .mingxi_b {
+  margin-left: 7%;
+  margin-top: 2%;
+}
+.box .mingxi .mingxi_b em {
+  float: right;
+  margin-right: 5%;
+}
+.box .mingxi .mingxi_b b {
+  float: left;
+  color: red;
+}
+.box .jifen {
+  width: 100%;
+  height: auto;
+  background: white;
+}
+.box .jifen .jifen_a {
+  width: 93%;
+  height: 1.4rem;
+  margin-left: 4%;
+  line-height: 1.4rem;
+  border-bottom: 1px solid gainsboro;
+  margin-top: 2%;
+  color: gray;
+}
+.box .jifen .jifen_a .j_sp {
+  float: right;
+}
+.box .dibu {
+  width: 100%;
+  height: 2.4rem;
+}
+.fix {
+  width: 100%;
+  height: 2.2rem;
+  position: fixed;
+  bottom: 0;
+}
+.fix .fix_left {
+  width: 70%;
+  height: 2.2rem;
+  float: left;
+  background: #dddddd;
+  line-height: 2.2rem;
+  padding-left: 5%;
+}
+.fix .fix_left span {
+  color: #ff3300;
+}
+.fix .fix_right {
+  width: 30%;
+  height: 2.2rem;
+  float: right;
+  background: #ff3300;
+  text-align: center;
+  line-height: 2.2rem;
+}
+.fix .fix_right input {
+  background: #ff3300;
+  border: none;
+  color: white;
+}

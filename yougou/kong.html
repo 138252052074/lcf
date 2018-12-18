@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/konggouwuche.css" />
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="bootstrap/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/Size.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/konggouwuche.js" type="text/javascript" charset="utf-8"></script>			
+	</head>
+	<body>
+		<!--购物车网页-->
+		<section class="gouwuche">
+			<!--头部部分-->
+			<header class="header">
+				<div class="leftarea">
+					<a href="xiangqingy.html"><img src="img/xiangqingy/new-back.png" /></a>
+				</div>
+				<div class="header_title">购物车</div>
+				<a href="###" class="menu" id="menu"><img src="img/01index/01top/ico-menu.png"/></a>
+				
+			</header>
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="###">海外购</a></li>
+					<li><a href="kong.html">购物车</a></li>
+					<li><a href="Personal-center.html">我的优购</a></li>
+				</ul>
+			</nav>
+			<!--购物车为空-->
+			<div class="kong" id="kong">
+				<p>购物车为空<a href="fenlei.html" id="qugouwu">去购物</a></p>
+			</div>					
+		</section>	
+		<!--底部固定-->
+		<footer class="foo">
+			<div class="foo_left">
+				<p class="foo_p">
+					<input class="foo_sp" type="checkbox" id="foo_sp" />
+					<em>全部</em>
+				</p>
+				<p class="foo_p2">
+					<span class="foo_p2_sp">总计：<font color="red">￥</font><b id="zongjia">0</b>(不含运费)</span>
+					<br />
+					<span class="foo_p2_em" style="margin-right: 5%;">数量: <b style="color: red;" id="aa">0</b></span>					
+				</p>
+			</div>
+			<div class="foo_right">
+				<input type="text" name="" id="btn_price" value="去结算" readonly="readonly" data-toggle="modal" data-target="#layer1"/>				
+			</div>
+		</footer>  
+	</body>
+	<script src="js/normal.js" type="text/javascript" charset="utf-8"></script>
+</html>

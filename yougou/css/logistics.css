@@ -1,0 +1,150 @@
+body {
+  background: #eee;
+}
+div.logistics {
+  width: 15rem;
+  height: 100%;
+}
+div.logistics section.product_info {
+  padding: 0.6rem 0.4rem;
+  background: #fff;
+}
+div.logistics section.product_info div.product_img {
+  width: 20%;
+}
+div.logistics section.product_info div.product_img img {
+  width: 100%;
+  margin-top: 0.2rem;
+  border: 0.04rem solid #d8d8d8;
+}
+div.logistics section.product_info div.product_state {
+  width: 80%;
+  padding-left: 0.4rem;
+}
+div.logistics section.product_info div.product_state p span {
+  font-size: 0.56rem;
+}
+div.logistics section.product_info div.product_state p span.c_state {
+  color: #4CAE4C;
+}
+div.logistics section.courier {
+  padding: 0.4rem;
+  background: #fff;
+  margin-top: 0.6rem;
+}
+div.logistics section.courier div.courier_img {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 0.04rem solid #d8d8d8;
+  text-align: center;
+  overflow: hidden;
+  margin: 0.2rem 0 0 0.2rem;
+}
+div.logistics section.courier div.courier_img span {
+  color: #269ABC;
+  font-size: 0.8rem;
+  margin-top: 0.1rem;
+}
+div.logistics section.courier div.courier_name {
+  padding-left: 0.4rem;
+}
+div.logistics section.courier div.courier_name p:nth-child(1) {
+  font-size: 0.48rem;
+  color: #666;
+}
+div.logistics section.courier div.courier_name p:nth-child(2) {
+  font-size: 0.56rem;
+}
+div.logistics section.courier div.courier_tel {
+  margin-top: 0.3rem;
+}
+div.logistics section.courier div.courier_tel span {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background: orange;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: #fff;
+  font-size: 0.4rem;
+  margin-right: 0.4rem;
+}
+div.logistics section.courier div.courier_tel i {
+  width: 0.48rem;
+  height: 0.8rem;
+  background: url(../img/logistics/gray-open.png) center center no-repeat;
+  background-size: 70% auto;
+}
+div.logistics section.courier_info {
+  background: #fff;
+  margin-top: 0.6rem;
+}
+div.logistics section.courier_info div.cngg {
+  padding: 0.4rem;
+  border-bottom: 0.04rem solid #d8d8d8;
+}
+div.logistics section.courier_info div.cngg span {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background: #269ABC;
+  text-align: center;
+  padding-top: 0.14rem;
+  color: #fff;
+  font-size: 0.4rem;
+}
+div.logistics section.courier_info div.cngg p {
+  margin-left: 0.4rem;
+  font-size: 0.56rem;
+}
+div.logistics section.courier_info div.cngg i {
+  width: 0.48rem;
+  height: 0.8rem;
+  background: url(../img/logistics/gray-open.png) center center no-repeat;
+  background-size: 70% auto;
+}
+div.logistics section.courier_info div.c_info {
+  padding: 0 0.4rem;
+}
+div.logistics section.courier_info div.c_info div.img {
+  width: 0.44rem;
+  margin: 0.7rem 0.4rem 2rem 0.2rem;
+}
+div.logistics section.courier_info div.c_info div.img img {
+  width: 100%;
+}
+div.logistics section.courier_info div.c_info div.text {
+  width: 12.96rem;
+}
+div.logistics section.courier_info div.c_info div.text div.para {
+  border-bottom: 0.04rem solid #d8d8d8;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+div.logistics section.courier_info div.c_info div.text div.para P {
+  font-size: 0.52rem;
+}
+div.logistics section.courier_info div.c_info div.text div.para:nth-child(1) p {
+  color: #4CAE4C;
+}
+div.logistics footer {
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  background: #f8f8f8;
+}
+div.logistics footer span {
+  width: 3.6rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  border: 0.04rem solid #d8d8d8;
+  margin: 0.4rem 0.4rem 0.4rem 0;
+  font-size: 0.52rem;
+  font-weight: bold;
+}
+div.logistics footer span:nth-child(1) {
+  color: red;
+  border-color: coral;
+}

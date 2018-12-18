@@ -1,0 +1,392 @@
+body {
+  overflow-x: hidden;
+  background-color: #eeeeee;
+  font-size: 0.5rem;
+}
+.gouwuche {
+  width: 100%;
+  height: auto;
+}
+.gouwuche .header {
+  width: 100%;
+  height: 2rem;
+  background-color: #f8f8f8;
+}
+.gouwuche .header .leftarea {
+  width: 1.72rem;
+  height: 2rem;
+  float: left;
+}
+.gouwuche .header .leftarea > a {
+  width: 1.72rem;
+  display: inline-block;
+  margin-left: 0.4rem;
+  margin-top: 0.5rem;
+}
+.gouwuche .header .leftarea > a > img {
+  width: 0.6rem;
+  height: 1rem;
+  display: block;
+}
+.gouwuche .header .header_title {
+  line-height: 1.8rem;
+  font-size: 0.8rem;
+  color: #333333;
+  text-align: center;
+  width: 11.2rem;
+  height: 2rem;
+  float: left;
+}
+.gouwuche .header .sitebar {
+  width: 1.8rem;
+  height: 2rem;
+  float: left;
+}
+.gouwuche .header .sitebar > a {
+  width: 2rem;
+  height: 1.2rem;
+  display: inline-block;
+  margin-left: 0.4rem;
+  margin-top: 0.5rem;
+}
+.gouwuche .header .sitebar > a > img {
+  width: 60%;
+  height: 1rem;
+  display: block;
+}
+.gouwuche .shopcart {
+  width: 100%;
+  height: auto;
+  background: white;
+  margin-top: 5%;
+}
+.gouwuche .shopcart .shopcart_p {
+  width: 100%;
+  height: 2.2rem;
+  background: #f5f5f5;
+}
+.gouwuche .shopcart .shopcart_p .shopcart_sp {
+  width: 1.04rem;
+  height: 1.04rem;
+  display: inline-block;
+  background: white;
+  border-radius: 50%;
+  margin-top: 4%;
+  margin-left: 4%;
+  border: 1px solid gainsboro;
+  float: left;
+  /*background: url("../img/gouwuche/roundcheck-fill.png") no-repeat;*/
+  background-size: 100% 100%;
+}
+.gouwuche .shopcart .shopcart_p em {
+  float: left;
+  margin-left: 3%;
+  line-height: 2.2rem;
+  font-size: 0.8rem;
+}
+.gouwuche .activeWrap {
+  width: 100%;
+  height: auto;
+}
+.gouwuche .activeWrap .zengpin {
+  width: 100%;
+  height: 1.2rem;
+}
+.gouwuche .activeWrap .zengpin .zengpin_a {
+  width: 30%;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  float: right;
+  display: inline-block;
+  border-left: 1px solid gray;
+  padding-left: 5%;
+  color: black;
+}
+.gouwuche .activeWrap .item {
+  width: 100%;
+  height: 7.2rem;
+  margin-top: 3%;
+  position: relative;
+}
+.gouwuche .activeWrap .item .title {
+  width: 12rem;
+  height: 1.2rem;
+  line-height: 1.4rem;
+  margin-left: 12%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 0.6rem;
+  display: inline-block;
+  color: black;
+}
+.gouwuche .activeWrap .item .item_xinxi {
+  width: 88%;
+  height: 6rem;
+  float: right;
+  position: relative;
+}
+.gouwuche .activeWrap .item .item_xinxi .xin_a {
+  width: 4.6rem;
+  height: 4.6rem;
+  border: 1px solid gainsboro;
+  float: left;
+  display: inline-block;
+}
+.gouwuche .activeWrap .item .item_xinxi .xin_a > img {
+  width: 100%;
+  height: 98%;
+  display: block;
+  margin-top: 2%;
+}
+.gouwuche .activeWrap .item .item_xinxi .jiaoB {
+  width: 1.5rem;
+  height: 0.8rem;
+  line-height: 0.7rem;
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 24%;
+  color: white;
+  background: red;
+}
+.gouwuche .activeWrap .item .item_xinxi .info {
+  width: 8rem;
+  height: 5.6rem;
+  float: left;
+}
+.gouwuche .activeWrap .item .item_xinxi .info .info_ul li {
+  margin-left: 7%;
+}
+.gouwuche .activeWrap .item .item_xinxi .info span {
+  font-size: 0.6rem;
+}
+.gouwuche .activeWrap .item .item_xinxi .info .info_sp {
+  float: right;
+  font-weight: bold;
+}
+.gouwuche .activeWrap .item .item_xinxi .info .info_p {
+  width: 60%;
+  height: 1.2rem;
+  position: relative;
+  margin-left: 6%;
+}
+.gouwuche .activeWrap .item .item_xinxi .info .info_p .info_p_A {
+  width: 1.4rem;
+  height: 1.2rem;
+  display: inline-block;
+  border: 1px solid darkgray;
+  float: left;
+}
+.gouwuche .activeWrap .item .item_xinxi .info .info_p .info_p_A img {
+  width: 0.8rem;
+  height: 0.1rem;
+  display: block;
+  position: absolute;
+  top: 48%;
+  left: 6%;
+}
+.gouwuche .activeWrap .item .item_xinxi .info .info_p .info_p_B {
+  width: 1.4rem;
+  height: 1.2rem;
+  display: inline-block;
+  border: 1px solid darkgray;
+  float: left;
+}
+.gouwuche .activeWrap .item .item_xinxi .info .info_p .info_p_B img {
+  width: 0.9rem;
+  height: 0.8rem;
+  display: block;
+  position: absolute;
+  top: 17%;
+  left: 64%;
+}
+.gouwuche .activeWrap .item .item_xinxi .info .info_p .input {
+  width: 1.4rem;
+  height: 1.2rem;
+  border: 1px solid darkgray;
+  text-align: center;
+  float: left;
+}
+.gouwuche .activeWrap .item .item_xinxi .info .info_p .info_span {
+  width: 1.2rem;
+  height: 1.4rem;
+  display: inline-block;
+  position: absolute;
+  right: -50%;
+  top: 20%;
+}
+.gouwuche .activeWrap .item .item_xinxi .info .info_p .info_span img {
+  width: 100%;
+  height: 80%;
+  display: block;
+}
+.gouwuche .activeWrap .item .item_xinxi .info .info_p2 {
+  width: auto;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  border: 1px solid red;
+  display: inline-block;
+  margin-left: 5%;
+  border-radius: 5%;
+  color: red;
+  font-size: 0.7rem;
+  position: relative;
+  margin-top: 2%;
+}
+.gouwuche .activeWrap .item .shopcart_spp {
+  width: 1.04rem;
+  height: 1.04rem;
+  display: inline-block;
+/*  background: red;*/
+  border-radius: 50%;
+  border: 1px solid gainsboro;
+  /*background: url("../img/gouwuche/roundcheck-fill.png") no-repeat;*/
+  float: left;
+  position: absolute;
+  left: 3%;
+  top: 40%;
+  background-size: 100% 100%;
+}
+.gouwuche .activeWrap .zeng {
+  width: 10rem;
+  height: 3rem;
+  margin-left: 13%;
+  position: relative;
+}
+.gouwuche .activeWrap .zeng .zeng_p {
+  margin-right: 7%;
+  width: 2.6rem;
+  height: 2.8rem;
+  display: inline-block;
+  border: 1px solid gainsboro;
+  float: left;
+}
+.gouwuche .activeWrap .zeng .zeng_p img {
+  width: 100%;
+  height: 99%;
+  display: block;
+}
+.gouwuche .activeWrap .zeng .jiaoC {
+  width: 1.3rem;
+  height: 0.8rem;
+  line-height: 0.7rem;
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top: 6%;
+  left: 13%;
+  color: white;
+  background: red;
+}
+.gouwuche .activeWrap .zeng .zeng_ul {
+  margin-top: 2%;
+}
+.gouwuche .activeWrap .zeng .zeng_ul li {
+  padding-top: 2%;
+}
+.foo {
+  width: 100%;
+  height: 2.3rem;
+  position: fixed;
+  background: white;
+  left: 0;
+  bottom: 0;
+}
+.foo .foo_left {
+  width: 73%;
+  height: 2.3rem;
+  float: left;
+}
+.foo .foo_left .foo_p {
+  width: 30%;
+  height: 2.2rem;
+}
+.foo .foo_left .foo_p .foo_sp {
+  width: 1.04rem;
+  height: 1.04rem;
+  display: inline-block;
+  border-radius: 50%;
+  margin-top: 20%;
+  margin-left: 10%;
+  border: 1px solid gainsboro;
+  float: left;
+}
+.foo .foo_left .foo_p em {
+  float: left;
+  margin-left: 3%;
+  line-height: 2.2rem;
+  font-size: 0.64rem;
+}
+.foo .foo_left .foo_p2 {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  width: 47%;
+  height: 2.2rem;
+  display: inline-block;
+}
+.foo .foo_left .foo_p2 .foo_p2_sp {
+  line-height: 1.4rem;
+  font-size: 0.6rem;
+}
+.foo .foo_left .foo_p2 .foo_p2_sp b {
+  color: red;
+}
+.foo .foo_left .foo_p2_em {
+  float: right;
+}
+.foo .foo_right {
+  width: 27%;
+  height: 2.3rem;
+  float: left;
+}
+.foo .foo_right input {
+  width: 100%;
+  height: 2.2rem;
+  background: red;
+  border: none;
+  text-align: center;
+  color: white;
+  font-size: 0.7rem;
+}
+.modal-content {
+  height: 8rem;
+  max-width: 100%;
+  margin-top: 8rem;
+}
+.modal-title {
+  margin-top: 10%;
+  font-size: 1rem;
+}
+.close {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.shanchu {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.modal-body {
+  margin-top: 5%;
+  margin-right: 15%;
+}
+.modal-body .btn-sm {
+  width: 4rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+.kong {
+  width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  margin-top: 20%;
+  font-size: 1rem;
+  display: none;
+}
+.kong > p > a {
+  border-bottom: 1px solid #337ab7;
+}

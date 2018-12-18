@@ -1,0 +1,158 @@
+@r:50rem;
+
+body{
+    background: #eee;
+}
+
+div.logistics{
+    width: 750/@r;
+    height: 100%;
+    section.product_info{
+        padding: 30/@r 20/@r;
+        background: #fff;
+        div.product_img{
+            width: 20%;
+            img{
+                width: 100%;
+                margin-top: 10/@r;
+                border: 2/@r solid #d8d8d8;
+            }
+        }
+        div.product_state{
+            width: 80%;
+            padding-left: 20/@r;
+            p{
+                span{
+                    font-size: 28/@r;
+                }
+                span.c_state{
+                    color: #4CAE4C;
+                }
+            }
+        }
+    }
+    section.courier{
+        padding: 20/@r;
+        background: #fff;
+        margin-top: 30/@r;
+        div.courier_img{
+            width: 50/@r;
+            height: 50/@r;
+            border-radius: 50%;
+            border: 2/@r solid #d8d8d8;
+            text-align: center;
+            overflow: hidden;
+            margin: 10/@r 0 0 10/@r;
+            span{
+                color: #269ABC;
+                font-size: 40/@r;
+                margin-top: 5/@r;
+            }
+        }
+        div.courier_name{
+            padding-left: 20/@r;
+            p:nth-child(1){
+                font-size: 24/@r;
+                color: #666;
+            }
+            p:nth-child(2){
+                font-size: 28/@r;
+            }
+        }
+        div.courier_tel{
+            margin-top: 15/@r;
+            span{
+                width: 40/@r;
+                height: 40/@r;
+                border-radius: 50%;
+                background: orange;
+                text-align: center;
+                padding-top: 10/@r;
+                color: #fff;
+                font-size: 20/@r;
+                margin-right: 20/@r;
+            }
+            i{
+                width: 24/@r;
+                height: 40/@r;
+                background: url(../img/logistics/gray-open.png) center center no-repeat;
+                background-size: 70% auto;
+            }
+        }
+    }
+    section.courier_info{
+        background: #fff;
+        margin-top: 30/@r;
+        div.cngg{
+            padding: 20/@r;
+            border-bottom: 2/@r solid #d8d8d8;
+            span{
+                width: 40/@r;
+                height: 40/@r;
+                border-radius: 50%;
+                background: #269ABC;
+                text-align: center;
+                padding-top: 7/@r;
+                color: #fff;
+                font-size: 20/@r;
+            }
+            p{
+                margin-left: 20/@r;
+                font-size: 28/@r;
+            }
+            i{
+                width: 24/@r;
+                height: 40/@r;
+                background: url(../img/logistics/gray-open.png) center center no-repeat;
+                background-size: 70% auto;
+            }
+        }
+        div.c_info{
+            padding: 0 20/@r;
+            div.img{
+                width: 22/@r;
+                margin: 35/@r 20/@r 100/@r 10/@r;
+                img{
+                    width: 100%;
+//                  height: 180/@r;
+                }
+            }
+            div.text{
+                width: 648/@r;
+                div.para{
+                    border-bottom: 2/@r solid #d8d8d8;
+                    padding-top: 30/@r;
+                    padding-bottom: 30/@r;
+                    P{
+                        font-size: 26/@r;
+                    }
+                }
+                div.para:nth-child(1){
+                    p{
+                        color: #4CAE4C;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        width: 100%;
+        right: 0;
+        bottom: 0;
+        background: #f8f8f8;
+        span{
+            width: 180/@r;
+            height: 60/@r;
+            line-height: 60/@r;
+            text-align: center;
+            border: 2/@r solid #d8d8d8;
+            margin: 20/@r 20/@r 20/@r 0;
+            font-size: 26/@r;
+            font-weight: bold;
+        }
+        span:nth-child(1){
+            color: red;
+            border-color: coral;
+        }
+    }
+}

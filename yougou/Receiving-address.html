@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<!--选择性别|填写生日|省份，城市-->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!---->
+		<!--选择性别|填写生日|省份，城市-->
+		<link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+		<link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
+		<!---->
+		<link rel="stylesheet" type="text/css" href="css/InitializationMob.css" />
+		<link rel="stylesheet" type="text/css" href="css/HeadABottom.css"/>
+		<link rel="stylesheet" type="text/css" href="css/Receiving-address.css" />
+
+		<script type="text/javascript">
+			document.getElementsByTagName('html')[0].style.fontSize = window.screen.width / 15 + 'px';
+		</script>
+	</head>
+
+	<body>
+		<!--头部-->
+		<header>
+			<a href="javascript:history.go(-1);"><img src="img/02Account-management/new-back.png" /></a>
+			<a href="###" id="menu"><img src="img/02Account-management/ico-menu.png" /></a>
+			<h1>添加收货地址</h1>
+		</header>
+		<!--导航栏-->
+		<nav id="nav">
+			<ul>
+				<li><a href="###">首页</a></li>
+				<li><a href="###">海外购</a></li>
+				<li><a href="###">购物车</a></li>
+				<li><a href="Personal-center.html">我的优购</a></li>
+			</ul>
+		</nav>
+		<!--添加新地址-->
+		<section class="newaddress" id="newaddress">
+			<form action="" method="post">
+				<label>
+					<span>收货人</span>
+					<input type="text" name="name" id="name" value="" />
+				</label>
+				<label>
+					<span>联系电话</span>
+					<input type="text" name="phone" id="phone" value="" />
+				</label>
+				<label>
+					<span>地区：</span>
+					<input type="text" placeholder="" id='city-picker' value="" />
+				</label>
+				<label>
+					<span>详细地址：</span>
+					<input type="text" name="address" id="address" value="" />
+				</label>
+				<button type="button" id="keepaddress">保存地址</button>
+			</form>
+			<p id="notice">请填完整地址信息</p>
+		</section>
+		<section class="addresslist" id="addresslist">
+			<section id="addresslistinfo">
+				<!--<div class="addressbox">
+					<ul>
+						<li>
+							<span>###</span><span>159****5281</span>
+						</li>
+						<li>
+							<span>广东省 广州市 天河区</span><span>******东梦想家园</span>
+						</li>
+					</ul>
+					<p>
+						<a href="###" class="edit">编辑</a>
+						<a href="###" class="del">删除</a>
+						<label class="isdefault">设为默认地址</label>
+					</p>
+				</div>
+				<div class="addressbox">
+					<ul>
+						<li>
+							<span>###</span><span>159****5281</span>
+						</li>
+						<li><span>广东省 广州市 天河区</span>
+							<span>******天河客运站</span>
+						</li>
+					</ul>
+					<p>
+						<a href="###" class="edit">编辑</a>
+						<a href="###" class="del">删除</a>
+						<label>设为默认地址</label>
+					</p>
+				</div>-->
+			</section>
+			<div id="AddNewAddress" class="addNewSiteBtn">
+				<a href="###">新增地址</a>
+			</div>
+		</section>
+	</body>
+	<!--选择性别|填写生日|省份，城市-->
+	<script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+	<script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
+	<script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
+	<script type="text/javascript" src="//g.alicdn.com/msui/sm/0.6.2/js/sm-city-picker.min.js" charset="utf-8"></script>
+	<!---->
+	<script type="text/javascript">
+		//省份，城市
+		$("#city-picker").cityPicker({
+			toolbarTemplate: '<header class="bar bar-nav">\
+    <button class="button button-link pull-right close-picker">确定</button>\
+    <h1 class="title">地区</h1>\
+    </header>'
+		});
+	</script>
+	<!--<script src="js/createdb.js" type="text/javascript" charset="utf-8"></script>-->
+	<script src="js/createLanded.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/normal.js" type="text/javascript" charset="utf-8" defer="defer"></script>
+	<script src="js/Receiving-address.js" type="text/javascript" charset="utf-8"></script>
+</html>

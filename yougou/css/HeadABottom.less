@@ -1,0 +1,112 @@
+@r: 50rem;
+header {
+    overflow: hidden;
+    height: 88/@r;
+    line-height: 88/@r;
+    text-align: center;
+    background: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    a:nth-of-type(1) {
+        float: left;
+        width: 36px;
+        padding-top: 18/@r;
+        img {
+            width: 12px;
+        }
+    }
+    a:nth-of-type(2) {
+        float: right;
+        width: 42px;
+        height: 30px;
+        padding-top: 30/@r;
+        line-height: 20px;
+        img {
+            width: 40/@r;
+        }
+    }
+    h1 {
+        font-size: 36/@r;
+        margin: 0;
+        text-align: center;
+        font-weight: 400;
+        white-space: nowrap;
+    }
+}
+//导航栏
+#nav {
+    display: none;
+    width: 100%;
+    background: #666;
+    height: 100/@r;
+    overflow: hidden;
+    li {
+        float: left;
+        width: 25%;
+        a {
+            display: block;
+            height: 100%;
+            text-align: center;
+            padding-top: 60/@r;
+            color: #fff;
+            font-size: 29/@r;
+            box-sizing: border-box;
+        }
+    }
+    li:nth-of-type(1) {
+        background: url("../img/01index/01top/homec.png") no-repeat center 18/@r;
+        background-size: auto 40/@r;
+    }
+    li:nth-of-type(2) {
+        background: url("../img/01index/01top/seoulc.png") no-repeat center 18/@r;
+        background-size: auto 40/@r;
+    }
+    li:nth-of-type(3) {
+        background: url("../img/01index/01top/ico-shopcartc.png") no-repeat center 18/@r;
+        background-size: auto 40/@r;
+    }
+    li:nth-of-type(4) {
+        background: #555 url("../img/01index/01top/ico-personc.png") no-repeat center 18/@r;
+        background-size: auto 40/@r;
+    }
+}
+//底部
+footer {
+    border-top: 1px solid #ddd;
+    padding: 16/@r 0 24/@r;
+    background: #f8f8f8;
+    .foologin {
+        position: relative;
+        padding: 0 30/@r;
+        line-height: 2.5em;
+        text-align: right;
+        color: #666;
+        span {
+            position: absolute;
+            left: 15px;
+            color: #a0a0a0;
+            a{
+                display: inline-block;
+                line-height: 22/@r;
+            }
+            em{
+                margin: 0 20/@r;
+            }
+        }
+        p{
+            a{
+                display: inline-block;
+                line-height: 22px;
+                padding: 1px 3px;
+                margin: 0 5px;
+            }
+        }
+    }
+    .version{
+        padding-top: 10/@r;
+        text-align: center;
+        color: #a0a0a0;
+        p:nth-of-type(1){
+            margin-top: 6/@r;
+        }
+    }
+}

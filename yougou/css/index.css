@@ -1,0 +1,347 @@
+body {
+  background: #fff;
+}
+.ygInex {
+  width: 15rem;
+  height: 100%;
+}
+.ygInex .fix_top {
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.ygInex .fix_top header {
+  height: 1.6rem;
+  background: linear-gradient(to bottom, #333333, transparent);
+}
+.ygInex .fix_top header .logo {
+  width: 3.68rem;
+  height: 2.08rem;
+  background: url(../img/index/logo.png) no-repeat;
+  background-size: 2rem 1.2rem;
+  top: 0.2rem;
+  left: 0.2rem;
+}
+.ygInex .fix_top header .search {
+  width: 11rem;
+  top: 0.2rem;
+  left: 16%;
+}
+.ygInex .fix_top header .search input {
+  width: 100%;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  font-size: 0.56rem;
+  border: none;
+  border-radius: 0.2rem;
+  padding-left: 1.52rem;
+  box-sizing: border-box;
+  outline: none;
+}
+.ygInex .fix_top header .search span {
+  width: 1.12rem;
+  height: 1.12rem;
+  background: url(../img/index/search-gray.png) center center no-repeat;
+  background-size: 0.56rem 0.56rem;
+  top: 0.04rem;
+  left: 0.4rem;
+}
+.ygInex .fix_top header .message {
+  top: -0.34rem;
+  right: 0.2rem;
+}
+.ygInex .fix_top header .message a span:nth-child(1) {
+  width: 1.2rem;
+  height: 1.2rem;
+  background: url(../img/index/information-small.png) center bottom no-repeat;
+  background-size: 0.7rem 0.7rem;
+}
+.ygInex .fix_top header .message a span:nth-child(2) {
+  color: #fff;
+  padding-left: 0.16rem;
+  font-size: 0.4rem;
+}
+.ygInex section.ygIndexSwiper {
+  width: 100%;
+  overflow: hidden;
+}
+.ygInex section.ygIndexSwiper div ul {
+  width: 400%;
+}
+.ygInex section.ygIndexSwiper div ul li {
+  width: 25%;
+  float: left;
+}
+.ygInex section.ygIndexSwiper div ul li img {
+  width: 100%;
+  height: 7.8rem;
+}
+.ygInex section.ygIndexSwiper div {
+  top: 7.2rem;
+  left: 32%;
+}
+.ygInex section.ygIndexSwiper div ol li {
+  width: 0.2rem;
+  height: 0.2rem;
+  border-radius: 50%;
+  background: #fff;
+  margin: 0 0.2rem;
+  float: left;
+}
+.ygInex section.ygIndexSwiper div ol li.active2 {
+  background: red;
+}
+.ygInex section.ygIndexNav a {
+  display: block;
+  width: 3.7rem;
+  float: left;
+  text-align: center;
+  margin: 0.4rem 0;
+}
+.ygInex section.ygIndexNav a img {
+  width: 1.84rem;
+  height: 1.84rem;
+  margin: 0 0 0.4rem 0;
+}
+.ygInex section.ygIndexNav a span {
+  display: block;
+  color: #666;
+  font-size: 0.56rem;
+}
+.ygInex section.ygIndexSup img {
+  width: 100%;
+}
+.ygInex section.uhui {
+  overflow: hidden;
+  margin-bottom: 0.2rem;
+}
+.ygInex section.uhui .title {
+  padding: 0.4rem;
+}
+.ygInex section.uhui .title a:nth-child(1) img {
+  width: 2rem;
+  height: 0.88rem;
+}
+.ygInex section.uhui .title .downtime {
+  margin-left: 0.4rem;
+}
+.ygInex section.uhui .title .downtime b {
+  font-size: 0.48rem;
+  color: #404040;
+}
+.ygInex section.uhui .title .downtime i {
+  font-style: normal;
+}
+.ygInex section.uhui .title .downtime i:nth-child(2),
+.ygInex section.uhui .title .downtime i:nth-child(4),
+.ygInex section.uhui .title .downtime i:nth-child(6) {
+  display: inline-block;
+  width: 0.68rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  background: #4a4a4a;
+  color: #fff;
+  border-radius: 0.1rem;
+}
+.ygInex section.uhui .title a:nth-child(3) span:nth-child(2) {
+  font-size: 0.48rem;
+  line-height: 0.48rem;
+  color: #fc233c;
+}
+.ygInex section.uhui .title a:nth-child(3) span:nth-child(1) {
+  width: 0.6rem;
+  height: 0.4rem;
+  line-height: 0.48rem;
+  background: url(../img/index/section_one/open.png) right center no-repeat;
+  background-size: 50% 100%;
+}
+.ygInex section.uhui .product {
+  width: 210%;
+  padding-left: 0.4rem;
+}
+.ygInex section.uhui .product a {
+  display: block;
+  width: 4rem;
+  margin: 0 0.12rem;
+  float: left;
+}
+.ygInex section.uhui .product a img {
+  width: 4rem;
+  height: 4rem;
+}
+.ygInex section.uhui .product a div {
+  width: 4rem;
+  height: 1.44rem;
+  line-height: 0.72rem;
+  background: #f5f5f5;
+  text-align: center;
+}
+.ygInex section.uhui .product a div p:nth-child(1) {
+  color: red;
+  font-size: 0.6rem;
+}
+.ygInex section.uhui .product a div p:nth-child(2) {
+  font-size: 0.48rem;
+  color: #7a7a7a;
+  text-decoration: line-through;
+}
+.ygInex section.uhui .product a.more {
+  width: 1rem;
+  margin-top: 1rem;
+}
+.ygInex section.uhui .product a.more span {
+  width: 0.64rem;
+  height: 0.56rem;
+  background: url(../img/index/section_one/left-open.png) center center no-repeat;
+  background-size: 0.4rem auto;
+  top: 1rem;
+  left: 0;
+}
+.ygInex section.uhui .product a.more p {
+  width: 0.48rem;
+  font-size: 0.48rem;
+  color: #666;
+  padding-left: 0.52rem;
+}
+.ygInex section.bzxk a img {
+  width: 100%;
+}
+.ygInex section.bzxk div ul li {
+  width: 50%;
+  float: left;
+}
+.ygInex section.bzxk div ul li a {
+  display: block;
+  width: 100%;
+}
+.ygInex section.bzxk div ul li a img {
+  width: 100%;
+}
+.ygInex section.bzxk div:nth-child(2),
+.ygInex section.bzxk div:nth-child(3) {
+  background: #063d13;
+}
+.ygInex section.ppzx a img,
+.ygInex section.cpcd a img,
+.ygInex section.fxhh a img,
+.ygInex section.gjhg a img,
+.ygInex section.rmpl a img {
+  width: 100%;
+}
+.ygInex section.ppzx div ul li,
+.ygInex section.cpcd div ul li,
+.ygInex section.fxhh div ul li,
+.ygInex section.gjhg div ul li,
+.ygInex section.rmpl div ul li {
+  width: 25%;
+  float: left;
+}
+.ygInex section.ppzx div ul li a,
+.ygInex section.cpcd div ul li a,
+.ygInex section.fxhh div ul li a,
+.ygInex section.gjhg div ul li a,
+.ygInex section.rmpl div ul li a {
+  display: block;
+  width: 100%;
+}
+.ygInex section.ppzx div ul li img,
+.ygInex section.cpcd div ul li img,
+.ygInex section.fxhh div ul li img,
+.ygInex section.gjhg div ul li img,
+.ygInex section.rmpl div ul li img {
+  width: 100%;
+}
+.ygInex section.yzjx a img,
+.ygInex section.xnbb a img,
+.ygInex section.cslr a img {
+  width: 100%;
+}
+.ygInex section.yzjx div ul li,
+.ygInex section.xnbb div ul li,
+.ygInex section.cslr div ul li {
+  width: 50%;
+  float: left;
+}
+.ygInex section.yzjx div ul li a,
+.ygInex section.xnbb div ul li a,
+.ygInex section.cslr div ul li a {
+  display: block;
+  width: 100%;
+}
+.ygInex section.yzjx div ul li img,
+.ygInex section.xnbb div ul li img,
+.ygInex section.cslr div ul li img {
+  width: 100%;
+}
+.ygInex section.xpzl a img {
+  width: 100%;
+}
+.ygInex section.xpzl div ul li {
+  float: left;
+}
+.ygInex section.xpzl div ul li a {
+  display: block;
+  width: 100%;
+}
+.ygInex section.xpzl div ul li img {
+  width: 100%;
+}
+.ygInex section.xpzl div ul:nth-child(1) li {
+  width: 50%;
+}
+.ygInex section.xpzl div ul:nth-child(2) li {
+  width: 25%;
+}
+.ygInex section.copyright {
+  background: #f8f8f8;
+  padding: 0.6rem 0.4rem 0;
+  margin-bottom: 2.2rem;
+  color: #666;
+}
+.ygInex section.copyright div:nth-child(1) {
+  font-size: 0.48rem;
+}
+.ygInex section.copyright div:nth-child(1) p:nth-child(1) {
+  float: left;
+}
+.ygInex section.copyright div:nth-child(1) p:nth-child(1) a {
+  color: #666;
+  margin: 0 0.4rem;
+}
+.ygInex section.copyright div:nth-child(1) p:nth-child(2) {
+  float: right;
+}
+.ygInex section.copyright div:nth-child(1) p:nth-child(2) a {
+  color: #666;
+  margin: 0 0.4rem;
+}
+.ygInex section.copyright div:nth-child(2) {
+  padding: 0.4rem 0;
+  text-align: center;
+}
+.ygInex section.copyright div:nth-child(2) p {
+  padding-bottom: 0.2rem;
+  font-size: 0.48rem;
+}
+.ygInex footer {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  border-top: 0.04rem solid #d8d8d8;
+}
+.ygInex footer a {
+  display: block;
+  float: left;
+  width: 20%;
+  padding: 0.1rem 0.2rem 0;
+}
+.ygInex footer a img {
+  width: 100%;
+  height: 2.2rem;
+}
+.ygInex footer a#link_am {
+  display: none;
+}
