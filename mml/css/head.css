@@ -1,0 +1,152 @@
+header {
+	background: rgba(0,0,0,.3);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	padding: 0.4rem 0.4rem 0.2rem 0.8rem;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+header .logo {
+	float: left;
+}
+
+header .logo img {
+	width: 3.2rem;
+}
+
+header .user {
+	float: right;
+	margin-left: 2%;	
+}
+
+header .user img{
+	width: 1rem;
+}
+
+header .nav-btn {
+	float: right;
+	z-index: 200;
+}
+
+header .nav-btn img {
+	width: 1.2rem;
+	height: 1.0rem;
+	border-radius: 0.12rem;
+	display: block;
+}
+
+.nav {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: #000;
+  z-index: 90;
+  padding-top: 2rem;
+  text-align: center;
+  display: none;
+}
+.nav-content {
+  color: #fff;
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 1.2rem;
+}
+.nav-content h2 {
+  font-weight: normal;
+  font-size: 0.88rem;
+  margin-bottom: 0.4rem;
+}
+.nav-content .content {
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+}
+.nav-content .content a {
+  display: block;
+  width: 25.3%;
+  flex-grow: 1;
+  color: #fff;
+  padding: 3%;
+  margin: 2%;
+  border-radius: 0.2rem;
+  background: #333;
+  font-size: 0.56rem;
+}
+.nav .link {
+  color: #fff;
+  font-size: 0.72rem;
+  margin: 0.4rem;
+}
+.nav .logo {
+  margin-top: 1rem;
+  width: 8rem;
+}
+
+header .navbar{
+	display: none;
+	float: right;
+	color: #fff;
+	font-size: 14px;
+}
+header .navbar span{
+	line-height: 30px;
+	padding: 0 10px;
+	text-align: center;
+	float: left;
+}
+header .navbar span a{
+	color: #fff;
+}
+header .navbar span img{
+	margin-top: 6px;
+	width: 20px;
+}
+
+.totop{
+	position: fixed;
+	right: 0.4rem;
+	bottom: 1.5rem;
+	border-radius: 0.5rem;
+	width: 1rem;
+	height: 1rem;
+	background: #fff url(../img/public/top_32px_509827_easyicon.net.png) no-repeat center center;
+	background-size: 70%;
+	display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+	header {
+		background: rgba(0, 0, 0, 0.3);
+		padding: 3px 10px;
+		margin: 0;
+		height: 36px;
+	}
+	header .logo img {
+		vertical-align: top;
+		width: 80px;
+	}
+	header .user {
+		line-height: 36px;
+	}
+	header .user img{
+		margin-top: 5px;
+		vertical-align: top;
+		width: 20px;
+	}
+	header .nav-btn {
+		display: none;
+	}
+	header .navbar {
+		display: block;
+	}
+	.totop{
+		width: 32px;
+		height: 32px;
+		border-radius: 16px;
+		right: 150px;
+	}
+}

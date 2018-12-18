@@ -1,0 +1,252 @@
+@import url("head.css");
+body {
+	font-family: "microsoft yahei";
+}
+
+.section {
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+.page1 {
+	position: relative;
+	background-image: url(../img/index/kv1_414.jpg);
+}
+
+.page2 {
+	background-image: url(../img/index/kv2_414.jpg);
+}
+
+.page3 {
+	background-image: url(../img/index/kv3_414.jpg);
+}
+
+.page4 {
+	background-image: url(../img/index/kv4_414.jpg);
+}
+
+.page5 {
+	background-image: url(../img/index/kv5_414.jpg);
+}
+
+.page6 {
+	background-image: url(../img/index/kv6_414.jpg);
+}
+
+.page7 {
+	background-image: url(../img/index/kv7_414.jpg);
+}
+
+.page8 {
+	background-image: url(../img/index/kv8_414.jpg);
+}
+
+.section .title {
+	font-size: 2.48rem;
+	color: #fff;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 2.08rem;
+}
+
+.section .sub-title {
+	font-size: 1.2rem;
+	color: #fff;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 2.4rem;
+}
+
+.section .btn {
+	display: block;
+	width: 5.6rem;
+	height: 1.6rem;
+	font-size: 0.64rem;
+	line-height: 1.6rem;
+	color: #FFF;
+	margin: 5.8rem auto 0;
+	background: transparent;
+	text-align: center;
+	border: 0.06rem solid #ffffff;
+	border-radius: 0.16rem;
+}
+
+.section .link {
+	color: #fff;
+	font-size: 0.72rem;
+	display: block;
+	text-align: center;
+	line-height: 1.6rem;
+}
+
+.page2 .title {
+	margin-top: 4rem;
+}
+
+.page2 .sub-title {
+	font-size: 0.9rem;
+	margin-bottom: 6rem;
+}
+
+.page3 .title {
+	font-size: 1.2rem;
+	margin-bottom: 1.2rem;
+}
+
+.page3 .sub-title {
+	font-size: 0.9rem;
+	margin-bottom: 2.4rem;
+}
+
+.page4 .sub-title {
+	margin-top: 5.2rem;
+}
+
+.page8 .link {
+	margin-top: 20rem;
+}
+
+.picbox {
+	display: none;
+	width: 990px;
+	height: 200px;
+	overflow: hidden;
+	margin: 150px auto;
+}
+
+.filp3D {
+	position: relative;
+	width: 310px;
+	height: 182px;
+	transition: all .5s;
+	float: left;
+	margin: 10px;
+}
+
+.filp3D:hover .front {
+	transform: rotateY( 180deg);
+}
+
+.filp3D:hover .back {
+	transform: rotateY(0);
+}
+
+.filp3D img {
+	position: absolute;
+	width: 310px;
+	height: 182px;
+	display: block;
+	border-radius: 2px;
+	transition: all .5s;
+}
+
+.filp3D .front {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.filp3D .back {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	float: left;
+	transform: perspective( 2200px) rotateY( 180deg);
+	background: #fff;
+}
+
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span {
+	background: #fff;
+	/*活动导航的颜色*/
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+	background: #fff;
+	/*非活动导航的颜色*/
+}
+
+.pic-link {
+	display: none;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#fp-nav {
+	display: none;
+}
+
+
+@media only screen and (min-width: 1000px) {
+	.section {
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	.section .title,
+	.section .sub-title,
+	.section .link {
+		line-height: 1.4;
+		margin: 0;
+	}
+	.section .title {
+		font-size: 70px;
+	}
+	.section .sub-title {
+		font-size: 50px;
+	}
+	.section .link {
+		line-height: 40px;
+		font-size: 20px;
+	}
+	.page1 {
+		background-image: url(../img/index/kv1.jpg);
+	}
+
+	.page1 .btn {
+		margin: 70px auto;
+		width: 140px;
+		height: 40px;
+		border-width: 1px;
+		border-radius: 4px;
+		font-size: 16px;
+		line-height: 40px;
+	}
+	.page2 {
+		background-image: url(../img/index/kv2.jpg);
+	}
+	.page2 .sub-title {
+		margin: 50px 0;
+	}
+	.page3 {
+		background-image: url(../img/index/kv3.jpg);
+	}
+	.page4 {
+		background-image: url(../img/index/kv4.jpg);
+	}
+	.page5 {
+		background-image: url(../img/index/kv5.jpg);
+	}
+	.page6 {
+		background-image: url(../img/index/kv6.jpg);
+	}
+	.page7 {
+		background-image: url(../img/index/kv7.jpg);
+	}
+	.page8 {
+		background-image: url(../img/index/kv8.jpg);
+	}
+	.page8 .link {
+		display: none;
+	}
+	.picbox {
+		display: block;
+	}
+	.pic-link {
+		display: block;
+	}
+	#fp-nav {
+		display: block;
+	}
+}

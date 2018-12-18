@@ -1,0 +1,80 @@
+footer{
+	width: 100%;
+	/*height: 740px;*/
+	background: #222;
+	overflow: hidden;
+	display: none;
+	clear: both;
+	font-size: 16px;
+	padding-bottom: ;
+}
+footer .inner{
+	width: 800px;
+	margin: auto;
+	text-align: center;
+}
+footer .services{
+	text-align: center;
+	line-height: 100px;
+	border-bottom: 1px solid #666;
+}
+footer .services span{
+	padding: 20px;
+}
+footer .services a{
+	color: #999;
+}
+footer .services a img{
+	opacity: .6;
+}
+footer .services a:hover{
+	color: #fff;
+}
+footer .services a img:hover{
+	opacity: 1;
+}
+footer .botnav{
+	overflow: hidden;
+	padding-top: 30px;
+	margin-bottom: 20px;
+}
+footer .botnav ul{
+	float: left;
+	width: 20%;
+	font-size: 15px;
+	text-align: center;
+}
+footer .botnav ul li{
+	margin: 15px 0 10px 0;
+	color: #666;
+}
+footer .botnav ul li a{
+	margin: 10px 0;
+	font-size: 13px;
+	color: #555;
+}
+footer .botnav ul li a:hover{
+	color: #fff;
+}
+footer .beian{
+	margin-bottom: 40px;
+}
+footer .beian,footer .beian a,footer .banquan{
+	font-size: 12px;
+	color: #666;
+}
+footer .banquan{
+	line-height: 1.5;
+	margin: 0 auto;
+	width: 70%;
+	
+}
+footer .botlogo{
+	margin: 20px 0 30px;
+	opacity: .3;
+}
+@media only screen and (min-width: 1000px) {
+	footer{
+		display: block;
+	}
+}

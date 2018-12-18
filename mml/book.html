@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		<title>订购</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>	
+		<link rel="stylesheet" type="text/css" href="css/book.css"/>
+	</head>
+	<body>
+		
+		<header>
+			<p class="logo"><a href="index.html"><img src="img/public/logo.png"/></a></p>
+			<span class="user"><img src="img/public/user.png"/></span>
+			<span class="nav-btn"><img src="img/public/nav-btn.png"/></span>
+			<nav class="navbar">
+				<span><a href="allinclusive.html">行程服务</a></span>
+				<span><a href="followingShot.html">摄影服务</a></span>
+				<span><a href="http://lovepalau.com/evaluation.html">大家评价</a></span>
+				<span><a href="aboutpalau.html">帕劳简介</a></span>
+				<span><a href="http://lovepalau.com/aboutus.html">关于我们</a></span>
+				<span><img src="img/public/wechat_white.png"/></span>
+				<span><img src="img/public/weibo_white.png"/></span>
+			</nav>
+		</header>
+		<div class="nav">
+			<div class="nav-content">
+				<h2>行程服务</h2>
+				<div class="content">
+					<a href="allinclusive.html">全包行程</a>
+					<a href="day3.html">三天出海</a>
+					<a href="car.html">帕劳租车</a>
+				</div>
+			</div>
+			<div class="nav-content">
+				<h2>摄影服务</h2>
+				<div class="content">
+					<a href="followingShot.html">出海跟拍</a>
+					<a href="followingShot.html">婚纱拍摄</a>
+				</div>
+			</div>
+			<div class="nav-content">
+				<h2>大家评价</h2>
+				<div class="content">
+					<a href="http://lovepalau.com/evaluation.html">大家的评价</a>
+					<a href="http://lovepalau.com/recommand.html">推荐游记</a>
+					<a href="http://lovepalau.com/qa.html">你问我答</a>
+				</div>
+			</div>
+			<div class="nav-content">
+				<h2>关于我们</h2>
+				<div class="content">
+					<a href="http://lovepalau.com/aboutus.html">关于漫漫浪</a>
+					<a href="http://lovepalau.com/mediareports.html">媒体报道</a>
+					<a href="http://lovepalau.com/contactus.html">联系我们</a>
+				</div>
+			</div>
+			<a class="link" href="aboutpalau.html">帕劳介绍&nbsp;></a>
+			<a class="link" href="http://lovepalau.com/palauNewsList.html">帕劳新鲜事&nbsp;></a>
+			<img class="logo" src="img/public/logo_bottom.png"/>
+		</div>
+		<!--主要内容-->
+		<div class="container">
+			<div class="main">
+				<h3>报名页面</h3>
+				<h4 class="sub-title">服务内容</h4>
+				<p class="">请选择您需要的服务类型</p>
+				<div class="menu">
+					<a href="#from1">
+						<section class="selector">
+							<h5>全包行程客人</h5>
+							<p>全包行程是最便捷的出行方式，漫漫浪帮助您一站式全程预订机票，酒店和行程</p>
+						</section>
+					</a>
+					
+					<a href="#from1">
+						<section class="selector">
+							<h5>三天出海客人</h5>
+							<p>已经预订了好了机票和酒店，仅预订漫漫浪三天出海行程</p>
+						</section>
+					</a>
+					
+				</div>
+				<!--报名表单-->
+				<div id="from1" name='from1' class="from">
+					<form action="" method="post">
+						<section>
+							<h4 class="sub-title">全包行程日程安排</h4>
+							<label for="date1">
+								出发日期：
+								<input id="date1" type="date" />
+							</label>
+							<label for="date2">
+								返回日期：
+								<input id="date2" type="date" />
+							</label>
+							<label for="date3">
+								出海开始：
+								<input id="date3" type="date" />
+							</label>
+							<label for="date4">
+								出海结束：
+								<input id="date4" type="date" />
+							</label>								
+						</section>
+						<section>
+							<h4 class="sub-title">航班信息</h4>
+							<button class="select-btn">太平洋航空</button>	
+							<p class="other">其他：</p>
+							<input class="input-ot" type="text" id="departure" value="" placeholder="请输入航班名称" />
+						</section>
+						<section>
+							<h4 class="sub-title">入住酒店</h4>
+							<button class="select-btn">帛琉大饭店</button>	
+							<button class="select-btn">百阅酒店</button>
+							<button class="select-btn">HiResort</button>
+							<p class="other">其他：</p>
+							<input class="input-ot" type="text" id="hotel" value="" placeholder="请输入酒店名称" />
+						</section>
+						<section class="connect">				
+							<p class="other">主联系人：</p>								
+							<input class="input-ot" type="text" id="linkman" value="" placeholder="联系人姓名" />
+							
+							<p class="other">联系电话：</p>
+							<input class="input-ot" type="text" id="phone" value="" placeholder="联系人电话/手机" />
+
+
+							<p class="other">电子邮箱：</p>
+							<input class="input-ot" type="text" id="email" value="" placeholder="例如12345@abc.com" />
+
+							<p class="other">微信号：</p>
+							<input class="input-ot" type="text" id="wechat" value="" placeholder="联系人微信" />
+
+							<p class="other">出行人数：</p>
+							<input class="input-ot" type="text" id="number" value="" placeholder="例如 3" />
+							
+							<p class="other">出行名单：</p>
+							<textarea placeholder="出行人姓名，如有5岁以下儿童请标注儿童年龄"></textarea>
+						</section>
+						<section>
+							<h4 class="sub-title">客服人员</h4>
+							<button class="select-btn">漫漫浪Angela</button>	
+							<button class="select-btn">漫漫浪Vicky</button>
+							<button class="select-btn">漫漫浪Robin</button>
+						</section>
+						<section>
+							<h4 class="sub-title">上传护照照片</h4>
+							<input type="file" name="" id="" value="选择文件" />
+							<div class="passport">
+								<img src="img/public/passportimg.jpg"/>
+								<p>参考样式</p>
+								<p>请上传单个文件不超过 2MB 的 <br />jpg jpeg png bmp 文件</p>
+							</div>
+						</section>
+						<section>
+							<h4 class="sub-title">跟拍服务</h4>
+							<p>水下跟拍服务收费为1000美金/天，人数上限为（4人），当日增加拍摄无人岛收费200美金。</p>
+							<button class="select-btn">钓鱼日行程</button>	
+							<button class="select-btn">水母湖日行程</button>
+							<button class="select-btn">大断层日行程</button>
+						</section>
+						<section>
+							<input type="checkbox" name="" id="" value="" />
+							 是否增加拍摄无人岛 +200美金								
+						</section>
+						<section>
+							<input class="submit" type="submit" id="" name="提交" />
+						</section>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--页面尾部-->
+		<footer>
+			<div class="inner">
+				<div class="services">
+					<span><a href="">微信客服</a></span>
+					<span><a href="">QQ客服</a></span>
+					<span><a href="">电话咨询</a></span>
+					<span><a href=""><img src="img/public/wechat_white.png"/></a></span>
+					<span><a href=""><img src="img/public/weibo_white.png"/></a></span>
+				</div>
+				<div class="botnav">
+					<ul>
+						<li>行程服务</li>
+						<li><a href="">全包行程</a></li>
+						<li><a href="">三天出海</a></li>
+						<li><a href="">帕劳租车</a></li>
+					</ul>
+					<ul>
+						<li>行程服务</li>
+						<li><a href="">全包行程</a></li>
+						<li><a href="">三天出海</a></li>
+						<li><a href="">帕劳租车</a></li>
+					</ul>
+					<ul>
+						<li>行程服务</li>
+						<li><a href="">全包行程</a></li>
+						<li><a href="">三天出海</a></li>
+						<li><a href="">帕劳租车</a></li>
+					</ul>
+					<ul>
+						<li>行程服务</li>
+						<li><a href="">全包行程</a></li>
+						<li><a href="">三天出海</a></li>
+						<li><a href="">帕劳租车</a></li>
+					</ul>
+					<ul>
+						<li>行程服务</li>
+						<li><a href="">全包行程</a></li>
+						<li><a href="">三天出海</a></li>
+						<li><a href="">帕劳租车</a></li>
+					</ul>
+				</div>
+				<div class="beian">
+					<p><a href="index.html">www.lovepalau.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;京ICP备15012435号</p>
+				</div>
+				<p class="banquan">版权声明：本网站所有照片由漫漫浪和Hicamera海沃原创拍摄，个人或单位不得未经授权随意使用，如发现盗用侵权行为，将通过漫漫浪版权专属律师事务所通过法律程序维权。</p>
+				<p class="botlogo"><img src="img/public/logo_bottom.png"/></p>
+			</div>
+		</footer>
+		<div id="totop" class="totop"></div>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/global.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

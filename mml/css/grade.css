@@ -1,0 +1,359 @@
+@import url("head.css");
+@import url("foot.css");
+body {
+  font-family: "microsoft yahei";
+  width: 100%;
+}
+.container {
+  padding-bottom: 0.6rem;
+  background: #f3f3f3;
+}
+.banner {
+  margin: 0 auto;
+  max-width: 1000px;
+  position: relative;
+  overflow: hidden;
+}
+#imglist {
+  overflow: hidden;
+  transition: all 0.5s;
+}
+#imglist li {
+  float: left;
+  width: 15rem;
+}
+#imglist li img {
+  max-width: 1000px;
+  display: block;
+  width: 100%;
+}
+#btns {
+  margin: 0;
+  padding: 0.15rem;
+  height: 0.26rem;
+  text-align: center;
+  position: absolute;
+  right: 3%;
+  bottom: 5%;
+}
+#btns span {
+  background: #fff;
+  opacity: .5;
+  display: inline-block;
+  width: 0.26rem;
+  height: 0.26rem;
+  margin: 0 0.1rem;
+  vertical-align: top;
+  box-sizing: border-box;
+  border-radius: 0.13rem;
+}
+#btns .active {
+  opacity: 1;
+}
+.banner .title {
+  font-size: 0.72rem;
+  letter-spacing: 0.08rem;
+  color: #fff;
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+}
+.main-con {
+  padding: 0.4rem 0.8rem;
+}
+.scenic-desc,
+.open-time,
+.comments {
+  padding-left: 1rem;
+  line-height: 2;
+  font-size: 0.56rem;
+  color: #666;
+  margin-bottom: 0.4rem;
+}
+.open-time {
+  background: url(../img/public/time.png) no-repeat left center;
+  background-size: 0.64rem 0.64rem;
+}
+.scenic-desc {
+  background: url(../img/public/introduction.png) no-repeat left center;
+  background-size: 0.64rem 0.64rem;
+  position: relative;
+}
+.comments {
+  background: url(../img/public/comment.png) no-repeat left center;
+  background-size: 0.64rem 0.64rem;
+  position: relative;
+}
+.scenic-desc span,
+.comments span {
+  display: block;
+  width: 0.8rem;
+  height: 100%;
+  position: absolute;
+  background: url(../img/public/down.png) no-repeat center center;
+  background-size: 100%;
+  right: 0;
+  top: 0;
+}
+.scenic-desc .up,
+.comments .up {
+  background-image: url(../img/public/up.png);
+}
+.desc {
+  text-align: justify;
+  color: #666;
+  line-height: 1.5;
+  display: none;
+  padding-bottom: 0.4rem;
+  text-indent: 2em;
+  font-size: 0.56rem;
+  border-bottom: 0.04rem solid #dddddd;
+  margin-bottom: 0.4rem;
+}
+.comments-warp {
+  position: relative;
+}
+.list-box {
+  padding-top: 0.4rem;
+  margin: 0.4rem 0;
+  border-top: 0.04rem solid #dddddd;
+}
+.list-box .head {
+  float: left;
+  margin-right: 0.4rem;
+  display: block;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 0.6rem;
+  background: url(../img/public/head.jpg) no-repeat center center;
+  background-size: 100% 100%;
+}
+.comment-list {
+  font-size: 0.56rem;
+  color: #666;
+}
+.list-top {
+  position: relative;
+  font-size: 0.48rem;
+}
+.list-top .name {
+  margin-bottom: 0.4rem;
+}
+.list-top .time {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-left: 0.56rem;
+  background: url(../img/public/time.png) no-repeat left center;
+  background-size: 0.48rem 0.48rem;
+}
+.grade-star span {
+  display: inline-block;
+  width: 0.48rem;
+  height: 0.48rem;
+  background: url(../img/public/star-on.png) no-repeat;
+  background-size: 0.48rem 0.48rem;
+}
+.list-content p {
+  margin-top: 0.4rem;
+  font-size: 0.56rem;
+  line-height: 1.3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.comment-list .none {
+  margin-top: 0.4rem;
+  text-align: center;
+}
+.grade {
+  display: none;
+  width: 100%;
+  color: #666;
+  background: #F3F3F3;
+}
+.grade h2 {
+  line-height: 1.8;
+  font-weight: normal;
+  font-size: 0.64rem;
+}
+.grade li {
+  line-height: 1.5;
+}
+.grade .label {
+  font-size: 0.56rem;
+  margin-right: 2rem;
+}
+.grade .star {
+  display: inline;
+}
+.grade .star span {
+  display: inline-block;
+  margin-right: 0.8rem;
+  width: 0.64rem;
+  height: 0.64rem;
+  background: url(../img/public/star.png) no-repeat;
+  background-size: 100%;
+}
+.grade .star .cur {
+  background-image: url(../img/public/star-on.png);
+}
+.grade textarea {
+  display: block;
+  margin: 0.8rem auto;
+  width: 80%;
+  height: 8em;
+  outline: none;
+  resize: none;
+}
+.grade input {
+  margin: 0 auto;
+  display: block;
+  width: 4rem;
+  height: 2em;
+  text-align: center;
+  font-size: 0.56rem;
+  background: #999;
+  border: none;
+  border-radius: 0.2rem;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+@media only screen and (min-width: 1000px) {
+  .container {
+    padding-top: 50px;
+  }
+  #btns {
+    bottom: 0;
+  }
+  #btns span {
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+    border-radius: 50%;
+  }
+  .banner .title {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  #imglist li {
+    width: 1000px;
+  }
+  .main-con {
+    margin: 0 auto;
+    width: 1000px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+  }
+  .scenic-desc,
+  .open-time,
+  .comments {
+    padding-left: 25px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-size: 20px 20px;
+  }
+  .scenic-desc span,
+  .comments span {
+    cursor: pointer;
+    width: 20px;
+  }
+  .desc {
+    padding-bottom: 10px;
+    text-indent: 2em;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  .list-box {
+    padding-top: 10px;
+    margin: 10px 0;
+    border-top: 1px solid #ddd;
+  }
+  .list-box .head {
+    margin-right: 15px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+  }
+  .comment-list {
+    font-size: 14px;
+  }
+  .list-top {
+    font-size: 16px;
+  }
+  .list-top .name {
+    margin-bottom: 10px;
+  }
+  .list-top .time {
+    font-size: 14px;
+    padding-left: 14px;
+    background-size: 12px 12px;
+  }
+  .grade-star span {
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    background-size: 100% 100%;
+  }
+  .list-content p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .comment-list .none {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .grade {
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  .grade h2 {
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+  .grade .label {
+    font-size: 14px;
+    margin: 0 20px 0 50px;
+    float: left;
+  }
+  .grade ul {
+    display: flex;
+  }
+  .grade li {
+    margin-right: 20px;
+    flex-grow: 1;
+    line-height: 1;
+    padding: 10px 0;
+    border: 1px solid #ddd;
+  }
+  .grade .star {
+    float: left;
+    overflow: hidden;
+    vertical-align: top;
+  }
+  .grade .star span {
+    float: left;
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+    background: url(../img/public/star.png) no-repeat;
+    background-size: 16px 16px;
+  }
+  .grade .star .cur {
+    background-image: url(../img/public/star-on.png);
+  }
+  .grade textarea {
+    margin: 20px auto;
+    height: 8em;
+  }
+  .grade input {
+    width: 100px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,257 @@
+@import url("head.css");
+@import url("foot.css");
+body {
+  font-family: "microsoft yahei";
+  width: 100%;
+  height: 100%;
+}
+.container {
+  box-sizing: border-box;
+  padding: 6.8rem 5% 0.6rem;
+  background: url(../img/public/login-bg2.jpg) no-repeat center center;
+  background-size: 100% 100%;
+}
+.container .clogo {
+  display: block;
+  margin: 0 auto 2rem;
+  width: 90%;
+}
+.login .inner {
+  width: 100%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.3);
+  border: 0.04rem solid #ffffff;
+  border-radius: 0.2rem;
+}
+.login .inner p {
+  position: relative;
+  padding: 0.4rem;
+  border-bottom: 0.04rem solid #ffffff;
+}
+.login .inner p:last-child {
+  border: none;
+}
+.login .inner p label {
+  margin-right: 0.4rem;
+  font-size: 0.68rem;
+  color: #fff;
+}
+.login .inner p input {
+  color: #fff;
+  background: none;
+  outline: none;
+  border: none;
+  width: 80%;
+  line-height: 0.8rem;
+}
+#login,
+#reg {
+  display: block;
+  width: 100%;
+  line-height: 2.3;
+  border: none;
+  outline: none;
+  font-size: 0.72rem;
+  color: #fff;
+  font-family: "microsoft yahei";
+  letter-spacing: 0.4rem;
+  border-radius: 0.2rem;
+  margin: 0 auto;
+  background: #18b3db;
+}
+#reg {
+  margin-top: 2rem;
+  width: 90%;
+}
+.forget,
+.go-reg {
+  line-height: 2rem;
+  color: #fff;
+  font-size: 0.56rem;
+}
+.go-reg {
+  float: right;
+}
+.reg {
+  position: relative;
+}
+.reg .title {
+  width: 90%;
+  top: -4rem;
+  left: 5%;
+  position: absolute;
+}
+.reg .inner {
+  width: 90%;
+  margin: 0 auto;
+}
+.reg .inner p {
+  margin-bottom: 0.8rem;
+}
+.reg .inner p label {
+  display: block;
+  font-size: 0.68rem;
+  color: #fff;
+}
+.reg .inner p input {
+  height: 0.96rem;
+  color: #fff;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 0.04rem solid #ffffff;
+  width: 100%;
+  line-height: 0.8rem;
+}
+.reg .inner p span {
+  color: #ddd;
+  font-size: 0.56rem;
+  margin: 0.4rem 0;
+  display: block;
+  width: 100%;
+  height: 0.56rem;
+}
+.reg .inner p .no {
+  background: url(../img/public/no.png) no-repeat right center;
+  background-size: 0.8rem 0.8rem;
+}
+#code {
+  width: 50%;
+  margin-right: 0.8rem;
+}
+#getCode {
+  letter-spacing: 0.2rem;
+  height: 1.2rem;
+  border-radius: 0.16rem;
+  border: 0.04rem solid #ffffff;
+  width: 40%;
+}
+.reg .inner p .bg-gray {
+  background: rgba(255, 255, 255, 0.3);
+}
+@media only screen and (min-width: 1000px) {
+  .container {
+    padding: 100px 20%;
+    background: #000000 url(../img/index/kv1_3.jpg) no-repeat top center;
+  }
+  .container .clogo {
+    margin: 0 auto 100px;
+    width: 300px;
+  }
+  .login,
+  .reg {
+    margin: 0 auto;
+    width: 480px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 50px 10px;
+    border-radius: 5px;
+  }
+  form {
+    width: 450px;
+    margin: 0 auto;
+  }
+  .login .inner {
+    color: #333;
+    width: 450px;
+    border: 1px solid #333;
+    border-radius: 5px;
+  }
+  .login .inner p {
+    padding: 10px;
+    overflow: hidden;
+    border-bottom: 1px solid #333;
+  }
+  .login .inner p label {
+    color: #333;
+    float: left;
+    margin-right: 10px;
+    font-size: 17px;
+  }
+  .login .inner p input {
+    color: #333;
+    float: left;
+    line-height: 20px;
+  }
+  #login,
+  #reg {
+    display: block;
+    width: 80%;
+    line-height: 2.3;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+    font-family: "microsoft yahei";
+    letter-spacing: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    background: #18b3db;
+  }
+  #reg {
+    margin-top: 50px;
+    width: 80%;
+  }
+  .forget,
+  .go-reg {
+    float: left;
+    vertical-align: top;
+    line-height: 50px;
+    color: #333;
+    font-size: 14px;
+  }
+  .go-reg {
+    float: right;
+  }
+  .reg {
+    position: relative;
+    margin-top: 100px;
+  }
+  .reg .title {
+    width: 300px;
+    top: -100px;
+    left: 50%;
+    margin-left: -150px;
+  }
+  .reg .inner {
+    color: #333;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .reg .inner p {
+    margin-bottom: 20px;
+  }
+  .reg .inner p label {
+    font-size: 17px;
+    color: #333;
+  }
+  .reg .inner p input {
+    float: left;
+    height: 24px;
+    color: #333;
+    border-bottom: 1px solid #333;
+    line-height: 20px;
+  }
+  .reg .inner p span {
+    clear: both;
+    color: #666;
+    font-size: 14px;
+    margin: 30px 0;
+    display: block;
+    width: 100%;
+    height: 14px;
+  }
+  .reg .inner p .no {
+    background-size: 20px 20px;
+  }
+  #code {
+    width: 50%;
+    margin-right: 20px;
+  }
+  #getCode {
+    letter-spacing: 5px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #333;
+    width: 40%;
+  }
+}
