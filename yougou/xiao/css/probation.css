@@ -1,0 +1,494 @@
+body {
+	min-height: 100%;
+	min-width: 1090px;
+	background-color: #fff;
+}
+
+
+/*中间内容*/
+
+.content {
+	clear: both;
+	overflow: hidden;
+	margin: 20px 0 70px;
+}
+
+.con-inner-m {
+	position: relative;
+	width: 1090px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+/*中间内容 顶部 地址*/
+
+.content .location {
+	line-height: 1;
+	padding: 20px 0 20px;
+	font-size: 12px;
+	color: #333;
+}
+
+.content .location a {
+	color: #333;
+}
+
+.content .location a:last-child{
+	color: #999;
+}
+.content .location a:not(:last-child):hover {
+	border-bottom: 1px solid #333;
+}
+
+.content .location i {
+	display: inline-block;
+	margin: 2px 7px 0;
+	width: 5px;
+	height: 9px;
+	background: url(../img/01index/01head/head-title1.png) no-repeat 0 0;
+}
+
+
+/*中间内容 banner*/
+
+.banner img {
+	display: block;
+	width: 100%;
+}
+
+
+/*试用*/
+
+.trial .sel-act-tag {
+	position: relative;
+	width: 560px;
+	padding-top: 40px;
+	margin: 0 auto 30px;
+	text-align: center;
+	line-height: 1;
+}
+
+.trial .sel-act-tag ul {
+	overflow: hidden;
+}
+
+.trial .sel-act-tag ul li {
+	/*display: inline-block;*/
+	float: left;
+	width: 280px;
+	padding-bottom: 12px;
+	border-bottom: 3px solid #ddd;
+	text-align: center;
+	font-size: 18px;
+	color: #333;
+	cursor: pointer;
+}
+
+.trial .sel-act-tag .underline {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 280px;
+	height: 3px;
+	background: #b4a078;
+}
+
+.trial .trialProducts {
+	height: 440px;
+	width: 1090px;
+	overflow: hidden;
+}
+
+.trial .trialProducts ul {
+	overflow: hidden;
+}
+
+.trial .trialProducts li {
+	float: left;
+	width: 366px;
+	height: 440px;
+	padding: 0 6px;
+}
+
+.trial .trialProducts>div {
+	float: left;
+	width: 352px;
+	height: 440px;
+	border: 1px solid #eaeaea;
+}
+
+.trial .trialProducts>div:not(:first-child) {
+	margin-left: 12px;
+}
+
+.trial .trialProducts .trialProducts-m {
+	height: 100%;
+	border: 1px solid #eaeaea;
+}
+
+.trial .trialProducts .trial-img {
+	position: relative;
+	display: block;
+	height: 298px;
+}
+
+.trial .trialProducts .trial-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.trial .trialProducts .trial-img .status {
+	position: absolute;
+	z-index: 2;
+	top: 23px;
+	right: -3px;
+	height: 32px;
+	line-height: 32px;
+	padding: 0 10px 0 18px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-right: 3px solid #333;
+	color: #333;
+	font-size: 13px;
+	font-weight: 700;
+	background: rgba(255, 255, 255, .8);
+}
+
+.trial .trialProducts .trial-img .info {
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-left: 8px;
+	line-height: 30px;
+	text-align: left;
+	color: #fff;
+	font-size: 14px;
+	background: url(../img/01index/03content/03shiyong/shiyong.png) repeat-y;
+}
+
+.trial .trialProducts .detail {
+	position: relative;
+	z-index: 1;
+	padding-top: 20px;
+	border-top: 1px solid #eaeaea;
+	background: #fff;
+	text-align: center;
+	line-height: 1;
+}
+
+.trial .trialProducts .detail .detail-title {
+	line-height: 18px;
+	font-size: 18px;
+	color: #292929;
+}
+
+.trial .trialProducts .detail span {
+	display: inline-block;
+	line-height: 14px;
+	font-size: 14px;
+	margin-left: 10px;
+	color: #b29f7c;
+}
+
+.trial .trialProducts .detail em {
+	font-style: normal;
+}
+
+.trial .trialProducts .detail .describe {
+	margin-top: 12px;
+	line-height: 14px;
+	font-size: 14px;
+	color: #666;
+}
+
+.trial .trialProducts .detail .trialProducts-button {
+	display: inline-block;
+	width: 164px;
+	height: 38px;
+	line-height: 36px;
+	text-align: center;
+	margin-top: 20px;
+	border: 1px solid #b4a078;
+	border-radius: 2px;
+	font-size: 18px;
+	color: #b4a078;
+	background-color: #f5f3ef;
+	cursor: pointer;
+}
+
+
+/*报告精选*/
+
+.report-sel {
+	margin-bottom: 60px;
+	padding-top: 80px;
+	text-align: center;
+}
+
+.report-sel .report-title {
+	position: relative;
+	display: inline-block;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	font-size: 26px;
+	line-height: 1;
+	color: #333;
+	font-weight: 400;
+}
+
+.report-sel .report-title:after {
+	content: '';
+	position: absolute;
+	bottom: -2px;
+	left: 26px;
+	width: 50px;
+	height: 2px;
+	background-color: #333;
+	text-align: center;
+}
+
+.report-sel .report-describe {
+	line-height: 24px;
+	font-size: 14px;
+	color: #666;
+}
+
+.trialReport .trialReportList>div:not(:first-child) {
+	margin-top: 29px;
+}
+
+.trialReport .trialReportList .trialReport-2 {
+	margin-top: 29px;
+}
+
+
+/*试用报告 左边图片*/
+
+.trialReport .trialReportList-img {
+	position: relative;
+	float: left;
+	width: 363px;
+	height: 300px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.trialReport .trialReportList-img .status {
+	position: absolute;
+	z-index: 2;
+	top: 19px;
+	left: 0;
+	height: 34px;
+	line-height: 34px;
+	padding: 0 12px;
+	font-size: 15px;
+	background: #333;
+	color: #e2cba0;
+}
+
+.trialReport .trialReportList-img .status:after {
+	content: '';
+	position: absolute;
+	right: -10px;
+	border-top: 17px solid #333;
+	border-bottom: 17px solid #333;
+	border-right: 10px solid transparent;
+}
+
+.trialReport .trialReportList-img img {
+	width: 100%;
+	height: 100%;
+}
+
+
+/*试用报告 右边详情*/
+
+.trialReport .trialReport-detail {
+	position: relative;
+	height: 300px;
+	margin-left: 363px;
+	padding: 18px 16px 0 26px;
+	border: 1px solid #eaeaea;
+}
+
+
+/*试用报告 右边详情 用户栏*/
+
+.trialReport .trialReport-detail .user {
+	height: 50px;
+}
+
+.trialReport .trialReport-detail .user .avatar {
+	float: left;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-ring-radius: 50%;
+	overflow: hidden;
+}
+
+.trialReport .trialReport-detail .user .avatar img {
+	width: 100%;
+	height: 100%;
+}
+
+.trialReport .trialReport-detail .user .userinfo {
+	margin-left: 66px;
+	padding-top: 5px;
+	font-size: 14px;
+	color: #666;
+	line-height: 1;
+}
+
+.trialReport .trialReport-detail .user .userinfo .username {
+	font-size: 14px;
+	color: #666;
+}
+
+.trialReport .trialReport-detail .user .userinfo .userscore {
+	margin-top: 7px;
+}
+
+.trialReport .trialReport-detail .user .userinfo .userscore i {
+	display: inline-block;
+	height: 16px;
+	width: 17px;
+	vertical-align: -2px;
+	margin-right: 10px;
+}
+
+.trialReport .trialReport-detail .user .userinfo .userscore .full {
+	background: url(../img/01index/icon-normal.png) no-repeat 0 -5809px;
+}
+
+.trialReport .trialReport-detail .user .userinfo .userscore .empty {
+	background: url(../img/01index/icon-normal.png) no-repeat 0 -5783px;
+}
+
+
+/*试用报告 右边详情 信息*/
+
+.trialReport .trialReport-detail .trialReport-info {
+	margin-top: 20px;
+}
+
+.trialReport .trialReport-detail .trialReport-info .trialReport-info-title {
+	margin-bottom: 14px;
+	font-size: 20px;
+}
+
+.trialReport .trialReport-detail .trialReport-info .trialReport-info-title a {
+	color: #000;
+}
+
+.trialReport .trialReport-detail .trialReport-info .trialReport-info-sel span {
+	display: inline-block;
+	height: 22px;
+	line-height: 22px;
+	padding: 0 5px;
+	background: #f3f3f3;
+	font-size: 13px;
+	color: #333;
+}
+
+.trialReport .trialReport-detail .trialReport-info-sel>span:not(:first-child) {
+	margin-left: 10px;
+}
+
+
+/*试用报告 右边详情 内容*/
+
+.trialReport .trialReport-detail .trialReport-content {
+	height: 75px;
+	margin-top: 17px;
+	font-size: 13px;
+	color: #333;
+	line-height: 25px;
+}
+
+.trialReport .trialReport-detail .trialReport-content a {
+	display: inline-block;
+	margin-left: 10px;
+	text-decoration: underline;
+	color: #69c;
+}
+
+.trialReport .trialReport-detail .trialReport-from {
+	position: absolute;
+	bottom: 20px;
+	left: 26px;
+	font-size: 13px;
+	color: #69c;
+}
+/*中间内容 试用报告 底部页数选择*/
+
+.trialReport .trialReportList .collect-slide {
+	margin: 32px 0 30px;
+	text-align: right;
+}
+
+.trialReport .trialReportList .collect-slide .collect-slide-m {
+	clear: both;
+	display: inline-block;
+	text-align: center;
+	text-align: -moz-center;
+	text-align: -webkit-center;
+	overflow: hidden;
+}
+
+.trialReport .trialReportList .collect-slide li {
+	float: left;
+	vertical-align: middle;
+}
+
+.trialReport .trialReportList .collect-slide .prev-page a,
+.trialReport .trialReportList .collect-slide .next-page a {
+	display: inline-block;
+	line-height: 24px;
+	padding: 7px 12px;
+	border: 1px solid #e6e6e6;
+	font-size: 12px;
+	color: #ccc;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.trialReport .trialReportList .collect-slide .page a {
+	display: inline-block;
+	line-height: 24px;
+	padding: 7px 12px;
+	border: 1px solid #e6e6e6;
+	border-left: 0;
+	font-size: 12px;
+	color: #333;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.trialReport .trialReportList .collect-slide .page-sel a {
+	background-color: #b4a078;
+	border-color: #b4a078;
+	color: #fff;
+}
+
+.trialReport .trialReportList .collect-slide .prev-page i,
+.trialReport .trialReportList .collect-slide .next-page i {
+	display: inline-block;
+	width: 21px;
+	height: 21px;
+	vertical-align: middle;
+	background-image: url(../img/03advise/advise0.png);
+}
+
+.trialReport .trialReportList .collect-slide .prev-page i {
+	background-position: 0 -245px;
+}
+
+.trialReport .trialReportList .collect-slide .next-page i {
+	background-position: 0 -275px;
+}

@@ -1,0 +1,91 @@
+/* General Demo Style */
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+/*.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }*/
+
+
+/* Header Style */
+.container > header {
+	margin: 0 auto;
+	padding: 2em;
+}
+
+.container > header {
+	text-align: center;
+	background: rgba(0,0,0,0.01);
+}
+
+.container > header h1 {
+	font-size: 2.625em;
+	line-height: 1.3;
+	margin: 0;
+	font-weight: 300;
+}
+
+.container > header span {
+	display: block;
+	font-size: 60%;
+	opacity: 0.8;
+	padding: 0 0 0.6em 0.1em;
+}
+
+.grid {
+	max-width: 69em;
+	list-style: none;
+	
+	padding: 0;
+	
+}
+
+.grid li {
+	display: block;
+	float: left;
+	padding: 7px;
+	width: 33%;
+    
+}
+
+
+
+.grid li
+{
+	outline: none;
+	border: none;
+	display: block;
+	max-width: 100%;
+	
+	
+}
+
+
+/* Effect 7: helix (based on http://lab.hakim.se/scroll-effects/ by @hakimel) */
+.grid.effect-7 {
+	-webkit-perspective:800px;
+	perspective: 800px;
+}
+
+.grid.effect-7 li.animate {
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+	-webkit-animation: helix .15s ease-in-out forwards;
+	animation: helix .15s ease-in-out forwards;
+}
+
+@-webkit-keyframes helix {
+	0% { }
+	100% { -webkit-transform: rotateY(0deg); opacity: 1; }
+}
+
+@keyframes helix {
+	0% { }
+	100% { -webkit-transform: rotateY(0deg); transform: rotateY(0deg); opacity: 1; }
+}
+
+
+

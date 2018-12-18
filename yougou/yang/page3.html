@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/main3.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/head.css" />
+		<link rel="stylesheet" type="text/css" href="css/main3.css" />
+		<link rel="stylesheet" type="text/css" href="css/foot.css" />
+	</head>
+
+	<body>
+		<div class="head">
+			<div class="top-nav">
+				<div class="t-con-nav">
+					<ul class="nav-left">
+						<li class="fl li1 lh30">好的生活，没那么贵</li>
+						<li class="fl li2 lh30"><a href="javascript:">1月5日起刀具类产品新疆地区不发货</a></li>
+					</ul>
+					<ul class="nav-right fr">
+						<li class="login li fl"><a href="javascript:" title="网易严选登陆">登录</a></li>
+						<li class="reg li fl"><a href="javascript:">注册</a></li>
+						<li class="li fl p-user-name">兵燹手手床上用品鼐
+						</li>
+						<i class="up"></i>
+						<i class="down"></i>
+						<div class="p-user-info">
+							<ul>
+								<p class="arrow-top"></p>
+								<li><a href="javascript:">订单管理</a></li>
+								<li><a href="javascript:">地址管理</a></li>
+								<li><a href="javascript:">优惠券（0）</a></li>
+								<li><a href="javascript:">礼品卡</a></li>
+								<li><a href="javascript:">收藏夹</a></li>
+								<li><a href="javascript:">我的甄选家</a></li>
+								<li class="exit"><a href="javascript:">退出登陆</a></li>
+							</ul>
+						</div>
+						<!--p-user-name菜单项向上、向下箭头、下拉框的控制-->
+						<script type="text/javascript">
+							$('.p-user-name').hover(function() {
+								$('.down').css('display', 'block');
+								$('.up').css('display', 'none');
+								$('.nav-right .p-user-info').css('display', 'block');
+							}, function() {
+								$('.down').css('display', 'none');
+								$('.up').css('display', 'block');
+								$('.p-user-info').css('display', 'none');
+							});
+							$('.p-user-info').hover(function() {
+								$(this).css('display', 'block');
+								$('.down').css('display', 'block');
+								$('.up').css('display', 'none');
+							}, function() {
+								$(this).css('display', 'none');
+								$('.down').css('display', 'none');
+								$('.up').css('display', 'block');
+							});
+						</script>
+						<span class="fl">|</span>
+						<li class="li fl"><a href="javascript:">严选态度</a></li>
+						<span class="fl">|</span>
+						<li class="li fl"><a href="javascript:">企业采购</a></li>
+						<span class="fl">|</span>
+						<li class="custom-server li fl arrow-up"><a href="javascript:">客户服务</a>
+							<ul class="p-custom-server">
+								<li><a href="javascript:">帮助中心</a></li>
+								<span></span>
+								<li><a href="javascript:">的线客服</a></li>
+								<span></span>
+								<li class="p-tel"><a href="javascript:">电话客服</a>
+									<span class="arrow-right"></span>
+									<p class="tel">
+										<span>400-0368-763</span>
+										<span>9:00-22:00</span>
+									</p>
+								</li>
+								<span></span>
+								<li><a href="javascript:">商务合作</a></li>
+							</ul>
+						</li>
+						<span class="fl">|</span>
+						<li class="app-download li fl"><a href="javascript:">下载APP</a>
+							<div class="code">
+								<img src="img/code.png" alt="" />
+								<p>扫码下载 首单立减8元</p>
+							</div>
+						</li>
+					</ul>
+					<!--搜索框-->
+					<div class="search fr">
+						<a class="logo fl" href="../liu/index.html"></a>
+						<div class="s-search-info fr">
+							<form class="fl" action="" method="post">
+								<input class="input-text" type="text" placeholder="白色情人节礼物最高直降70" />
+								<input class="btn" type="submit" value="" />
+								<ul class="history-search-info">
+									<p>大家都在搜</p>
+									<li><a href="javascript:">丁磊推荐登机箱直降640</a></li>
+									<li><a href="javascript:">每满100减15</a></li>
+									<li><a href="javascript:">床品换新</a></li>
+									<li><a href="javascript:">保鲜</a></li>
+									<li><a href="javascript:">睡衣</a></li>
+								</ul>
+							</form>
+							<!--购物车-->
+							<p class="cart fr">
+								<a href="javascript:"></a>
+								<span>0</span>
+							</p>
+						</div>
+					</div>
+
+					<script>
+						$('.custom-server').hover(function() {
+							$(this).addClass('arrow-down');
+							$('.p-custom-server').css('display', 'block');
+						}, function() {
+							$(this).removeClass('arrow-down');
+							$('.p-custom-server').css('display', 'none');
+						});
+						$('.p-tel').hover(function() {
+							$('.tel').css('display', 'block');
+						}, function() {
+							$('.tel').css('display', 'none');
+						});
+						$('.app-download').hover(function() {
+							$('.code').css('display', 'block');
+						}, function() {
+							$('.code').css('display', 'none');
+						});
+						$('.input-text').focus(function() {
+							$('.history-search-info').css('display', 'block');
+						});
+						$('.input-text').blur(function() {
+							$('.history-search-info').css('display', 'none');
+						});
+					</script>
+				</div>
+			</div>
+			<!--底部导航菜单-->
+			<div class="bottom-nav">
+				<ul class="p-bottom-nav">
+					<!--<p class="logo1 fl"></p>-->
+					<li class="p-bottom-item"><a href="../liu/index.html">首页</a></li>
+					<li class="has-child-nav p-bottom-item"><a href="javascript:">居家</a>
+					</li>
+					<li class="has-child-nav p-bottom-item"><a href="javascript:">餐厨</a></li>
+					<li class="has-child-nav p-bottom-item"><a href="javascript:">配件</a></li>
+					<li class="has-child-nav p-bottom-item"><a href="javascript:">服装</a></li>
+					<li class="has-child-nav p-bottom-item"><a href="javascript:">洗护</a></li>
+					<li class="has-child-nav p-bottom-item"><a href="javascript:">婴童</a></li>
+					<li class="has-child-nav p-bottom-item"><a href="javascript:">杂货</a></li>
+					<li class="has-child-nav p-bottom-item"><a href="javascript:">饮食</a></li>
+					<li class="has-child-nav p-bottom-item"><a href="javascript:">其他</a></li>
+					<div class="login2  fr">
+						<span class="p-login-reg">
+							<a class="login" href="javascript:">登陆</a>
+							<a class="reg" href="javascript:">注册</a>
+						</span>
+
+						<a class="user-logo " href="javascript:"></a>
+						<div class="p-user-info p-user-info1">
+							<ul>
+								<p class="arrow-top"></p>
+								<li><a href="javascript:">订单管理</a></li>
+								<li><a href="javascript:">地址管理</a></li>
+								<li><a href="javascript:">优惠券（0）</a></li>
+								<li><a href="javascript:">礼品卡</a></li>
+								<li><a href="javascript:">收藏夹</a></li>
+								<li><a href="javascript:">我的甄选家</a></li>
+								<li class="exit"><a href="javascript:">退出登陆</a></li>
+							</ul>
+						</div>
+						<!--底部用户管理菜单-->
+						<script>
+							$('.user-logo').hover(function(){
+								$('.p-user-info1').css('display','block');
+							},function(){
+								$('.p-user-info1').css('display','none');
+							});
+							$('.p-user-info1').hover(function(){
+								$(this).css('display','block');
+							},function(){
+								$(this).css('display','none');
+							});
+						</script>
+						<a class="cart1" href="javascript:"><span>0</span></a>
+					</div>
+					<li class="del1 p-bottom-item" style="border-left:1px solid #ccc"><a href="javascript:">专题</a></li>
+					<li class="del2 p-bottom-item"><a href="javascript:">甄选家</a></li>
+				</ul>
+				<div class="p-child-nav">
+					<ul>
+						<li><img src="img/927bc33f7ae2895dd6c11cf91f5e3228.png" />
+							<p><a href="javascript:">被枕</a></p>
+						</li>
+						<li><img src="img/243e5bf327a87217ad1f54592f0176ec.png" />
+							<p><a href="javascript:">床品件套</a></p>
+						</li>
+						<li><img src="img/316afeb3948b295dfe073e4c51f77a42.png" />
+							<p><a href="javascript:">床垫</a></p>
+						</li>
+						<li><img src="img/4f00675caefd0d4177892ad18bfc2df6.png" />
+							<p><a href="javascript:">地垫</a></p>
+						</li>
+						<li><img src="img/4f00675caefd0d4177892ad18bfc2df6.png" />
+							<p><a href="javascript:">家具</a></p>
+						</li>
+						<li><img src="img/8bbcd7de60a678846664af998f57e71c.png" />
+							<p><a href="javascript:">舒坐</a></p>
+						</li>
+						<li><img src="img/c48e0d9dcfac01499a437774a915842b.png" />
+							<p><a href="javascript:">灯具</a></p>
+						</li>
+						<li style="margin:0"><img src="img/ab0df9445d985bf6719ac415313a8e88.png" />
+							<p><a href="javascript:">家饰</a></p>
+						</li>
+					</ul>
+				</div>
+				<div class="p-child-nav">
+					<ul>
+						<li><img src="img/4aab4598017b5749e3b63309d25e9f6b.png" />
+							<p><a href="javascript:">锅具</a></p>
+						</li>
+						<li><img src="img/9d481ea4c2e9e6eda35aa720d407332e.png" />
+							<p><a href="javascript:">刀铲</a></p>
+						</li>
+						<li><img src="img/22db4ccbf52dc62c723ac83aa587812a.png" />
+							<p><a href="javascript:">功能厨具</a></p>
+						</li>
+						<li><img src="img/f109afbb7e7a00c243c1da29991a5aa3.png" />
+							<p><a href="javascript:">餐具</a></p>
+						</li>
+						<li><img src="img/0b244d3575b737c8f0ed7e84c5c4abd2.png" />
+							<p><a href="javascript:">杯壶</a></p>
+						</li>
+						<li><img src="img/9ea192cd2719c8348f42ec17842ba763.png" />
+							<p><a href="javascript:">茶具</a></p>
+						</li>
+						<li><img src="img/dc4d6c35b9f4abb42d2eeaf345710589.png" />
+							<p><a href="javascript:">置物保鲜</a></p>
+						</li>
+						<li><img src="img/e8b67fe8b8db2ecc2e126a0aa631def0.png" />
+							<p><a href="javascript:">清洁</a></p>
+						</li>
+						<li style="margin:0"><img src="img/521bd0c02d283b80ba49e73ca84df250.png" />
+							<p><a href="javascript:">厨房电器</a></p>
+						</li>
+					</ul>
+				</div>
+				<div class="p-child-nav">
+					<ul>
+						<li><img src="img/3050a2b3052d766c4b460d4b766353a3.png" />
+							<p><a href="javascript:">功能箱包</a></p>
+						</li>
+						<li><img src="img/5197c44b610d786796f955334b55c7a5.png" />
+							<p><a href="javascript:">双肩包</a></p>
+						</li>
+						<li><img src="img/2f71c7710f0bf857e787e1adb449c8a2.png" />
+							<p><a href="javascript:">单肩包</a></p>
+						</li>
+						<li><img src="img/4316c2d05745bc90d1f333e363e571bd.png" />
+							<p><a href="javascript:">鞋</a></p>
+						</li>
+						<li><img src="img/868c2a976719cd508e9ddf807167a446.png" />
+							<p><a href="javascript:">靴</a></p>
+						</li>
+						<li><img src="img/1121696544ed9b0c2a70e82f1088fa0e.png" />
+							<p><a href="javascript:">拖鞋</a></p>
+						</li>
+						<li><img src="img/3a8c7ae5b9dc5c1c4b7f2b656abb0279.png" />
+							<p><a href="javascript:">围巾件套</a></p>
+						</li>
+						<li style="margin:0"><img src="img/d835a76e56a88905194f543b67089b4b.png" />
+							<p><a href="javascript:">配饰</a></p>
+						</li>
+					</ul>
+				</div>
+				<div class="p-child-nav">
+					<ul>
+						<li><img src="img/364269344ed69adafe1b70ab7998fc50.png" />
+							<p><a href="javascript:">内裤</a></p>
+						</li>
+						<li><img src="img/20279e1753e4eedc6e347857acda9681.png" />
+							<p><a href="javascript:">内衣</a></p>
+						</li>
+						<li><img src="img/f123c74f54d9acff0bd1546c60034814.png" />
+							<p><a href="javascript:">袜子</a></p>
+						</li>
+						<li><img src="img/883d89e54a9287569a201eca388a7cda.png" />
+							<p><a href="javascript:">外衣</a></p>
+						</li>
+						<li><img src="img/71f391af17fce739a6a57a1eeadbcbf0.png" />
+							<p><a href="javascript:">家居服</a></p>
+						</li>
+						<li><img src="img/94aa4a4814e2a7a97639438f1d52dcee.png" />
+							<p><a href="javascript:">衬衫</a></p>
+						</li>
+						<li style="margin:0"><img src="img/24a7a33cfeac0bb87a737480db79e053.png" />
+							<p><a href="javascript:">T恤</a></p>
+						</li>
+					</ul>
+				</div>
+				<div class="p-child-nav">
+					<ul>
+						<li><img src="img/44ad9a739380aa6b7cf956fb2a06e7a7.png" />
+							<p><a href="javascript:">毛巾</a></p>
+						</li>
+						<li><img src="img/d43e7af0a6a9385d88be2ca1df679158.png" />
+							<p><a href="javascript:">香薰</a></p>
+						</li>
+						<li><img src="img/aa49c088f74a1c318f1765cc2703495a.png" />
+							<p><a href="javascript:">美妆</a></p>
+						</li>
+						<li><img src="img/f73df75f334126cf1f3823696ea0663c.png" />
+							<p><a href="javascript:">面部护理</a></p>
+						</li>
+						<li><img src="img/672ddbed88d9762d2be789080880b16a.png" />
+							<p><a href="javascript:">护发</a></p>
+						</li>
+						<li><img src="img/e071686c212e93aa2fcafd0062a9c613.png" />
+							<p><a href="javascript:">日用清洁</a></p>
+						</li>
+						<li style="margin:0"><img src="img/1a851b2b3c9e16bdfd020a5fc03e9140.png" />
+							<p><a href="javascript:">用具</a></p>
+						</li>
+					</ul>
+				</div>
+				<div class="p-child-nav">
+					<ul>
+						<li><img src="img/4e50f3c4e4d0a64cd0ad14cfc0b6bd17.png" />
+							<p><a href="javascript:">服饰</a></p>
+						</li>
+						<li><img src="img/720aebaa529df9391b95a078dfb2fd5c.png" />
+							<p><a href="javascript:">妈咪</a></p>
+						</li>
+						<li><img src="img/0f3c5ad63139096fd0760219e12149af.png" />
+							<p><a href="javascript:">寝居</a></p>
+						</li>
+						<li><img src="img/7aac7c5819f71345a52a4b9df23d6239.png" />
+							<p><a href="javascript:">玩具</a></p>
+						</li>
+						<li><img src="img/6d6df260e21b75ae2b57e97419ef989d.png" />
+							<p><a href="javascript:">用品</a></p>
+						</li>
+						<li style="margin:0"><img src="img/5db40a5bf84c177515610471d4d08687.png" />
+							<p><a href="javascript:">喂养</a></p>
+						</li>
+					</ul>
+				</div>
+				<div class="p-child-nav">
+					<ul>
+						<li><img src="img/e1743239e41ca9af76875aedc73be7f0.png" />
+							<p><a href="javascript:">文具</a></p>
+						</li>
+						<li><img src="img/fdc048e1bf4f04d1c20b32eda5d1dc6e.png" />
+							<p><a href="javascript:">收纳</a></p>
+						</li>
+						<li><img src="img/b29a11afa76b9f4a57131555f1a54c77.png" />
+							<p><a href="javascript:">旅行</a></p>
+						</li>
+						<li><img src="img/4e929a21baebdb1200361d8097e35e45.png" />
+							<p><a href="javascript:">雨具</a></p>
+						</li>
+						<li><img src="img/71feb3efd3eaee01a74e8aa78430de9d.png" />
+							<p><a href="javascript:">唱片</a></p>
+						</li>
+						<li style="margin:0"><img src="img/9b93e661ff59cbda6094e8b30a63724e.png" />
+							<p><a href="javascript:">口罩</a></p>
+						</li>
+					</ul>
+				</div>
+				<div class="p-child-nav">
+					<ul>
+						<li><img src="img/93168242df456b5f7bf3c89653b3db76.png" />
+							<p><a href="javascript:">糕点</a></p>
+						</li>
+						<li><img src="img/663f568475c994358bf31bcb67d122fe.png" />
+							<p><a href="javascript:">小食</a></p>
+						</li>
+						<li><img src="img/60f4ae2beef4754347fa36208f84efab.png" />
+							<p><a href="javascript:">果干</a></p>
+						</li>
+						<li><img src="img/6c43063003207168c1d8e83a923e8515.png" />
+							<p><a href="javascript:">炒货</a></p>
+						</li>
+						<li><img src="img/2919b0d6eec79182cca31dc827f4d00a.png" />
+							<p><a href="javascript:">冲饮</a></p>
+						</li>
+						<li><img src="img/0c5af0575176c4a3023783bef7a87a0f.png" />
+							<p><a href="javascript:">茗茶</a></p>
+						</li>
+						<li style="margin:0"><img src="img/e050980992725b7932bb3645fe5aec08.png" />
+							<p><a href="javascript:">食材</a></p>
+						</li>
+					</ul>
+				</div>
+				<div class="p-child-nav">
+					<ul>
+						<li><img src="img/da884ff3b9e9d5276986c99e85722461.png" />
+							<p><a href="javascript:">日本</a></p>
+						</li>
+						<li><img src="img/e7b37b1ed5c18d63dc3e6c3f1aa85d8a.png" />
+							<p><a href="javascript:">节日礼盒</a></p>
+						</li>
+						<li><img src="img/a0352c57c60ce4f68370ecdab6a30857.png" />
+							<p><a href="javascript:">宠物</a></p>
+						</li>
+						<li><img src="img/3ec003761d346bc866de2ec249d7ff19.png" />
+							<p><a href="javascript:">数码</a></p>
+						</li>
+						<li><img src="img/83d22ca3d1c8f94ee23ca96de489864c.png" />
+							<p><a href="javascript:">户外</a></p>
+						</li>
+						<li><img src="img/b5e9f174404ef81b8603d6ecc304c62e.png" />
+							<p><a href="javascript:">夏日甜心</a></p>
+						</li>
+						<li style="margin:0"><img src="img/bb9232716b2fc96d9bdbac4955360dfa.png" />
+							<p><a href="javascript:">礼品卡</a></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--顶部导航条下拉-->
+			<script type="text/javascript">
+				$('.p-bottom-nav .has-child-nav').on('mouseenter', function() {
+					if ($(window).scrollTop() < 173) {
+						$('.p-child-nav').css('display', 'none');
+						$('.p-child-nav').eq($(this).index() - 1).css('display', 'block');
+					} else {
+						$('.p-child-nav').css('display', 'none');
+						$('.p-child-nav').eq($(this).index() - 2).css('display', 'block');
+					}
+				});
+				$('.p-bottom-nav .has-child-nav').on('mouseleave', function() {
+					$('.p-child-nav').css('display', 'none');
+				});
+				$('.p-child-nav').on('mouseenter', function() {
+					$('.p-child-nav').css('display', 'none');
+					$(this).css('display', 'block');
+				});
+				$('.p-child-nav').on('mouseleave', function() {
+					$('.p-child-nav').css('display', 'none');
+				});
+			</script>
+			<!--顶部导航条位置的控制-->
+			<script type="text/javascript">
+				var flag = true;
+				$(window).scroll(function() {
+					if ($(window).scrollTop() > 173) {
+						if (flag) {
+							$('.bottom-nav').css('box-shadow', '0 3px 3px 0 rgba(0,0,0,.2)');
+							$('.bottom-nav').css('top', 0);
+							$('.bottom-nav').css('position', 'fixed');
+							$('.bottom-nav .del1').remove();
+							$('.bottom-nav .del2').remove();
+							$p = $('<p class="logo1 fl"></p>');
+//							$divLogin = $('<div class="login1 fr"><a href="javascript:">登陆</a><a href="javascript:">注册</a><a class="cart1" href="javascript:"><span>0</span></a></div>');
+							$('.bottom-nav .p-bottom-nav').prepend($p);
+							//$('.bottom-nav .p-bottom-nav').append($divLogin);
+							$('.login2').css('display','inline-block');
+							$('.bottom-nav .p-bottom-item').css('padding', '0 20px');
+							flag = false;
+						}
+					} else {
+						if (!flag) {
+							$('.bottom-nav').css('box-shadow', '');
+							$('.bottom-nav').css('top', 173);
+							$('.bottom-nav').css('position', 'absolute');
+							$('.p-bottom-nav .login1').remove();
+							$('.p-bottom-nav .logo1').remove();
+							$del1 = $('<li class="del1"  style="border-left:1px solid #ccc"><a href="javascript:">专题</a></li>');
+							$del2 = $('<li class="del2"><a href="javascript:">甄选家</a></li>');
+							$('.bottom-nav .p-bottom-nav').append($del1);
+							$('.bottom-nav .p-bottom-nav').append($del2);
+							$('.login2').css('display','none');
+							$('.bottom-nav .p-bottom-item').css('padding', '0 30px');
+							flag = true;
+						}
+					}
+				});
+			</script>
+		</div>
+		<div class="hit-top"></div>
+		<div class="main-page">
+			<div class="p-main-banner">
+				<img src="img/14890264559100155.jpg" />
+				<a href="javascript:"></a>
+			</div>
+			<div class="p-commodity-info">
+				<div class="l-img-banner fl">
+					<img src="img/14889722158550071.jpg" />
+				</div>
+				<div class="commodity fl">
+					<ul>
+						<li>
+							<div class="img">
+								<a href="javascript:"></a>
+								<img src="img/c2903d1192ab278943e99c1f2294cba8.jpg" />
+							</div>
+							<h2><a href="javascript:">英伦温莎轻雅双肩包</a></h2>
+							<p>新秀丽制造商</p>
+							<span>￥199</span>
+							<div class="p-buy-cart">
+								<a class="buy" href="javascript:">立即购买</a>
+								<a class="cart" href="javascript:"></a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="javascript:"></a>
+								<img src="img/6695ec0ac45c32d48f6d534bfdc7e66e.png" />
+							</div>
+							<h2><a href="javascript:">日系百褶蝴蝶结钱包</a></h2>
+							<p>蝴蝶结，点缀少女心事</p>
+							<span>￥239</span>
+							<div class="p-buy-cart">
+								<a class="buy" href="javascript:">立即购买</a>
+								<a class="cart" href="javascript:"></a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="javascript:"></a>
+								<img src="img/6ba45543055360abd38fe1c7a424fac4.jpg" />
+							</div>
+							<h2><a href="javascript:">射频导入嫩肤仪</a></h2>
+							<p>摆脱初春干燥 深度滋养水嫩肌肤</p>
+							<span>￥499</span>
+							<div class="p-buy-cart">
+								<a class="buy" href="javascript:">立即购买</a>
+								<a class="cart" href="javascript:"></a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="p-commodity-info">
+				<div class="commodity fl">
+					<ul>
+						<li>
+							<div class="img">
+								<a href="javascript:"></a>
+								<img src="img/9279944b8ea8d7fb2b8cce51ad2a7e54.jpg" />
+							</div>
+							<h2><a href="javascript:">卷直一体陶瓷美发梳</a></h2>
+							<p>GHD制造商</p>
+							<span>￥129</span>
+							<div class="p-buy-cart">
+								<a class="buy" href="javascript:">立即购买</a>
+								<a class="cart" href="javascript:"></a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="javascript:"></a>
+								<img src="img/abd3a469d17af3808ab99e89766ddb19.jpg" />
+							</div>
+							<h2><a href="javascript:">德式轻量保温随手杯</a></h2>
+							<p>星巴克制造商</p>
+							<span>￥109</span>
+							<div class="p-buy-cart">
+								<a class="buy" href="javascript:">立即购买</a>
+								<a class="cart" href="javascript:"></a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="javascript:"></a>
+								<img src="img/d5df03588d828c93cea92f19fac90e9f.jpg" />
+							</div>
+							<h2><a href="javascript:">女式长柄条纹晴雨伞</a></h2>
+							<p>WPC制造商</p>
+							<span>￥129</span>
+							<div class="p-buy-cart">
+								<a class="buy" href="javascript:">立即购买</a>
+								<a class="cart" href="javascript:"></a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="r-img-banner fl">
+					<img src="img/14889722594780072.jpg" />
+				</div>
+			</div>
+			<div class="p-commodity-info">
+				<div class="l-img-banner fl">
+					<img src="img/14889722874370073.jpg" />
+				</div>
+				<div class="commodity fl">
+					<ul>
+						<li>
+							<div class="img">
+								<a href="javascript:"></a>
+								<img src="img/a8473f54ad4e6cf72e48385245f00e8c.jpg" />
+							</div>
+							<h2><a href="javascript:">优雅女士宽檐毛毡帽</a></h2>
+							<p>Gucci制造商</p>
+							<span>￥159</span>
+							<div class="p-buy-cart">
+								<a class="buy" href="javascript:">立即购买</a>
+								<a class="cart" href="javascript:"></a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="javascript:"></a>
+								<img src="img/eefe725c268a25a939e233d513c174719.jpg" />
+							</div>
+							<h2><a href="javascript:">丝薄AB面羊毛围巾</a></h2>
+							<p>MUJI制造商</p>
+							<span>￥99</span>
+							<div class="p-buy-cart">
+								<a class="buy" href="javascript:">立即购买</a>
+								<a class="cart" href="javascript:"></a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="javascript:"></a>
+								<img src="img/dc7fb8a26a1625fbe0ad031766513b361.jpg" />
+							</div>
+							<h2><a href="javascript:">复古翻帮休闲女鞋</a></h2>
+							<p>Palladium制造商</p>
+							<span>￥499</span>
+							<div class="p-buy-cart">
+								<a class="buy" href="javascript:">立即购买</a>
+								<a class="cart" href="javascript:"></a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="bg-blue">
+				<div class="p-commodity-info">
+					<div class="commodity fl">
+						<ul>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/bf90422ad49f4374ad45ce777f1863b0.jpg" />
+								</div>
+								<h2><a href="javascript:">男式丝滑莫代尔平角内裤</a></h2>
+								<p>Jockey制造商</p>
+								<span>￥59</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/fbb75225babd166b680437937dd6e3b3.jpg" />
+								</div>
+								<h2><a href="javascript:">素色信封毛毡MAC包</a></h2>
+								<p>Nike制造商</p>
+								<span>￥109</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/9049ce4ca6c41827087d74752ef15d0f.jpg" />
+								</div>
+								<h2><a href="javascript:">纯PC“铝框”（非全铝）登机箱</a></h2>
+								<p>新秀丽制造商</p>
+								<span>￥129</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascirpt:"></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="r-img-banner fl">
+						<img src="img/14889723115640074.jpg" />
+					</div>
+				</div>
+				<div class="p-commodity-info">
+					<div class="l-img-banner fl">
+						<img src="img/14889723192730075.jpg" />
+					</div>
+					<div class="commodity fl">
+						<ul>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/2b7c2ca12d57a313c4635fc1b8af72d0.jpg" />
+								</div>
+								<h2><a href="javascript:">牛皮简约短款钱包</a></h2>
+								<p>Coach制造商</p>
+								<span>￥189</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/93843714b1b94f8b5c56d6ce70f895f4.jpg" />
+								</div>
+								<h2><a href="javascript:">网易双子星蓝牙音箱</a></h2>
+								<p>双重震撼</p>
+								<span>￥288</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/a81d9d1f225c994dad6662305b752141.jpg" />
+								</div>
+								<h2><a href="javascript:">男式长柄素色雨伞</a></h2>
+								<p>WPC制造商</p>
+								<span>￥199</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="p-commodity-info">
+					<div class="commodity fl">
+						<ul>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/07c457f1f44efe5d3320c0cacc607c63.jpg" />
+								</div>
+								<h2><a href="javascript:">英伦帆布搭扣双肩包</a></h2>
+								<p>经典皮革扣饰，时尚英伦风</p>
+								<span>￥159</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/abd3a469d17af3808ab99e89766ddb19.jpg" />
+								</div>
+								<h2><a href="javascript:">复古翻帮休闲男鞋</a></h2>
+								<p>Palladium制造商</p>
+								<span>￥269</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/d51656c7ab2401fb44383db47200d17a.jpg" />
+								</div>
+								<h2><a href="javascript:">科技感防盗双肩包</a></h2>
+								<p>新秀丽制造商</p>
+								<span>￥259</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="r-img-banner fl">
+						<img src="img/14889723297160076.jpg" />
+					</div>
+				</div>
+			</div>
+			<div class="d-bg-blue">
+				<div class="p-commodity-info p-commodity-info1">
+					<div class="l-img-banner fl">
+						<img src="img/14889723492450077.jpg" />
+					</div>
+					<div class="commodity commodity1">
+						<ul>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/46202f28e2346f4f089f562bfdda2e80.jpg" />
+								</div>
+								<h2><a href="javascript:">5双装 雪丝竹节纹男士休闲船袜</a></h2>
+								<p>Calvin Klein制造商</p>
+								<span>￥39</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/150a5af5551a431b2a0f27e9dac0ace8.jpg" />
+								</div>
+								<h2><a href="javascript:">每日坚果(4种坚果+3种果干)</a></h2>
+								<p>随手相伴 健康一天</p>
+								<span>￥35.8</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/99ed5518d3f34e89eae5a58c0ca3fad0.png" />
+								</div>
+								<h2><a href="javascript:">便携含餐具高硼硅玻璃保鲜盒</a></h2>
+								<p>便携可组餐具，便当出行</p>
+								<span>￥29.9</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="p-commodity-info p-commodity-info1">
+					<div class="commodity  commodity1 commodity1-l fl">
+						<ul>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/347bcb0b1b09436a0155141e9b1149be.jpg" />
+								</div>
+								<h2><a href="javascript:">日式和风超声波香薰机</a></h2>
+								<p>MUJI制造商</p>
+								<span>￥199</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/0b89243ca9fbfbc22469a5970cb1e626.jpg" />
+								</div>
+								<h2><a href="javascript:">多功能午睡枕</a></h2>
+								<p>MUJI制造商</p>
+								<span>￥79</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+							<li class="l-clear-margin">
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/358c57db8db6db524a2d438f23595d69.jpg" />
+								</div>
+								<h2><a href="javascript:">萌喵水晶超柔束发带</a></h2>
+								<p>乐天派的猫耳少女</p>
+								<span>￥14.9</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="l-img-banner fr">
+						<img src="img/14889723597760078.jpg" />
+					</div>
+				</div>
+				<div class="p-commodity-info p-commodity-info1">
+					<div class="l-img-banner fl">
+						<img src="img/14889723691240079.jpg" />
+					</div>
+					<div class="commodity commodity1">
+						<ul>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/a450de610de9c6bb1b8444e06b174345.jpg" />
+								</div>
+								<h2><a href="javascript:">2条装 皇室御用超柔毛巾</a></h2>
+								<p>内野制造商</p>
+								<span>￥59</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/bd0b0a47c6e61b165ba1cfec717f2258.jpg" />
+								</div>
+								<h2><a href="javascript:">日式色织水洗棉四件套</a></h2>
+								<p>MUJI制造商</p>
+								<span>￥299</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/d7bee71204a1a5ba1d67b0a902c4d3bc.jpg" />
+								</div>
+								<h2><a href="javascript:">100年传世珐琅锅</a></h2>
+								<p>双立人制造商</p>
+								<span>￥268</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="p-commodity-info p-commodity-info1">
+					<div class="commodity  commodity1 commodity1-l fl">
+						<ul>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/3ee2f57d155d338697d65c3b728ae46a.jpg" />
+								</div>
+								<h2><a href="javascript:">明前特级西湖龙井 100克</a></h2>
+								<p>2016年明前龙井售完为止。新茶3月底上线！</p>
+								<span>￥188</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/8b767edf97cd3c1b36fe38f46c87c80c.jpg" />
+								</div>
+								<h2><a href="javascript:">不锈钢砂光保温壶</a></h2>
+								<p>现代美学，砂光质感</p>
+								<span>￥119</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+							<li class="l-clear-margin">
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/fedad33e713d8911723433522ae61fa5.jpg" />
+								</div>
+								<h2><a href="javascript:">恒温可调节电热水壶</a></h2>
+								<p>KitchenAid制造商</p>
+								<span>￥269</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="l-img-banner fr">
+						<img src="img/14889723899950081.jpg" />
+					</div>
+				</div>
+				<div class="p-commodity-info p-commodity-info1">
+					<div class="l-img-banner fl">
+						<img src="img/14889723946550082.jpg" />
+					</div>
+					<div class="commodity commodity1">
+						<ul>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/1196e467dd510df638598ff3a6644327.jpg" />
+								</div>
+								<h2><a href="javascript:">小耳朵单面绒卫衣（儿童）</a></h2>
+								<p>休闲上衣，萌动小耳朵</p>
+								<span>￥99</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/d5f0c3ce9b902280a3ad284c833f81c4.jpg" />
+								</div>
+								<h2><a href="javascript:">4条装 婴儿华夫格小方巾</a></h2>
+								<p>内野制造商</p>
+								<span>￥39</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+							<li>
+								<div class="img">
+									<a href="javascript:"></a>
+									<img src="img/e8d4117696aa1af433c8f4557c899451.jpg" />
+								</div>
+								<h2><a href="javascript:">儿童防走丢书包</a></h2>
+								<p>可爱造型，牵制防丢</p>
+								<span>￥69</span>
+								<div class="p-buy-cart">
+									<a class="buy" href="javascript:">立即购买</a>
+									<a class="cart" href="javascript:"></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="activity">
+				<img src="img/14889724318560083.jpg" />
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="f-top">
+				<div class="t-left fl">
+					<p class="tel-text">客服电话</p>
+					<p class="tel-num">400-0368-163</p>
+					<p class="server-time">9:00-22:00</p>
+					<div class="server-online">
+						<a href="javascript:">用户反馈</a>
+						<a href="javascript:">在线客服</a>
+					</div>
+				</div>
+				<div class="t-center fl">
+					<p class="why-choose">何为严选</p>
+					<p class="reason">网易原创生活类电商品牌，秉承网易一贯的严谨态度，我们深入世界各地，从源头全程严格把控商品生产环节，力求帮消费者甄选到优质的商品 </p>
+					<div class="focus-us">
+						<span>关注我们 :</span>
+						<i style="background:url(img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -6941px" href="javascript:"><img src="img/icon-1.png"/></i>
+						<i style="background:url(img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -6899px" href="javascript:"><img src="img/icon2.png"/></i>
+						<i style="background:url(img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -6857px" href="javascript:"></i>
+					</div>
+				</div>
+				<div class="t-right fl" style="border:0">
+					<p class="fs16">扫码下载严选APP</p>
+					<img src="img/app-code.png" alt="" />
+					<p class="fs10">首单立减8元</p>
+				</div>
+			</div>
+			<div class="f-bottom">
+				<div class="p-bottom-top">
+					<span style="background:url(img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -1953px">30天无忧退货</span>
+					<span style="background:url(img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -2014px">满88元免邮费</span>
+					<span style="margin:0;background:url(img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -2075px">网易品质保证</span>
+				</div>
+				<div class="p-bottom-b">
+					<div class="l fl">
+						<ul class="more-link">
+							<li><a href="javscript:">关于我们</a></li>
+							<span>|</span>
+							<li><a href="javscript:">帮助中心 </a></li>
+							<span>|</span>
+							<li><a href="javscript:">售后服务</a></li>
+							<span>|</span>
+							<li><a href="javscript:">配送与验收</a></li>
+							<span>|</span>
+							<li><a href="javscript:">商务合作</a></li>
+							<span>|</span>
+							<li><a href="javscript:"> 企业采购</a></li>
+							<span>|</span>
+							<li><a href="javscript:">友情链接</a></li>
+						</ul>
+						<p class="copyright">
+							网易公司版权所有&copy; 1997-2017 食品经营许可证：JY13301080111719
+						</p>
+					</div>
+					<a class="commerce-logo fr"></a>
+				</div>
+			</div>
+		</div>
+		<!--登陆面板-->
+		<div class="login-container">
+		</div>
+		<div class="login-panel">
+			<div class="p-login-title">
+				<h2>网易帐号登录</h2>
+				<i class="close-login"></i>
+			</div>
+			<div class="p-login-info">
+				<form action="" method="post">
+					<label for="">
+							<i class="user"></i>
+							<p class="placeholder">邮箱帐号</p>
+							<input class="user-info" type="text" name="" id="" value=""/>
+						</label>
+					<label for="">
+							<i class="psw"></i>
+							<p class="placeholder1">登陆密码</p>
+							<input class="user-psw" type="password" name="" id="" value=""/>
+						</label>
+
+					<input class="login-btn" type="button" value="登录" />
+
+				</form>
+				<p class="reg"><a class="forget-psd" href="javascript:">忘记密码？</a><a class="go-reg" href="javascript:">去注册</a></p>
+				<fieldset id="">
+					<legend>其他方式登录</legend>
+				</fieldset>
+				<p class="other-login">
+					<a class="weixin" href="javascript:"></a>
+					<a class="qq" href="javascript:"></a>
+					<a class="weibo" href="javascript:"></a>
+				</p>
+			</div>
+		</div>
+		<!--输入框验证-->
+		<script type="text/javascript">
+			$('.user-info').keydown(function(){
+				$('.placeholder').css('display','none');
+			});
+			$('.user-psw').keydown(function(){
+				$('.placeholder1').css('display','none');
+			});
+		</script>
+		script
+		<div class="side-bar">
+			<div class="pic"><img src="img/a488cb827d737c687752303a63c0f7ca.jpg" /></div>
+			<div class="down-loadapp">
+				<i></i>
+				<img src="img/QQ20170316094713.png" />
+				<p>下载APP</p>
+			</div>
+			<div class="online-server">
+				<i></i>
+				<p>在线客服</p>
+			</div>
+			<div class="to-top">
+				<i></i>
+				<p>回到顶部</p>
+			</div>
+		</div>
+		<!--回到顶部-->
+		<script type="text/javascript">
+			$(window).scroll(function() {
+				if ($(window).scrollTop() < 350) {
+					$('.to-top').css('display', 'none');
+				} else {
+					$('.to-top').css('display', 'block');
+				}
+			});
+			var timer = null;
+			$('.to-top').click(function() {
+				var speed = 86;
+				timer = setInterval(function() {
+					if ($(document).scrollTop() <= 0) {
+						$(document).scrollTop(0);
+						clearInterval(timer);
+						console.log($(document).scrollTop())
+					}
+					var dis = $(document).scrollTop() - speed;
+					$(document).scrollTop(dis);
+				}, 1);
+			});
+		</script>
+	</body>
+
+</html>

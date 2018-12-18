@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/head.css" />
+		<link rel="stylesheet" type="text/css" href="css/main1.css" />
+		<link rel="stylesheet" type="text/css" href="css/foot.css"/>
+		<!--<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>	-->
+		<script type="text/javascript" src="js/jquery.min.js">
+		</script>
+		<script type="text/javascript" src="js/main1.js">
+			
+		</script>
+	</head>
+
+	<body>
+		<div class="head">
+			<div class="top-nav">
+				<div class="t-con-nav">
+					<ul class="nav-left">
+						<li class="fl li1 lh30">好的生活，没那么贵</li>
+						<li class="fl li2 lh30"><a href="javascript:">1月5日起刀具类产品新疆地区不发货</a></li>
+					</ul>
+					<ul class="nav-right fr">
+						<li class="login li fl"><a href="javascript:" title="网易严选登陆">登录</a></li>
+						<li class="reg li fl"><a href="javascript:">注册</a></li>
+						<span class="fl">|</span>
+						<li class="li fl"><a href="javascript:">严选态度</a></li>
+						<span class="fl">|</span>
+						<li class="li fl"><a href="javascript:">企业采购</a></li>
+						<span class="fl">|</span>
+						<li class="custom-server li fl arrow-up"><a href="javascript:">客户服务</a>
+							<ul class="p-custom-server">
+								<li><a href="javascript:">帮助中心</a></li>
+								<span></span>
+								<li><a href="javascript:">的线客服</a></li>
+								<span></span>
+								<li class="p-tel"><a href="javascript:">电话客服</a>
+									<span class="arrow-right"></span>
+									<p class="tel">
+										<span>400-0368-763</span>
+										<span>9:00-22:00</span>
+									</p>
+								</li>
+								<span></span>
+								<li><a href="javascript:">商务合作</a></li>
+							</ul>
+						</li>
+						<span class="fl">|</span>
+						<li class="app-download li fl"><a href="javascript:">下载APP</a>
+							<div class="code">
+								<img src="img/code.png" alt="" />
+								<p>扫码下载 首单立减8元</p>
+							</div>
+						</li>
+					</ul>
+					<!--搜索框-->
+					<div class="search fr">
+						<a class="logo fl" href="../liu/index.html"></a>
+						<div class="s-search-info fr">
+							<form class="fl" action="" method="post">
+								<input class="input-text" type="text" placeholder="白色情人节礼物最高直降70" />
+								<input class="btn" type="submit" value="" />
+								<ul class="history-search-info">
+									<p>大家都在搜</p>
+									<li><a href="javascript:">丁磊推荐登机箱直降640</a></li>
+									<li><a href="javascript:">每满100减15</a></li>
+									<li><a href="javascript:">床品换新</a></li>
+									<li><a href="javascript:">保鲜</a></li>
+									<li><a href="javascript:">睡衣</a></li>
+								</ul>
+							</form>
+							<!--购物车-->
+							<p class="cart fr">
+								<a href="javascript:"></a>
+								<span>0</span>
+							</p>
+						</div>
+					</div>
+
+					<script>
+						$('.custom-server').hover(function() {
+							$(this).addClass('arrow-down');
+							$('.p-custom-server').css('display', 'block');
+						}, function() {
+							$(this).removeClass('arrow-down');
+							$('.p-custom-server').css('display', 'none');
+						});
+						$('.p-tel').hover(function() {
+							$('.tel').css('display', 'block');
+						}, function() {
+							$('.tel').css('display', 'none');
+						});
+						$('.app-download').hover(function() {
+							$('.code').css('display', 'block');
+						}, function() {
+							$('.code').css('display', 'none');
+						});
+						$('.input-text').focus(function() {
+							$('.history-search-info').css('display', 'block');
+						});
+						$('.input-text').blur(function() {
+							$('.history-search-info').css('display', 'none');
+						});
+					</script>
+				</div>
+			</div>
+			<!--底部导航菜单-->
+			<div class="bottom-nav">			
+				<ul class="p-bottom-nav">
+					<!--<p class="logo1 fl"></p>-->
+					<li class="p-bottom-item"><a href="../liu/index.html">首页</a></li>
+					<li class="has-child-nav p-bottom-item"><a href="javascript:">居家</a>
+					</li>
+					<li class="has-child-nav p-bottom-item"><a href="javascript:">餐厨</a></li>
+					<li class="has-child-nav p-bottom-item"><a href="javascript:">配件</a></li>
+					<li class="has-child-nav p-bottom-item"><a href="javascript:">服装</a></li>
+					<li class="has-child-nav p-bottom-item"><a href="javascript:">洗护</a></li>
+					<li class="has-child-nav p-bottom-item"><a href="javascript:">婴童</a></li>
+					<li class="has-child-nav p-bottom-item"><a href="javascript:">杂货</a></li>
+					<li class="has-child-nav p-bottom-item"><a href="javascript:">饮食</a></li>
+					<li class="has-child-nav p-bottom-item"><a href="javascript:">其他</a></li>
+					<!--<div class="login1 fr">
+						<a href="javascript:">登陆</a>
+						<a href="javascript:">注册</a>
+						<a class="cart1" href="javascript:"><span>0</span></a>
+					</div>-->
+					<li class="del1 p-bottom-item" style="border-left:1px solid #ccc"><a href="javascript:">专题</a></li>
+					<li class="del2 p-bottom-item"><a href="javascript:">甄选家</a></li>
+				</ul>
+				<div class="p-child-nav">
+					<ul>
+						<li><img src="img/927bc33f7ae2895dd6c11cf91f5e3228.png" />
+							<p><a href="javascript:">被枕</a></p>
+						</li>
+						<li><img src="img/243e5bf327a87217ad1f54592f0176ec.png" />
+							<p><a href="javascript:">床品件套</a></p>
+						</li>
+						<li><img src="img/316afeb3948b295dfe073e4c51f77a42.png" />
+							<p><a href="javascript:">床垫</a></p>
+						</li>
+						<li><img src="img/4f00675caefd0d4177892ad18bfc2df6.png" />
+							<p><a href="javascript:">地垫</a></p>
+						</li>
+						<li><img src="img/4f00675caefd0d4177892ad18bfc2df6.png" />
+							<p><a href="javascript:">家具</a></p>
+						</li>
+						<li><img src="img/8bbcd7de60a678846664af998f57e71c.png" />
+							<p><a href="javascript:">舒坐</a></p>
+						</li>
+						<li><img src="img/c48e0d9dcfac01499a437774a915842b.png" />
+							<p><a href="javascript:">灯具</a></p>
+						</li>
+						<li style="margin:0"><img src="img/ab0df9445d985bf6719ac415313a8e88.png" />
+							<p><a href="javascript:">家饰</a></p>
+						</li>
+					</ul>
+				</div>
+				<div class="p-child-nav">
+					<ul>
+						<li><img src="img/4aab4598017b5749e3b63309d25e9f6b.png" />
+							<p><a href="javascript:">锅具</a></p>
+						</li>
+						<li><img src="img/9d481ea4c2e9e6eda35aa720d407332e.png" />
+							<p><a href="javascript:">刀铲</a></p>
+						</li>
+						<li><img src="img/22db4ccbf52dc62c723ac83aa587812a.png" />
+							<p><a href="javascript:">功能厨具</a></p>
+						</li>
+						<li><img src="img/f109afbb7e7a00c243c1da29991a5aa3.png" />
+							<p><a href="javascript:">餐具</a></p>
+						</li>
+						<li><img src="img/0b244d3575b737c8f0ed7e84c5c4abd2.png" />
+							<p><a href="javascript:">杯壶</a></p>
+						</li>
+						<li><img src="img/9ea192cd2719c8348f42ec17842ba763.png" />
+							<p><a href="javascript:">茶具</a></p>
+						</li>
+						<li><img src="img/dc4d6c35b9f4abb42d2eeaf345710589.png" />
+							<p><a href="javascript:">置物保鲜</a></p>
+						</li>
+						<li><img src="img/e8b67fe8b8db2ecc2e126a0aa631def0.png" />
+							<p><a href="javascript:">清洁</a></p>
+						</li>
+						<li style="margin:0"><img src="img/521bd0c02d283b80ba49e73ca84df250.png" />
+							<p><a href="javascript:">厨房电器</a></p>
+						</li>
+					</ul>
+				</div>
+				<div class="p-child-nav">
+					<ul>
+						<li><img src="img/3050a2b3052d766c4b460d4b766353a3.png" />
+							<p><a href="javascript:">功能箱包</a></p>
+						</li>
+						<li><img src="img/5197c44b610d786796f955334b55c7a5.png" />
+							<p><a href="javascript:">双肩包</a></p>
+						</li>
+						<li><img src="img/2f71c7710f0bf857e787e1adb449c8a2.png" />
+							<p><a href="javascript:">单肩包</a></p>
+						</li>
+						<li><img src="img/4316c2d05745bc90d1f333e363e571bd.png" />
+							<p><a href="javascript:">鞋</a></p>
+						</li>
+						<li><img src="img/868c2a976719cd508e9ddf807167a446.png" />
+							<p><a href="javascript:">靴</a></p>
+						</li>
+						<li><img src="img/1121696544ed9b0c2a70e82f1088fa0e.png" />
+							<p><a href="javascript:">拖鞋</a></p>
+						</li>
+						<li><img src="img/3a8c7ae5b9dc5c1c4b7f2b656abb0279.png" />
+							<p><a href="javascript:">围巾件套</a></p>
+						</li>
+						<li style="margin:0"><img src="img/d835a76e56a88905194f543b67089b4b.png" />
+							<p><a href="javascript:">配饰</a></p>
+						</li>
+					</ul>
+				</div>
+				<div class="p-child-nav">
+					<ul>
+						<li><img src="img/364269344ed69adafe1b70ab7998fc50.png" />
+							<p><a href="javascript:">内裤</a></p>
+						</li>
+						<li><img src="img/20279e1753e4eedc6e347857acda9681.png" />
+							<p><a href="javascript:">内衣</a></p>
+						</li>
+						<li><img src="img/f123c74f54d9acff0bd1546c60034814.png" />
+							<p><a href="javascript:">袜子</a></p>
+						</li>
+						<li><img src="img/883d89e54a9287569a201eca388a7cda.png" />
+							<p><a href="javascript:">外衣</a></p>
+						</li>
+						<li><img src="img/71f391af17fce739a6a57a1eeadbcbf0.png" />
+							<p><a href="javascript:">家居服</a></p>
+						</li>
+						<li><img src="img/94aa4a4814e2a7a97639438f1d52dcee.png" />
+							<p><a href="javascript:">衬衫</a></p>
+						</li>
+						<li style="margin:0"><img src="img/24a7a33cfeac0bb87a737480db79e053.png" />
+							<p><a href="javascript:">T恤</a></p>
+						</li>
+					</ul>
+				</div>
+				<div class="p-child-nav">
+					<ul>
+						<li><img src="img/44ad9a739380aa6b7cf956fb2a06e7a7.png" />
+							<p><a href="javascript:">毛巾</a></p>
+						</li>
+						<li><img src="img/d43e7af0a6a9385d88be2ca1df679158.png" />
+							<p><a href="javascript:">香薰</a></p>
+						</li>
+						<li><img src="img/aa49c088f74a1c318f1765cc2703495a.png" />
+							<p><a href="javascript:">美妆</a></p>
+						</li>
+						<li><img src="img/f73df75f334126cf1f3823696ea0663c.png" />
+							<p><a href="javascript:">面部护理</a></p>
+						</li>
+						<li><img src="img/672ddbed88d9762d2be789080880b16a.png" />
+							<p><a href="javascript:">护发</a></p>
+						</li>
+						<li><img src="img/e071686c212e93aa2fcafd0062a9c613.png" />
+							<p><a href="javascript:">日用清洁</a></p>
+						</li>
+						<li style="margin:0"><img src="img/1a851b2b3c9e16bdfd020a5fc03e9140.png" />
+							<p><a href="javascript:">用具</a></p>
+						</li>
+					</ul>
+				</div>
+				<div class="p-child-nav">
+					<ul>
+						<li><img src="img/4e50f3c4e4d0a64cd0ad14cfc0b6bd17.png" />
+							<p><a href="javascript:">服饰</a></p>
+						</li>
+						<li><img src="img/720aebaa529df9391b95a078dfb2fd5c.png" />
+							<p><a href="javascript:">妈咪</a></p>
+						</li>
+						<li><img src="img/0f3c5ad63139096fd0760219e12149af.png" />
+							<p><a href="javascript:">寝居</a></p>
+						</li>
+						<li><img src="img/7aac7c5819f71345a52a4b9df23d6239.png" />
+							<p><a href="javascript:">玩具</a></p>
+						</li>
+						<li><img src="img/6d6df260e21b75ae2b57e97419ef989d.png" />
+							<p><a href="javascript:">用品</a></p>
+						</li>
+						<li style="margin:0"><img src="img/5db40a5bf84c177515610471d4d08687.png" />
+							<p><a href="javascript:">喂养</a></p>
+						</li>
+					</ul>
+				</div>
+				<div class="p-child-nav">
+					<ul>
+						<li><img src="img/e1743239e41ca9af76875aedc73be7f0.png" />
+							<p><a href="javascript:">文具</a></p>
+						</li>
+						<li><img src="img/fdc048e1bf4f04d1c20b32eda5d1dc6e.png" />
+							<p><a href="javascript:">收纳</a></p>
+						</li>
+						<li><img src="img/b29a11afa76b9f4a57131555f1a54c77.png" />
+							<p><a href="javascript:">旅行</a></p>
+						</li>
+						<li><img src="img/4e929a21baebdb1200361d8097e35e45.png" />
+							<p><a href="javascript:">雨具</a></p>
+						</li>
+						<li><img src="img/71feb3efd3eaee01a74e8aa78430de9d.png" />
+							<p><a href="javascript:">唱片</a></p>
+						</li>
+						<li style="margin:0"><img src="img/9b93e661ff59cbda6094e8b30a63724e.png" />
+							<p><a href="javascript:">口罩</a></p>
+						</li>
+					</ul>
+				</div>
+				<div class="p-child-nav">
+					<ul>
+						<li><img src="img/93168242df456b5f7bf3c89653b3db76.png" />
+							<p><a href="javascript:">糕点</a></p>
+						</li>
+						<li><img src="img/663f568475c994358bf31bcb67d122fe.png" />
+							<p><a href="javascript:">小食</a></p>
+						</li>
+						<li><img src="img/60f4ae2beef4754347fa36208f84efab.png" />
+							<p><a href="javascript:">果干</a></p>
+						</li>
+						<li><img src="img/6c43063003207168c1d8e83a923e8515.png" />
+							<p><a href="javascript:">炒货</a></p>
+						</li>
+						<li><img src="img/2919b0d6eec79182cca31dc827f4d00a.png" />
+							<p><a href="javascript:">冲饮</a></p>
+						</li>
+						<li><img src="img/0c5af0575176c4a3023783bef7a87a0f.png" />
+							<p><a href="javascript:">茗茶</a></p>
+						</li>
+						<li style="margin:0"><img src="img/e050980992725b7932bb3645fe5aec08.png" />
+							<p><a href="javascript:">食材</a></p>
+						</li>
+					</ul>
+				</div>
+				<div class="p-child-nav">
+					<ul>
+						<li><img src="img/da884ff3b9e9d5276986c99e85722461.png" />
+							<p><a href="javascript:">日本</a></p>
+						</li>
+						<li><img src="img/e7b37b1ed5c18d63dc3e6c3f1aa85d8a.png" />
+							<p><a href="javascript:">节日礼盒</a></p>
+						</li>
+						<li><img src="img/a0352c57c60ce4f68370ecdab6a30857.png" />
+							<p><a href="javascript:">宠物</a></p>
+						</li>
+						<li><img src="img/3ec003761d346bc866de2ec249d7ff19.png" />
+							<p><a href="javascript:">数码</a></p>
+						</li>
+						<li><img src="img/83d22ca3d1c8f94ee23ca96de489864c.png" />
+							<p><a href="javascript:">户外</a></p>
+						</li>
+						<li><img src="img/b5e9f174404ef81b8603d6ecc304c62e.png" />
+							<p><a href="javascript:">夏日甜心</a></p>
+						</li>
+						<li style="margin:0"><img src="img/bb9232716b2fc96d9bdbac4955360dfa.png" />
+							<p><a href="javascript:">礼品卡</a></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<script type="text/javascript">
+				
+				$('.p-bottom-nav .has-child-nav').on('mouseenter', function() {
+					if ($(window).scrollTop() < 173) {
+						$('.p-child-nav').css('display', 'none');
+						$('.p-child-nav').eq($(this).index() - 1).css('display', 'block');
+					} else {
+						$('.p-child-nav').css('display', 'none');
+						$('.p-child-nav').eq($(this).index() - 2).css('display', 'block');
+					}
+				});
+				$('.p-bottom-nav .has-child-nav').on('mouseleave', function() {
+					$('.p-child-nav').css('display', 'none');
+				});
+				$('.p-child-nav').on('mouseenter', function() {
+					$('.p-child-nav').css('display', 'none');
+					$(this).css('display', 'block');
+				});
+				$('.p-child-nav').on('mouseleave', function() {
+					$('.p-child-nav').css('display', 'none');
+				});
+			</script>
+			<script type="text/javascript">
+				var flag = true;
+				$(window).scroll(function() {
+					if ($(window).scrollTop() > 173) {
+						if (flag) {
+							$('.bottom-nav').css('box-shadow', '0 3px 3px 0 rgba(0,0,0,.2)');
+							$('.bottom-nav').css('top', 0);
+							$('.bottom-nav').css('position', 'fixed');
+							$('.bottom-nav .del1').remove();
+							$('.bottom-nav .del2').remove();
+							$p = $('<p class="logo1 fl"></p>');
+							$divLogin = $('<div class="login1 fr"><a href="javascript:">登陆</a><a href="javascript:">注册</a><a class="cart1" href="javascript:"><span>0</span></a></div>');
+							$('.bottom-nav .p-bottom-nav').prepend($p);
+							$('.bottom-nav .p-bottom-nav').append($divLogin);
+							$('.bottom-nav .p-bottom-item').css('padding', '0 20px');
+							flag = false;
+						}
+					} else {
+						if (!flag) {
+							$('.bottom-nav').css('box-shadow', '');
+							$('.bottom-nav').css('top', 173);
+							$('.bottom-nav').css('position', 'absolute');
+							$('.p-bottom-nav .login1').remove();
+							$('.p-bottom-nav .logo1').remove();
+							$del1 = $('<li class="del1"  style="border-left:1px solid #ccc"><a href="javascript:">专题</a></li>');
+							$del2 = $('<li class="del2"><a href="javascript:">甄选家</a></li>');
+							$('.bottom-nav .p-bottom-nav').append($del1);
+							$('.bottom-nav .p-bottom-nav').append($del2);
+							$('.bottom-nav .p-bottom-item').css('padding', '0 30px');
+							flag = true;
+						}
+					}
+				});
+			</script>
+		</div>
+		<div class="hit-top"></div>
+		<div class="main-page">
+			<div class="p-page-left fl">
+				<ul class="tip-nav-bar">
+					<li class="showdialog">常见问题</li>
+					<li class="has-moresub-info">配送与验收<i class="arrow-down"></i></li>								
+					<div>
+						<p class="showdialog">发货时间</p>
+						<p class="showdialog">配送范围及费用</p>
+						<p class="showdialog">商品验货及签收</p>					
+					</div>
+					<li class="has-moresub-info">售后服务<i class="arrow-down"></i></li>
+					<div>
+						<p class="showdialog"> 退货政策</p>
+						<p class="showdialog">退货流程</p>
+						<p class="showdialog">退货地址</p>
+						<p class="showdialog">退货运费</p>
+						<p class="showdialog">退款说明</p>
+						<p class="showdialog">发票常见问题</p>
+					</div>
+					<li class="has-moresub-info">优惠券<i class="arrow-up"></i></li>
+					<div>
+						<p class="showdialog">获取途径</p>
+						<p class="showdialog"> 使用规则</p>
+					</div>
+					<li class="has-moresub-info">礼品卡<i class="arrow-down"></i></li>
+					<div>
+						<p class="showdialog">使用规则</p>
+						<p class="showdialog">常见问题</p>
+						<p class="showdialog">礼品卡章程</p>
+					</div>
+					<li class="showdialog">服务协议</li>
+					<li class="showdialog">商务合作</li>
+					<li class="showdialog">隐私政策</li>
+					<li class="has-moresub-info">会员制度<i class="arrow-down"></i></li>
+					<div>
+						<p class="showdialog">会员等级</p>
+						<p class="showdialog">会员特权</p>
+						<p class="showdialog">会员成长值</p>
+						<p class="showdialog">企业员工</p>
+					</div>
+					<li class="has-moresub-info">公告通知<i class="arrow-down"></i></li>
+					<div>
+						<p class="showdialog">国庆期间部分商品延迟发货公告</p>
+					</div>
+					<li class="has-moresub-info" style="border-bottom:0;">甄选家<i class="arrow-down"></i></li>
+					<div>
+						<p class="showdialog">常见问题</p>
+					</div>
+				</ul>
+			</div>
+			<div class="p-page-right fl">
+				<div class="box">
+					<h2>常见问题</h2>
+					<div class="con">
+						<p class="ask">1.问：网易严选的商品都是正品吗？</p>
+						<p class="answer">答：网易严选秉承网易一贯的严谨态度，对商品的产地、工艺、原材料都严格把关，力求帮消费者甄选到最优质的商品，您可以放心选购。</p>
+						<p class="ask">2.问：严选用什么快递？</p>
+						<p class="answer">答：一般情况下，我们采用顺丰快递，部分地区（内蒙古（除包头市），湖北，西藏）包裹可能使用EMS快递，暂不支持自选快递。</p>
+						<p class="ask">3.问：我的包裹多长时间能送到？</p>
+						<p class="answer">答：我们会在订单支付成功后1-3天内发货（节假日顺延，部分特殊商品七天内发货），送达时间视快递配送时间而定。</p>
+						<p class="ask">4.问：如何免运费？</p>
+						<p class="answer">答：对于单笔所购商品总价金额（不含运费）大于或等于88元，我们提供一次免费送货服务。</p>
+						<p class="ask">5.问：订单生成后我需要在多长时间内支付货款？</p>
+						<p class="answer">答：下单后我们会为您保留1小时，为确保订单的有效性，需要您在1小时内完成支付；订单不可修改或合并。</p>
+						<p class="ask">6.问：在线支付已经成功，为什么我的订单状态还是显示“待付款”？</p>
+						<p class="answer">答：一般来说，网上支付是即时到账的。但有时因为网络原因，可能会有几分钟的延迟，请您耐心等待，并及时查询您的银行卡账户余额，如果费用已扣，但订单状态依然是“等待付款”，请联系客服处理。</p>
+						<p class="ask">7.问：实物与图片有色差吗？</p>
+						<p class="answer">答：网易严选中的商品照片均以实物拍摄，颜色经设计师校对，由于不同的电脑显示器、光线、亮度都有差异，造成轻微色差难以避免。</p>
+						<p class="ask">8.问：多长时间内可以为我购买的商品索取发票？我该怎么索取？</p>
+						<p class="answer">答：在您购买商品1个月内（以支付时间计算），可以通过在线客服联系我们，为该商品索取发票。<br>
+　　申请发票需提供以下信息：订单号、联系人、联系方式、联系地址、发票抬头、开票金额、开票内容（按照对应类别或明细开具）；如需开具增值税专用发票请您再提供纳税人识别号、开户银行及账号、公司地址，严选会在收到信息后7-15个工作日开具好发票并以顺丰快递为您寄出，如遇到任何问题均可联系客服协助解决。</p>
+						<p class="ask">9.问：客服的联系方式是什么？</p>
+						<p class="answer">答：您可以通过在线客服和电话联系客服。<br>
+　　客服电话: 400-0368-163</p>
+						<p class="ask">10.问：使用优惠券后，订单中单个商品实际支付的价格怎么计算的？</p>
+						<p class="answer">答：订单中使用过的优惠券金额将按比例摊分到每件商品上，您是根据"券后结算价"来支付的。<br>
+
+例如：若订单中包含价格70元的商品A，价格30元的商品B，此单中用了10元优惠券（该券均适用A、B）。那么商品A上被摊分的金额等于：10（现金券金额）/100（订单总额）*70（商品A 的价格）=7元。因此商品A的实际支付价格为63元，若商品A发生退货，则退款金额也为63元。</p>
+						<p class="ask">11.问：退货时，商品的退款是怎么计算的？</p>
+						<p class="answer">答：按照实际支付货款退还。若您在该订单中使用过优惠券，则该优惠券不予返还，并按 "券后结算价"为商品退款。</p>
+						<p class="ask">12.问：在哪里查看我的优惠券？</p>
+						<p class="answer">答：登录网易严选，在“个人中心-优惠券”中可查看您的优惠券，包括未使用、已使用、未过期优惠券。</p>
+					</div>
+				</div>
+				<div class="box">
+					<h2>发货时间</h2>
+					<div class="con">
+						<ul class="delivery-time">
+							<li>1）我们会在订单支付成功后1-3天内发货（节假日顺延，部分特殊商品七天内发货），送达时间视快递配送时间而定</li>
+							<li>2）如遇不可抗力因素，配送到达时间可能略有延迟。</li>
+							<li>3）由于商品存放仓库位置不同，一个订单中的商品可能会被拆分为多个包裹配送。不同的包裹配送时间会略有不同。</li>
+							<li>4）包裹发出后，系统将物流信息更新至顾客的订单信息中，顾客可通过“个人中心－订单管理”追踪包裹。</li>
+						</ul>
+					</div>
+				</div>
+				<div class="box">
+					<h2>配送范围及费用</h2>
+					<div class="con">
+						<div class="scole-cost">
+							<p>配送范围</p>
+							<p>网易严选配送范围覆盖全国大部分地区（港澳台地区除外）。</p>
+						</div>
+						<div class="scole-cost">
+							<p>配送费用</p>
+							<p>对于单笔所购商品总价金额（不含运费）大于或等于88元，提供一次免费送货服务；若消费金额不满88元，每单将收取10元运费。</p>
+						</div>
+					</div>
+				</div>
+				<div class="box">
+					<h2>商品验货与签收</h2>
+					<div class="con">
+						<div class="commodity-sign">
+							<p>网易严选保证出货时货物外包装的完好无缺。为了保证顾客的利益，请顾客在收到货物时务必验货，请拆开包装箱，确认货品完好无损后再签收。如果发现货物在运输途中有破损，顾客有权拒收，在快递单上写明拒收原因，请配送人员退回。若签收后且配送人员已离开现场，发现有货物损坏，网易严选概不负责。</p>
+							<p>若发现商品有缺件或丢件，请在签收时间24小时内联系客服处理。超过24小时，网易严选概不负责。</p>
+						</div>						
+					</div>
+				</div>
+				<div class="box">
+					<h2>退货政策</h2>
+					<div class="con">
+						<div class="returns-policy">
+							<p class="title">（一）网易严选严格遵循国家《三包》法规，对所售商品履行退货义务，如符合以下条件，自顾客收到商品起30日内可退货：</p>
+							<p class="item">A：商品出现国家《三包》法规中所规定的非人为质量问题；</p>
+							<p class="item">B：商品有完整的外包装，无包装破损，不影响二次销售。商品及其标配配件、赠品（如购买时有赠品）、说明书、保修凭证和发票均齐全（如申请退货的商品为成套商品中的一个商品如礼盒、礼包，则需退此整套商品）；</p>
+							<p class="item">C：所有退货经过严选客服中心确认后即可办理，如果商品存在质量问题，请务必说明原因。未与严选客服中心确认之前自行退回的商品将无法受理；</p>
+							<p class="item">D：如需退货，请在收到商品后30天内联系客服。</p>													
+						</div>
+						<div class="returns-policy">
+							<p class="title">（二）以下情况无法提供退货服务：</p>
+							<p class="item">A：任何非网易严选出售的商品；</p>
+							<p class="item">B：无质量问题且外包装已拆无法复原，影响二次销售；</p>
+							<p class="item">C：出于顾客健康安全的考虑，美护、食品、保健品、内衣、泳装、贴身裤袜等涉及个人卫生的产品一经开封如无质量问题，不支持退货；</p>
+							<p class="item">D：商品外包装不完整或损坏，商品不完整，标配配件、赠品（如购买时有赠品）或说明书不完整，保修凭证和发票任一缺失或涂改，保修凭证上的商品型号或序列号与商品实物不符；</p>
+							<p class="item">E：超过国家《三包》法规中规定的退货有效期；</p>
+							<p class="item">F：促销时标注的不可退货的商品；</p>
+							<p class="item">G：消费者定制类商品；</p>
+							<p class="item">H：购买的礼品卡已激活绑定；</p>
+							<p class="item">I：无质量问题的生鲜产品。</p>
+						</div>
+						<div class="returns-policy">
+							<p class="title">（三）温馨提示：</p>
+							<p class="item">A：网易严选保证出货时货物外包装的完好无缺。为了保证顾客的利益，请顾客在收到货物时务必验货，请拆开包装箱，确认货品完好无损后再签收。如果发现货物在运输途中有破损，顾客有权拒收，在快递单上写明拒收原因，请配送人员退回。若签收后且配送人员已离开现场，顾客发现有货物损坏，网易严选概不负责；</p>
+							<p class="item">B：顾客在退还货品的途中，有责任保证所退还货品的安全及完整，如退还途中出现丢包、损坏（影响二次销售的），责任由顾客承担；</p>
+							<p class="item">C：网易严选收到发生退货的商品包裹后，会对退回的商品进行质检，确认商品及外包装无损后，再进行退款操作。</p>
+							<p class="item">D：申请退货后，订单内剩余商品不满足赠品获取条件时，网易严选有权利要求顾客退回赠品，若赠品丢失或者破损，网易严选将按照赠品价值在退款中扣取相关费用。</p>
+						</div>
+					</div>
+				</div>
+				<div class="box">
+					<h2>退货流程</h2>
+					few
+				</div>
+				<div class="box">
+					<h2>退货地址</h2>
+					few
+				</div>
+				<div class="box">
+					<h2>退货运费</h2>
+					few
+				</div>
+				<div class="box">
+					<h2>退款说明</h2>
+					few
+				</div>
+				<div class="box">
+					<h2>发票常见问题</h2>
+					few
+				</div>
+				<div class="box" style="display:block">
+					<h2>获取途径</h2>
+					<p class="p-inner">站内：通过活动赠送、客服补偿等获得（系统自动添加，无需兑换）；</p>
+					<p class="p-outer">站外：通过外部合作渠道获得的优惠券优惠码，在“个人中心-优惠券”找到优惠码输入框，输入获得的优惠码即可兑换（参见优惠码使用说明，请在有效期内兑换）。</p>
+				</div>
+				<div class="box">
+					<h2>使用规则</h2>
+					few
+				</div>
+				<div class="box">
+					<h2>使用规则</h2>
+					few
+				</div>
+				<div class="box">
+					<h2>常见问题</h2>
+					few
+				</div>
+				<div class="box">
+					<h2>礼品卡章程</h2>
+					few
+				</div>
+				<div class="box">
+					<h2>网易严选服务协议</h2>
+					few
+				</div>
+				<div class="box">
+					<h2>商务合作</h2>
+					few
+				</div>
+				<div class="box">
+					<h2>隐私政策</h2>
+					few
+				</div>
+				<div class="box">
+					<h2>会员等级</h2>
+					few
+				</div>
+				<div class="box">
+					<h2>会员特权</h2>
+					few
+				</div>
+				<div class="box">
+					<h2>会员成长值</h2>
+					few
+				</div>
+				<div class="box">
+					<h2>企业员工</h2>
+					few
+				</div>
+				<div class="box">
+					<h2>国庆期间部分商品延迟发货公告</h2>
+					few
+				</div>
+				<div class="box">
+					<h2>甄选家常见问题</h2>
+					few
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="f-top">
+				<div class="t-left fl">
+					<p class="tel-text">客服电话</p>
+					<p class="tel-num">400-0368-163</p>
+					<p class="server-time">9:00-22:00</p>
+					<div class="server-online">
+						<a href="javascript:">用户反馈</a>
+						<a href="javascript:">在线客服</a>
+					</div>
+				</div>
+				<div class="t-center fl">
+					<p class="why-choose">何为严选</p>
+					<p class="reason">网易原创生活类电商品牌，秉承网易一贯的严谨态度，我们深入世界各地，从源头全程严格把控商品生产环节，力求帮消费者甄选到优质的商品 </p>
+					<div class="focus-us">
+						<span>关注我们 :</span>
+						<i style="background:url(img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -6941px" href="javascript:"><img src="img/icon-1.png"/></i>
+						<i style="background:url(img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -6899px" href="javascript:"><img src="img/icon2.png"/></i>
+						<i style="background:url(img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -6857px" href="javascript:"></i>
+					</div>					
+				</div>
+				<div class="t-right fl" style="border:0">
+					<p class="fs16">扫码下载严选APP</p>
+					<img src="img/app-code.png" alt="" />
+					<p class="fs10">首单立减8元</p>
+				</div>
+			</div>
+			<div class="f-bottom">
+				<div class="p-bottom-top">
+					<span style="background:url(img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -1953px">30天无忧退货</span>
+					<span style="background:url(img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -2014px">满88元免邮费</span>
+					<span style="margin:0;background:url(img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -2075px">网易品质保证</span>
+				</div>
+				<div class="p-bottom-b">
+					<div class="l fl">
+						<ul class="more-link">
+							<li><a href="javscript:">关于我们</a></li>
+							<span>|</span>
+							<li><a href="javscript:">帮助中心 </a></li>
+							<span>|</span>
+							<li><a href="javscript:">售后服务</a></li>
+							<span>|</span>
+							<li><a href="javscript:">配送与验收</a></li>
+							<span>|</span>
+							<li><a href="javscript:">商务合作</a></li>
+							<span>|</span>
+							<li><a href="javscript:"> 企业采购</a></li>
+							<span>|</span>
+							<li><a href="javscript:">友情链接</a></li>
+						</ul>
+						<p class="copyright">
+							网易公司版权所有&copy; 1997-2017   食品经营许可证：JY13301080111719 
+						</p>
+					</div>					
+					<a class="commerce-logo fr"></a>
+				</div>
+			</div>
+		</div>
+		<!--<div class="side-bar">
+			<div class="pic"><img src="img/a488cb827d737c687752303a63c0f7ca.jpg"/></div>
+			<div class="down-loadapp">
+				<i></i>
+				<img src="img/QQ20170316094713.png"/>
+				<p>下载APP</p>
+			</div>
+			<div class="online-server">
+				<i></i>
+				<p>在线客服</p>
+			</div>
+			<div class="to-top">
+				<i></i>
+				<p>回到顶部</p>
+			</div>
+		</div>-->
+		<!--回到顶部-->
+		<script type="text/javascript">
+			$(window).scroll(function(){
+				if($(window).scrollTop()<350){
+						$('.to-top').css('display','none');
+					
+				}
+				else{	
+					$('.to-top').css('display','block');
+				}
+			});
+			var timer=null;
+			$('.to-top').click(function(){
+				
+				var speed=6;
+				
+				timer=setInterval(function(){
+					if($(document).scrollTop()<=0){
+						$(document).scrollTop(0);
+						
+						clearInterval(timer);
+						console.log($(document).scrollTop())
+					}
+					var dis=$(document).scrollTop()-speed;
+					$(document).scrollTop(dis);
+					
+					
+				},1);
+				
+			});
+		</script>
+	</body>
+
+</html>

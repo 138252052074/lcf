@@ -1,0 +1,171 @@
+.big_bg{
+	/*clear: both;*/
+	height: 600px;
+	background-size: 100% 600px;
+	background: url(../img/login/bg-3e7f5d5d04.jpg) no-repeat;
+	position: relative;
+}
+.login{
+	width: 320px;
+	height: 400px;
+	background: #fff;
+	position: absolute;
+	padding: 35px;
+	right: 5%;
+	top: 50px;
+}
+.login h3{
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+	margin-left: 50px;
+	margin-bottom: 30px;
+}
+.login form .user_input #email,.login form .pwd_input #pwd{
+	width: 250px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #e8e8e8;
+	margin-bottom: 10px;
+	padding-left: 50px;
+	color: #666;
+}
+.login form .user_input,.login form .pwd_input{
+	position: relative;
+}
+.login form .user_input span.email_icon{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/login/d6bd29fcf2096cb4c5d338e0fce13919.png);
+	position: absolute;
+	left: 13px;
+	top: 12px;
+}
+.login form .user_input i.close_email{
+	display: none;
+	width: 17px;
+	height: 16px;
+	background: url(../img/login/close.png) no-repeat -148px -91px;
+	position: absolute;
+	right: 30px;
+	top: 14px;
+}
+.login form .pwd_input i.close_pwd{
+	display: none;
+	width: 17px;
+	height: 16px;
+	background: url(../img/login/close.png) no-repeat -148px -91px;
+	position: absolute;
+	right: 30px;
+	top: 14px;
+}
+.login form .user_input i:hover,.login form .pwd_input i:hover{
+	cursor: pointer;
+}
+.login form .pwd_input span.pwd_icon{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/login/178e29b95f152a8aa6490f4f7032a8e8.png);
+	position: absolute;
+	left: 13px;
+	top: 12px;
+}
+.login form a{
+	display: block;
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: #b4a078;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 3px;
+	margin: 30px 0 20px;
+}
+#please{
+	display: none;
+}
+#please i{
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	background: url(../img/index/header/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -153px;
+	vertical-align: middle;
+}
+#please b{
+	color: #d4282d;
+}
+.login .forget{
+	width: 300px;
+}
+.login .forget a{
+	color: #666;
+}
+.login .forget a:hover{
+	color: #B3A07D;
+}
+.login_methor{
+	clear: both;
+}
+.login_methor fieldset{
+	width: 300px;
+	height: 100px;
+}
+.otip{
+	height: 20px;
+	line-height: 20px;
+	margin: 10px 0;
+	text-align: center;
+}
+.login_methor{
+	width: 275px;
+	margin: 0 auto;
+}
+.l_wechat,.l_qq,.l_sina{
+	width: 29px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	margin: 0 30px;
+}
+.l_wechat span{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url(../img/index/header/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -6676px;
+}
+.l_qq span{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url(../img/index/header/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -6470px;
+}
+.l_sina span{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url(../img/index/header/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -6572px;
+}
+.l_wechat:hover,.l_qq:hover,.l_sina:hover{
+	color: #B3A07D;
+	cursor: pointer;
+}
+.l_wechat:hover span{
+	background: url(../img/index/header/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -6611px;
+	cursor: pointer;
+}
+.l_qq:hover span{
+	background: url(../img/index/header/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -6405px;
+	cursor: pointer;
+}
+.l_sina:hover span{
+	background: url(../img/index/header/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -6509px;
+	cursor: pointer;
+}
+
+
+
+
+

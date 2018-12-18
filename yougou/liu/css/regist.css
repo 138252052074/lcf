@@ -1,0 +1,180 @@
+#wangyi_core{
+	width: 100%;
+	background: #efefef;
+}
+#wangyi_core .hd{
+	width: 1000px;
+	margin: 0 auto;
+}
+#wangyi_core .hd .logo{
+	float: left;
+	width: 300px;
+	height: 60px;
+	background: url(../img/regist/sprite.png) no-repeat -50px -18px;
+	margin-top: 35px;
+}
+#wangyi_core .hd .has{
+	float: right;
+	margin-top: 60px;
+	font-size: 18px;
+}
+#wangyi_core .hd .has a{
+	color: #D4282D;
+}
+#wangyi_core #reg{
+	width: 1000px;
+	height: 900px;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 5px;
+	margin-top: 40px;
+	box-shadow: 0 3px 3px #cbc9c9;
+}
+#wangyi_core #reg .top_tit{
+	padding: 50px 70px 0;
+	color: #D4282D;
+	font-size: 24px;
+	margin-bottom: 60px;
+}
+#wangyi_core #reg form>div{
+	margin-bottom: 20px;
+}
+#wangyi_core #reg form div label{
+	display: inline-block;
+	width: 340px;
+	text-align: right;
+	font-size: 16px;
+	color: #333;
+	vertical-align: middle;
+}
+#wangyi_core #reg form div input{
+	width: 320px;
+	height: 44px;
+	line-height: 44px;
+	padding-left: 5px;
+	color: #999;
+	font-size: 16px;
+	border: 1px solid #e8e8e8;
+	vertical-align: middle;
+}
+#wangyi_core #reg form div div.yzm_txt{
+	display: inline-block;
+	width: 320px;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 5px;
+	color: #999;
+	text-align: center;
+	border: 1px solid #e8e8e8;
+	border-radius: 25px;
+	vertical-align: middle;
+}
+#wangyi_core #reg form div.find{
+	margin-left: 345px;
+}
+#wangyi_core #reg form div.find a{
+	color: #4cc5ff;
+}
+#wangyi_core #reg form div input.message{
+	width: 190px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+#wangyi_core #reg form div .get_message{
+	display: inline-block;
+	width: 120px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+	border: 0;
+	background: #c6e3f9;
+	color: #fff;
+	vertical-align: middle;
+}
+#wangyi_core #reg form div p a:hover{
+	color: #333;
+}
+#wangyi_core #reg form #reg_btn{
+	width: 320px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+	color: #fff;
+	background: #df9797;
+	font-size: 16px;
+	border: 0;
+	margin-bottom: 20px;
+	margin-left: 345px;
+}
+#wangyi_core #reg form>p{
+	width: 320px;
+	margin-left: 345px;
+}
+#wangyi_core #reg form>p a{
+	color: #666;
+}
+#wangyi_core #reg form>p a:hover{
+	color: #333;
+}
+#wangyi_core #reg form>img{
+	display: block;
+	width: 900px;
+	margin: 50px auto 0;
+}
+#wangyi_core .end{
+	width: 1000px;
+	margin: 20px auto 0;
+	text-align: center;
+	padding-bottom: 40px;
+	color: #999;
+}
+#wangyi_core .end p{
+	margin: 5px 0;
+}
+#wangyi_core .end p a{
+	color: #999;
+}
+#wangyi_core .end p a:hover{
+	color: orange;
+}
+#reg form .user_input,#reg form .pwd_input,#reg form .sure_input,#reg form .tel_input{
+	position: relative;
+}
+#reg form .user_input i.close_user,#reg form .pwd_input i.close_pwd,#reg form .sure_input i.close_sure,#reg form .tel_input i.close_tel{
+	display: none;
+	width: 17px;
+	height: 16px;
+	background: url(../img/login/close.png) no-repeat -148px -91px;
+	position: absolute;
+	right: 340px;
+	top: 15px;
+}
+#reg form .user_input i.close_user:hover,#reg form .pwd_input i.close_pwd:hover,#reg form .sure_input i.close_sure:hover,#reg form .tel_input i.close_tel:hover,#reg_btn:hover,#reg form div .get_message:hover{
+	cursor: pointer;
+}
+#reg form div #user_tip b,#reg form div #pwd_tip b,#reg form div #sure_tip b,#reg form div #tel_tip b{
+	display: inline-block;
+	width: 16px;
+	height: 15px;
+	background: url(../img/regist/sprite.png) no-repeat -65px -102px;
+	vertical-align: middle;
+	margin: 0 5px 0 10px;
+}
+#reg form div #user_tip,#reg form div #pwd_tip,#reg form div #sure_tip,#reg form div #tel_tip{
+	display: none;
+	color: #D4282D;
+}
+#reg form div.yzm{
+	position: relative;
+}
+#reg form div.yzm img#click_yz{
+	display: none;
+	position: absolute;
+	top: -105px;
+	left: 347px;
+	padding-bottom:20px;
+}
+#reg form div.yzm img.click{
+	display: none;
+	position: fixed;
+}

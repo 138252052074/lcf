@@ -1,0 +1,456 @@
+body {
+	min-height: 100%;
+	min-width: 1090px;
+	background-color: #fff;
+}
+
+
+/*中间内容*/
+
+.content {
+	clear: both;
+	overflow: hidden;
+	margin: 20px 0 70px;
+}
+
+.con-inner-m {
+	position: relative;
+	width: 1090px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+/*中间内容 顶部 地址*/
+
+.content .location {
+	line-height: 1;
+	padding: 20px 0 20px;
+	font-size: 12px;
+	color: #333;
+}
+
+.content .location a {
+	color: #333;
+}
+
+.content .location a:last-child{
+	color: #999;
+}
+.content .location a:not(:last-child):hover {
+	border-bottom: 1px solid #333;
+}
+
+.content .location i {
+	display: inline-block;
+	margin: 2px 7px 0;
+	width: 5px;
+	height: 9px;
+	background: url(../img/01index/01head/head-title1.png) no-repeat 0 0;
+}
+
+
+/*中间内容 banner*/
+
+.content .banner {
+	position: relative;
+	width: 1090px;
+	height: 350px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.content .banner img {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.content .banner .banner-content {
+	height: 350px;
+	padding-top: 42px;
+	background: rgba(51, 51, 51, .2);
+}
+
+.content .banner .banner-content .banner-title {
+	margin: 18px 0 20px;
+	font-size: 24px;
+	color: #fff;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+.content .banner .banner-content .banner-detail {
+	margin-bottom: 30px;
+	line-height: 25px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.content .banner .banner-content .banner-submit {
+	position: relative;
+	width: 680px;
+	margin: auto;
+}
+
+.content .banner .banner-content .banner-submit input {
+	float: left;
+	width: 520px;
+	height: 46px;
+	padding-left: 12px;
+	border: 1px solid #eaeaea;
+	vertical-align: top;
+	font-size: 13px;
+	color: #333;
+}
+
+.content .banner .banner-content .banner-submit .banner-sub {
+	width: 160px;
+	height: 46px;
+	line-height: 46px;
+	border-radius: 0;
+	font-size: 16px;
+	vertical-align: top;
+	color: #fff;
+	border: 1px solid #b4a078;
+	background-color: #b4a078;
+	text-align: center;
+	cursor: pointer;
+}
+
+.content .banner .banner-content .tips {
+	position: relative;
+	margin: 20px 0 0 10px;
+	font-size: 13px;
+	line-height: 1;
+	text-align: left;
+	color: #fff;
+}
+
+.content .banner .banner-content .tips:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -10px;
+	display: block;
+	width: 5px;
+	height: 5px;
+	margin: auto;
+	border-radius: 50%;
+	background: #fff;
+}
+
+
+/*中间内容 建议收集*/
+
+.content .collect {
+	margin: 20px 0 70px;
+}
+
+
+/*中间内容 建议收集 左边*/
+
+.content .collect .collect-left {
+	float: left;
+	width: 757px;
+	border: 1px solid #eaeaea;
+}
+
+
+/*中间内容 建议收集 左边 建议内容*/
+
+.content .collect .collect-title {
+	line-height: 45px;
+	padding-left: 20px;
+	border-bottom: 1px solid #eaeaea;
+	font-size: 16px;
+	color: #333;
+	background: #f5f5f5;
+}
+
+.content .collect .collect-left .collect-title span {
+	display: inline-block;
+	margin-left: 10px;
+	color: #b4a078;
+}
+
+.content .collect .collect-left .collect-list ul {
+	padding: 0 20px;
+}
+
+.content .collect .collect-left .collect-nav {
+	padding: 18px 0 12px;
+	border-bottom: 1px solid #eaeaea;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+.content .collect .collect-left .collect-nav .hot,
+.content .collect .collect-left .collect-nav .newest {
+	float: left;
+	margin-right: 45px;
+}
+
+.content .collect .collect-left .collect-nav .hot input,
+.content .collect .collect-left .collect-nav .newest input {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-right: 12px;
+	vertical-align: middle;
+	cursor: pointer;
+	background: url(../img/03advise/02collect/collect1.png) no-repeat 0 72px;
+}
+
+.content .collect .collect-left .collect-nav .hot label,
+.content .collect .collect-left .collect-nav .newest label {
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.content .collect .collect-left .collect-list ul li {
+	padding: 20px 0;
+	border-bottom: 1px dashed #e8e8e8;
+	font-size: 13px;
+	color: #333;
+}
+
+.content .collect .collect-left .collect-list .newestli {
+	display: none;
+}
+
+.content .collect .collect-left .collect-list .username {
+	float: left;
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+.content .collect .collect-left .collect-list .collect-detail {
+	margin-left: 65px;
+	overflow: hidden;
+}
+
+.content .collect .collect-left .collect-detail .collect-describe {
+	line-height: 20px;
+	word-wrap: break-word;
+}
+
+.content .collect .collect-left .collect-detail .collect-info {
+	margin-top: 5px;
+}
+
+.content .collect .collect-left .collect-detail .collect-time {
+	float: left;
+	color: #999;
+}
+
+.content .collect .collect-left .collect-detail .collect-like {
+	float: right;
+}
+
+.content .collect .collect-left .collect-detail .collect-like input {
+	position: absolute;
+	left: -99999px;
+}
+
+.content .collect .collect-left .collect-detail .collect-like input:checked+label {
+	background-position: 0 -14px;
+}
+
+.content .collect .collect-left .collect-detail .collect-like label {
+	display: inline-block;
+	width: 16px;
+	height: 14px;
+	vertical-align: middle;
+	margin-top: 1px;
+	margin-right: 10px;
+	background-image: url(../img/03advise/02collect/collect3.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.content .collect .collect-left .collect-detail .collect-like .likecount {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	width: 15px;
+}
+
+.content .collect .collect-left .collect-detail .collect-like .likecount span {
+	color: #333;
+}
+
+.content .collect .collect-left .collect-detail .collect-like .likecount i {
+	position: absolute;
+	top: 0px;
+	left: -2px;
+	width: 35px;
+	height: 15px;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 12px;
+	font-style: normal;
+	visibility: hidden;
+	color: #d4282d;
+}
+
+.content .collect .collect-left .collect-detail .collect-like .likecount p {
+	position: absolute;
+	top: -5px;
+	left: -2px;
+	width: 35px;
+	height: 15px;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 12px;
+	font-style: normal;
+	visibility: visible;
+	color: #d4282d;
+}
+
+
+/*中间内容 建议收集 左边 底部页数选择*/
+
+.content .collect .collect-left .collect-slide {
+	margin: 32px 0 30px;
+	text-align: center;
+}
+
+.content .collect .collect-left .collect-slide .collect-slide-m {
+	clear: both;
+	display: inline-block;
+	text-align: center;
+	text-align: -moz-center;
+	text-align: -webkit-center;
+	overflow: hidden;
+}
+
+.content .collect .collect-left .collect-slide li {
+	float: left;
+	vertical-align: middle;
+}
+
+.content .collect .collect-left .collect-slide .prev-page a,
+.content .collect .collect-left .collect-slide .next-page a {
+	display: inline-block;
+	line-height: 24px;
+	padding: 7px 12px;
+	border: 1px solid #e6e6e6;
+	font-size: 12px;
+	color: #ccc;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.content .collect .collect-left .collect-slide .page a {
+	display: inline-block;
+	line-height: 24px;
+	padding: 7px 12px;
+	border: 1px solid #e6e6e6;
+	border-left: 0;
+	font-size: 12px;
+	color: #333;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.content .collect .collect-left .collect-slide .page-sel a {
+	background-color: #b4a078;
+	border-color: #b4a078;
+	color: #fff;
+}
+
+.content .collect .collect-left .collect-slide .prev-page i,
+.content .collect .collect-left .collect-slide .next-page i {
+	display: inline-block;
+	width: 21px;
+	height: 21px;
+	vertical-align: middle;
+	background-image: url(../img/03advise/advise0.png);
+}
+
+.content .collect .collect-left .collect-slide .prev-page i {
+	background-position: 0 -245px;
+}
+
+.content .collect .collect-left .collect-slide .next-page i {
+	background-position: 0 -275px;
+}
+
+
+/*中间内容 建议收集 右边*/
+
+.content .collect .collect-right {
+	float: left;
+	width: 323px;
+	margin-left: 10px;
+	border: 1px solid #eaeaea;
+}
+
+.content .collect .collect-right ul {
+	padding: 30px 20px 15px;
+}
+
+.content .collect .collect-right .collect-right-cont {
+	position: relative;
+	width: 280px;
+	height: 180px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.content .collect .collect-right .collect-right-cont img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+}
+
+.content .collect .collect-right .collect-right-cont .collect-r-cont-info {
+	height: 180px;
+	text-align: center;
+	background: rgba(0, 0, 0, .3);
+}
+
+.content .collect .collect-right .collect-right-cont .collect-r-cont-info span {
+	display: inline-block;
+	min-width: 200px;
+	margin-top: 72px;
+	line-height: 36px;
+	border-top: 1px solid #b9bcbf;
+	border-bottom: 1px solid #b9bcbf;
+	font-size: 18px;
+	color: #fff;
+}
+
+
+/*输入小于10个字,弹出*/
+
+.notify {
+	display: none;
+	z-index: 10000;
+	position: fixed;
+	width: 306px;
+	top: 50%;
+	left: 50%;
+	margin-top: -51px;
+	margin-left: -153px;
+	border-radius: 4px;
+	background: #000;
+	opacity: 0;
+	filter: alpha(opacity:0);
+}
+
+.notify p {
+	padding: 40px 20px;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+}

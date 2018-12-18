@@ -1,0 +1,29 @@
+.tips{
+	width: 225px;
+	height: 192px;
+	background:#fff;
+	box-shadow: 0 0 3px 1px #999;
+	position: absolute;
+	left: 0;
+	top: 30px;
+	z-index: 50;
+}
+.tips ul li{
+	height: 32px;
+	line-height: 32px;
+	padding-left: 5px;
+}
+.tips ul li a{
+	color: #333;
+}
+.tips ul li:hover{
+	background-color: #f8f5f0;
+  	color: #B4A078;
+}
+.tips ul li:hover a{
+	color: #B4A078;
+}
+#search{
+	position: relative;
+}
+

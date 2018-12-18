@@ -1,0 +1,95 @@
+.hit-top{height:216px;}
+.w1090{width:1090px;}
+.h47{height:47px}
+/*标题部分*/
+.banner-title{display: block;margin:20px auto;background:#f5f5f5;border:1px solid #ddd;clear:both;}
+.commodity-info li,.selall-commodity li{line-height:45px;float:left;font-size:12px;}
+.selall-commodity{margin-left:20px;}
+.selall-commodity li{margin-right:108px;}
+.selall-commodity input{vertical-align:top;margin-top:17px;}
+.selall-commodity span{padding-left:12px;}
+.commodity-info li{margin-right:147px;}
+/*商品信息样式*/
+.box{display: block;height:120px;border:1px solid #ddd;margin:0 auto;margin-bottom:10px;background:#fff;}
+.commodity-introduce{margin-left:20px;vertical-align: top;line-height: 16px;}
+.commodity-introduce input{margin-top:58px;}
+.commodity-introduce p{float:right;padding-top:40px;}
+.commodity-introduce i{position:relative;margin:20px 39px 0 20px;text-align: center;display: inline-block;background:#f4f4f4;height:80px;width:80px;vertical-align: top;}
+.commodity-introduce img{width:96%;height:90%;}
+.commodity-introduce a{width:80px;height:80px;display: inline-block;position:absolute;z-index: 1;left:0;top:0;}
+.commodity-introduce span{font-size:14px;display:block;margin-bottom: 10px;}
+.commodity-introduce u{text-decoration: none;font-size:12px;color:#999;padding-right:16px;background:url(../img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 30px -1489px;}
+.cost{width:630px;line-height:22px;margin-right:60px;}
+.price{margin-right:95px;font-size:12px;}
+.num{text-align:center;position:relative;margin:50px 83px 0 0;width:110px;height:25px;display:inline-block;border:1px solid #ddd;}
+.num input{vertical-align: top;text-indent: 2em;width:58px;height:25px;border-left:1px solid #ddd;border-right:1px solid #ddd;}
+.num i{position:absolute}
+.l-minus,.r-add{width:26px;height:24px;display: block;position: absolute;z-index: 666;}
+.l-minus{left:0;top:0;cursor:no-drop;}
+.r-add{right:0;top:0;cursor:pointer;}
+.minus,.add1{width:10px;height:2px;display: block;}
+.minus{background:#d3d3d3;left:7px;top:11px;}
+.add1,.add2{background:#999;}
+.add1{right:8px;top:10px;}
+.add2{height:10px;width:2px;right:12px;top:6px;}
+.num-tip{z-index: 99999;display:none;position:fixed;width:305px;height:102px;text-align: center;line-height: 102px;color:#fff;font-size:14px;background:black;
+opacity: .8;filter:alpha(opacity:80);left:40%;top:40%;}
+.sum{color:#d4282d;}
+.close{display: block;width:12px;height:12px;float:right;margin-top:55px;
+background:url(../img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -540px;}
+.aword{display:block;line-height:43px;padding-left:60px;box-sizing: border-box;height:43px;margin:0 auto;margin-bottom:10px;background:#fffbf0;border:1px solid #ddd;}
+.aword .left{font-size:12px;color:#fff;background:#d7282d;padding:3px 10px;}
+.aword .center{font-size:12px;color:#666;margin:0 24px 0 10px;}
+.aword .right{font-size:12px;padding:5px;background:#fff;color:#d7282d;border:1px solid #d7282d;}
+.del-total{display:block;height:65px;margin:0 auto;}
+.p-del-total{position:fixed;bottom:0;height:65px;background:#f5f5f5;border:1px solid #ddd;}
+.del{line-height:65px;margin:0 555px 0 20px;}
+.del span{font-size:12px;vertical-align: top;}
+.del .sel-all{margin:0 30px 0 12px;}
+.del-by-sel{cursor:pointer;}
+.del-by-sel:hover{color:#b4a078;}
+.p-total p{font-size:14px;}
+.p-total span{display: inline-block;height:20px;line-height:20px;margin-top:13px;}
+.item1{position:relative;color:#fff;margin-right:20px;background:#de7669;padding:0 6px;font-size: 10px;;}
+.item1 i{display: block;width:20px;height:20px;position: absolute;right:-20px;top:0;
+background:url(../img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -4798px;}
+.total-price{color:#d4282d;font-weight: bold;font-size:20px;}
+.more-cheap{color:#999;}
+.ordering{line-height:65px;text-align: center;width:106px;height:65px;background:#ccc;color:#fff;}
+/*商品删除提示框*/
+.del-box-tip{display: none;position:fixed;z-index: 8888;top:0;left:0;width:100%;height:100%;background:black;opacity: .6;filter:alpha(opacity:60);}
+.p-del-box-tip{display: none;text-align: center;position:fixed;width:440px;height:200px;z-index: 9999;top:36%;left:33%;background:#fff;}
+.p-del-box-tip p{font-size:16px;margin-top:80px;margin-bottom: 39px;}
+.ok-cancel{width:330px;margin:0 auto;}
+.ok-cancel span{cursor:pointer;padding:10px 55px;font-size:16px;margin-right:6px;}
+.ok-cancel .ok{background:#b4a078;color:#fff;}
+.ok-cancel .ok:hover{background:#c0ae8a;}
+.ok-cancel .cancel{background:#f5f5f5;border:1px solid #d6d6d6;}
+.ok-cancel .cancel:hover{background:#fff;}
+.close-box{display: block;margin:20px 20px 0 0;width:25px;height:25px;background:url(../img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -784px;}
+.close-box:hover{background:url(../img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -750px;}
+/*购物车空时的提示*/
+.empty{display: none;margin: 0 auto;height:600px;border:1px solid #ddd;margin-top:20px;text-align: center;}
+.empty .img{width:53px;height:53px;margin: 0 auto;margin-top:200px;background: url(../img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -574px;}
+.empty a{text-decoration: none;}
+/*感兴趣的商品*/
+.interest{position: relative;margin:0 auto;margin-bottom: 80px;margin-top:40px;height:333px;border:1px solid #e8e8e8;}
+.interest h2{font-size:16px;height:44px;background:#f5f5f5;line-height:44px;padding-left:20px;}
+.interest li{position:relative;float:left;margin-right:17px;height:275px;width:215px;text-align: center;}
+.img-container{width:969px;margin:0 auto;position:relative;box-sizing: border-box;overflow: hidden;height:289px}
+.img-container h3 a{font-size:12px;text-decoration: none;color:#000;}
+.img-container h3 a:hover{color:#b4a078;}
+.img-container h3{margin-top: 196px;}
+.img-container span{color:#e06669;font-size:12px;}
+.img-container img{position: absolute;left: 0;top:0;}
+.p-interest-info{position: absolute;left:0;top:0;}
+.interest i{display: block;position: absolute;width:30px;height:30px;}
+.left-arrow{background:url(../img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -3073px;
+left:30px;top:170px;}
+.right-arrow{background:url(../img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -5022px;
+right:30px;top:170px;}
+.right-arrow:hover{background:url(../img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -4982px;}
+.left-arrow:hover{background:url(../img/icon-normal-s04dee2a1bf-e6389f69a7.png) no-repeat 0 -3113px;}
+
+
+
