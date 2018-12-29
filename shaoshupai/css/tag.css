@@ -1,0 +1,373 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "microsoft yahei";
+}
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+div {
+  display: block;
+}
+img {
+  border-style: none;
+}
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 100px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 7px 24px;
+  color: #fff;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+.body {
+  width: 1110px;
+  padding-top: 26px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.body .main {
+  max-width: 760px;
+  float: left;
+  margin-right: 50px;
+}
+.body .main dl {
+  border: 1px solid #c2ced8;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.body .main dl dt {
+  padding: 0;
+  margin: 0 0 20px;
+  position: relative;
+}
+.body .main dl dt .useru a {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+.body .main dl dt .useru a img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.body .main dl dt .useru h4 {
+  line-height: 1.66666;
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin-right: 0;
+  display: block;
+}
+.body .main dl dt .useru time {
+  line-height: 1.15;
+  font-size: 0.75rem;
+  vertical-align: middle;
+  color: #9b9b9b;
+}
+.body .main dl dt .useru:after {
+  content: " ";
+  display: block;
+  overflow: hidden;
+  clear: both;
+  font-size: 0;
+}
+.body .main dl dt:after {
+  content: " ";
+  display: block;
+  overflow: hidden;
+  clear: both;
+  font-size: 0;
+}
+.body .main dl dd {
+  margin: 0;
+}
+.body .main dl dd a {
+  float: right;
+  margin-left: 18px;
+}
+.body .main dl dd a img {
+  width: 180px;
+  display: block;
+}
+.body .main dl dd #title h3 {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.body .main dl dd #title summary {
+  color: #4a4a4a;
+  font-size: 16px;
+  line-height: 1.625;
+  display: list-item;
+}
+.body .main dl dd #title:after {
+  content: " ";
+  display: block;
+  clear: both;
+  font-size: 0;
+  overflow: hidden;
+}
+.body .main dl dd footer {
+  margin-top: 22px;
+  font-size: 0.875rem;
+}
+.body .main dl dd footer div {
+  float: right;
+}
+.body .main dl dd footer div span {
+  color: #9B9B9B;
+}
+.body .main dl dd footer div a {
+  margin-left: 20px;
+  color: #9B9B9B;
+}
+.body .main dl dd footer div sup {
+  position: static;
+  font-size: inherit;
+  line-height: inherit;
+  vertical-align: middle;
+}
+.body .main dl dd footer:after {
+  content: " ";
+  display: block;
+  overflow: hidden;
+  clear: both;
+  font-size: 0;
+}
+.body .main .load-more-wrapper a {
+  border: 1px solid #DBE2E8;
+  box-shadow: 0 1px 2px rgba(46, 61, 73, 0.08);
+  margin-top: 29px;
+  display: block;
+  height: 70px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 70px;
+  width: 100%;
+}
+.body .side {
+  width: 300px;
+  min-height: 500px;
+  float: left;
+}
+.body .side dl {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0;
+  margin: 0 0 20px;
+}
+.body .side dl dt {
+  padding-bottom: 6px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #e9e9e9;
+}
+.body .side dl dt h3 {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  position: relative;
+  color: #292525;
+  float: left;
+}
+.body .side dl dt h3:after {
+  content: " ";
+  display: block;
+  height: 27px;
+  width: 100%;
+  border-bottom: 1px solid #292525;
+  position: absolute;
+  left: 0;
+  top: -1px;
+}
+.body .side dl dt a {
+  color: #9b9b9b;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  float: right;
+}
+.body .side dl dt:after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+.body .side dl .onathter a {
+  position: relative;
+  display: block;
+  margin: 0 0 15px;
+}
+.body .side dl .onathter a img {
+  width: 100%;
+  min-height: 160px;
+  display: block;
+}
+.body .side dl .onathter a div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all 0.5s;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body .side dl .onathter a div h4 {
+  color: white;
+  height: 25px;
+  margin: 0;
+  padding: 0 20px;
+  display: inline-block;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.body .side dl .onathter a div span {
+  color: white;
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background-color: transparent;
+  border-radius: 100px;
+  text-align: center;
+  border: 1px solid #fff;
+  padding: 7px 24px;
+  color: #fff;
+}
+.body .side dl .onathter a div:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: all 0.5s;
+}
+.body .side dl .onathter a div:hover span {
+  background-color: white;
+  color: black;
+}
+.body .side dl .other a {
+  margin: 0 0 20px;
+  background-color: #fff;
+  display: block;
+  border: 1px solid #DBE2E8;
+  position: relative;
+  padding: 0;
+  box-shadow: 0 1px 2px rgba(46, 61, 73, 0.08);
+}
+.body .side dl .other a header img {
+  width: 100%;
+  display: block;
+}
+.body .side dl .other a section {
+  padding: 16px 20px 20px;
+}
+.body .side dl .other a section h4 {
+  font-size: 1.125rem;
+  line-height: 1.2;
+  font-weight: 400;
+  padding-bottom: 2px;
+}
+.body .side dl .other a section p {
+  display: -webkit-box;
+  color: #9B9B9B;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.body .side dl .other a section footer {
+  margin-top: 23px;
+  color: #9b9b9b;
+  font-size: 0.75rem;
+}
+.body .side dl .other a section footer label {
+  float: left;
+  margin-top: 9px;
+  cursor: default;
+}
+.body .side dl .other a section footer label var {
+  margin-right: 2px;
+  font-style: normal;
+}
+.body .side dl .other a section footer div {
+  float: right;
+  font-size: 0.75rem;
+}
+.body .side dl .other a section footer div span {
+  border-color: #292525;
+  color: #292525;
+  background: transparent;
+}
+.body .side dl .other a section footer div span:hover {
+  background: black;
+  color: white;
+}
+.body .side dl .other a section footer:after {
+  content: "";
+  display: block;
+  overflow: hidden;
+  clear: both;
+  font-size: 0;
+}
+.body .side dl .other a:after {
+  content: " ";
+  overflow: hidden;
+  clear: both;
+  font-size: 0;
+  display: block;
+}
+.body .side dl .other:hover h4 {
+  color: #d7191a;
+}
+.body:after {
+  content: "";
+  display: block;
+  overflow: hidden;
+  clear: both;
+  font-size: "";
+}
+@media (max-width: 768px) {
+  .body {
+    width: 100%;
+  }
+  .body .main {
+    margin: 0;
+  }
+  .body .main dl {
+    border-left: none;
+    border-right: none;
+  }
+  .body .main dl dd .iwant {
+    margin-bottom: 15px;
+    display: block;
+    float: none;
+  }
+  .body .main dl dd .iwant img {
+    width: 100%;
+  }
+  .body .side {
+    display: none;
+  }
+}

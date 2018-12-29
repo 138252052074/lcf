@@ -1,0 +1,248 @@
+body {
+  background: #FAFBFC;
+}
+a:hover {
+  color: black;
+}
+.left .list {
+  margin-bottom: 3.75rem;
+}
+.left .list li > .art_img {
+  width: 11.25rem;
+  height: 6.875rem;
+  float: right;
+  margin-top: 3.125rem;
+}
+.left .list li > img {
+  width: 2.5rem;
+  height: 2.5rem;
+  float: left;
+  cursor: pointer;
+}
+.left .list li > .name {
+  display: block;
+  font-size: 0.75rem;
+  padding: 0.3125rem;
+}
+.left .list li > time {
+  font-size: 0.75rem;
+  color: #9b9b9b;
+}
+.left .list li > .art:hover {
+  color: red;
+}
+.left .list li > .comment {
+  text-align: right;
+  opacity: 0.6;
+}
+.left .list li > .comment i {
+  margin-right: 0.3125rem;
+}
+.left .list li > .comment span {
+  margin-right: 1.25rem;
+}
+.right {
+  float: right;
+  width: 18.75rem;
+  height: 92rem;
+}
+.title {
+  width: 100%;
+  height: 1.875rem;
+  box-sizing: border-box;
+  line-height: 1.875rem;
+  border-bottom: 1px solid #dbe2e8;
+  margin-bottom: 1.25rem;
+}
+.title > span {
+  display: inline-block;
+  height: 100%;
+  margin-top: 0.0625rem;
+  font-weight: bold;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  font-size: 0.875rem;
+}
+.title > a {
+  float: right;
+  display: inline-block;
+  height: 100%;
+  color: #b29bb3;
+  font-size: 0.875rem;
+}
+.right > a {
+  display: block;
+  width: 100%;
+  height: 20rem;
+  margin-bottom: 1.25rem;
+  position: relative;
+  border: 1px solid #C2CED8;
+  background: white;
+}
+.right > a:hover .con_title {
+  color: red;
+}
+.right > a > img {
+  width: 100%;
+  height: 10rem;
+  margin-bottom: 1.25rem;
+}
+.right > a > .con_title {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-left: 1.25rem;
+}
+.right > a > .con_ms {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 0.875rem;
+  color: #9b9b9b;
+  line-height: 1.125rem;
+  padding: 0.625rem 1.25rem;
+  box-sizing: border-box;
+  height: 2.8125rem;
+}
+.right > a > span {
+  margin: 1.25rem 1.25rem;
+}
+.right > a > .con_num {
+  font-size: 0.75rem;
+  color: #9b9b9b;
+  margin-top: 1.875rem;
+}
+.right > a > .con_collect {
+  float: right;
+  width: 6.5625rem;
+  height: 2rem;
+  border: 1px solid black;
+  border-radius: 1.25rem;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 0.875rem;
+}
+.right > a > .con_collect:hover {
+  background: black;
+  color: white;
+}
+@media (min-width: 768px) {
+  .main {
+    width: 69.375rem;
+    margin: 2.25rem auto;
+    min-height: 359.375rem;
+    height: auto;
+    clear: both;
+  }
+  .main > .banner {
+    width: 69.375rem;
+    height: 21.25rem;
+    margin: 2.25rem auto;
+  }
+  .left {
+    float: left;
+    width: 47.5rem;
+    height: 168.75rem;
+  }
+  .left > h4 {
+    margin: 0rem 0 1.5625rem 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  .left .list li {
+    width: 47.5rem;
+    border: 1px solid #dbe2e8;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+    box-sizing: border-box;
+    background: white;
+  }
+  .left .list li > .art {
+    margin-top: 1.5625rem;
+    font-size: 1.5rem;
+    display: block;
+    width: 31.25rem;
+    font-weight: bold;
+  }
+  .left .list li > .art_des {
+    width: 31.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 2.25rem;
+  }
+}
+@media (max-width: 768px) {
+  .main {
+    width: 100%;
+    height: 809.375rem;
+  }
+  .main > .banner {
+    width: 100%;
+    margin: 1.25rem auto;
+    padding: 0.625rem;
+    box-sizing: border-box;
+  }
+  .left {
+    width: 100%;
+  }
+  .left > h4 {
+    margin: 1.5625rem 0 1.25rem 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-left: 0.625rem;
+    box-sizing: border-box;
+  }
+  .left .list li {
+    width: 100%;
+    border: 1px solid #dbe2e8;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+    box-sizing: border-box;
+    border-right: 0;
+  }
+  .left .list > li > .art_img {
+    width: 100%;
+    height: 100%;
+    margin-top: 1.25rem;
+    margin-bottom: 0.625rem;
+  }
+  .left .list li > .art {
+    font-size: 1.125rem;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    line-height: 1.375rem;
+  }
+  .left .list li > .art_des {
+    width: 100%;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    line-height: 1.375rem;
+  }
+  .right {
+    width: 100%;
+    height: 93.75rem;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 2.25rem;
+  }
+  .title {
+    width: 100%;
+    height: 1.875rem;
+    box-sizing: border-box;
+    line-height: 1.875rem;
+    border-bottom: 1px solid #dbe2e8;
+    margin-bottom: 1.25rem;
+    padding: 0 0.625rem;
+    border-top: 2px solid white;
+    z-index: 1;
+  }
+  .right > a {
+    display: block;
+    width: 100%;
+    height: 20rem;
+    margin-bottom: 1.25rem;
+    position: relative;
+    box-sizing: border-box;
+  }
+}

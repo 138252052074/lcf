@@ -1,0 +1,128 @@
+body {
+  background-color: #4A4A4A;
+  height: 2000px;
+}
+.landing {
+  position: absolute;
+  max-width: 550px;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 1px solid #dbe2e8;
+  border-top: 0;
+  padding: 0 36px;
+}
+.landing .landing-inner {
+  width: 100%;
+  height: auto;
+}
+.landing .landing-inner h2 {
+  padding-top: 56px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 18px;
+}
+.landing .landing-inner h2 img {
+  height: 56px;
+  width: 157px;
+  margin: 0 auto;
+}
+.landing .landing-inner .btn-registered {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
+.landing .landing-inner .btn-registered a {
+  float: right;
+}
+.landing .landing-inner .inp {
+  width: 100%;
+  height: 74px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.landing .landing-inner .inp input {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  padding-left: 32px;
+  font-size: 15px;
+}
+.landing .landing-inner .pass-pass {
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+}
+.landing .landing-inner .pass-pass .check-pass {
+  width: 85px;
+  height: 100%;
+  float: left;
+  font-size: 15px;
+}
+.landing .landing-inner .pass-pass .forgot-password {
+  float: right;
+  font-size: 15px;
+  color: #000;
+}
+.landing .landing-inner .pass-pass .forgot-password:hover {
+  color: #d7191a;
+}
+.landing .landing-inner .btn-login {
+  display: block;
+  width: 100%;
+  max-height: 58px;
+  height: 100%;
+  text-align: center;
+  line-height: 58px;
+  color: #fff;
+  background-color: #292525;
+  margin-top: 18px;
+}
+.landing .landing-inner .login-choose {
+  margin-top: 30px;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #dbe2e8;
+  text-align: center;
+  padding-top: 31px;
+}
+.landing .landing-inner .login-choose ul {
+  display: inline-block;
+  width: 121px;
+  height: 36px;
+}
+.landing .landing-inner .login-choose ul li {
+  width: 46px;
+  height: 100%;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+.landing .landing-inner .login-choose ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-size: 36px 36px !important;
+}
+.landing .landing-inner .login-choose ul .xinlang {
+  float: left;
+}
+.landing .landing-inner .login-choose ul .xinlang a {
+  background: url(../img/weibo.png) no-repeat;
+}
+.landing .landing-inner .login-choose ul .weixin {
+  float: right;
+}
+.landing .landing-inner .login-choose ul .weixin a {
+  background: url(../img/weixin.png) no-repeat;
+}
+.landing .landing-inner .login-choose .social-account {
+  margin-top: 23px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #9b9b9b;
+  font-size: 12px;
+}

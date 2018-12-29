@@ -1,0 +1,212 @@
+div.main_top div:hover .top_bg {
+  opacity: 0.8;
+}
+div.con div:hover .con_bg {
+  opacity: 0.8;
+}
+.top_bg {
+  width: 21.875rem;
+  height: 11.875rem;
+  background: black;
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.5s;
+}
+.top_title {
+  color: white;
+  position: absolute;
+  left: 1.25rem;
+  top: 1.5625rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.top_num {
+  color: white;
+  position: absolute;
+  left: 1.25rem;
+  bottom: 1.5625rem;
+  font-size: 0.75rem;
+}
+.top_collect {
+  color: white;
+  position: absolute;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  width: 4.6875rem;
+  height: 1.875rem;
+  border: 1px solid white;
+  font-size: 0.75rem;
+  border-radius: 2.25rem;
+  text-align: center;
+  line-height: 1.875rem;
+  transition: all 0.5s;
+}
+.top_collect:hover {
+  background-color: white;
+  color: black;
+}
+.con_bg {
+  width: 16.25rem;
+  height: 8.75rem;
+  background: black;
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.5s;
+}
+.con_bg:hover {
+  opacity: 0.8;
+}
+.con_title {
+  color: white;
+  position: absolute;
+  left: 1.25rem;
+  top: 1.5625rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.con_num {
+  color: white;
+  position: absolute;
+  left: 1.25rem;
+  bottom: 1.5625rem;
+  font-size: 0.75rem;
+}
+.con_collect {
+  color: white;
+  position: absolute;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  width: 4.6875rem;
+  height: 1.875rem;
+  border: 1px solid white;
+  font-size: 0.75rem;
+  border-radius: 2.25rem;
+  text-align: center;
+  line-height: 1.875rem;
+  transition: all 0.5s;
+}
+.con_collect:hover {
+  background-color: white;
+  color: black;
+}
+body {
+  width: 100%;
+  height: 50rem;
+}
+div.container {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  div.main {
+    width: 100%;
+    margin-top: 1.5625rem;
+  }
+  div.main_top {
+    width: 69.4375rem;
+    margin: 0 auto;
+  }
+  div.main_top div {
+    width: 21.875rem;
+    height: 11.875rem;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 2.125rem;
+  }
+  div.main_top div:nth-child(2) {
+    margin: 2.125rem 1.25rem;
+  }
+  div.main_top div a {
+    width: 21.875rem;
+    height: 11.875rem;
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  div.main {
+    width: 100%;
+    margin-top: 1.25rem;
+    padding: 0 0.625rem;
+    box-sizing: border-box;
+  }
+  div.main_top {
+    display: none;
+  }
+}
+#sel {
+  width: 100%;
+  height: 2.125rem;
+  clear: both;
+  border-bottom: 1px solid #eceeef;
+  margin-bottom: 1.875rem;
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+#sel p {
+  width: 69.4375rem;
+  margin: 0 auto;
+}
+#sel p a {
+  color: #9b9b9b;
+  font-size: 0.875rem;
+  display: inline-block;
+  width: 3.625rem;
+  height: 2.125rem;
+}
+#sel p a.active {
+  color: #292525;
+}
+#sel p a:hover {
+  color: #292525;
+}
+@media (min-width: 768px) {
+  #sel p {
+    width: 69.4375rem;
+    margin: 0 auto;
+  }
+  div.con {
+    width: 69.4375rem;
+    margin: 0 auto;
+  }
+  div.con div {
+    width: 16.25rem;
+    height: 8.75rem;
+    position: relative;
+    margin-bottom: 1.25rem;
+    margin-right: 0.875rem;
+    display: inline-block;
+  }
+}
+@media (max-width: 768px) {
+  #sel p {
+    width: 100%;
+  }
+  div.con {
+    width: 100%;
+  }
+  div.con div {
+    width: 100%;
+    position: relative;
+    margin-bottom: 1.25rem;
+    margin-right: 0.875rem;
+  }
+  .con_bg {
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s;
+  }
+}
+div.non {
+  display: none;
+}
+div.active1 {
+  display: block;
+}

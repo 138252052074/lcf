@@ -1,0 +1,562 @@
+a:hover {
+  color: black;
+}
+.main {
+  width: 100%;
+  position: relative;
+}
+.banner {
+  width: 100%;
+  height: 20.625rem;
+  background: url(../img/mima_banner.jpg) no-repeat;
+  background-size: 100% 100%;
+  margin-top: -0.0625rem;
+}
+.bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: black;
+  opacity: 0.4;
+  width: 100%;
+  height: 20.625rem;
+}
+.banner_con {
+  width: 100%;
+  height: 20.625rem;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.banner_con p {
+  color: white;
+}
+.banner_con p:nth-child(1) {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 4.6875rem;
+}
+.banner_con p:nth-child(2) {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1.25rem;
+}
+.banner_con p:nth-child(3) > a {
+  color: #9b9b9b;
+  font-size: 0.75rem;
+  margin: 1.875rem auto;
+  display: block;
+  width: 3.75rem;
+  height: 1.875rem;
+  background-color: white;
+  line-height: 1.875rem;
+}
+.banner_con > p:nth-child(3) > a:hover {
+  color: red;
+}
+.banner_con p:nth-child(4) {
+  width: 5rem;
+  height: 2rem;
+  line-height: 2rem;
+  border: 1px solid white;
+  border-radius: 1.25rem;
+  font-size: 0.875rem;
+  margin: 0.625rem auto;
+}
+.banner_con p:nth-child(4):hover {
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+.big > p:nth-child(1) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(../img/icon/left1.png) no-repeat 0.625rem 3.125rem;
+  z-index: 1;
+}
+.big > p:nth-child(1):hover {
+  background: url(../img/icon/left2.png) no-repeat 0.625rem 3.125rem;
+}
+.big > p:nth-child(2) {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: url(../img/icon/right1.png) no-repeat 0rem 3.125rem;
+  z-index: 1;
+}
+.big > p:nth-child(2):hover {
+  background: url(../img/icon/right2.png) no-repeat 0rem 3.125rem;
+}
+.small li:nth-child(3) {
+  display: none;
+}
+.small li a:nth-child(1),
+.small li ol {
+  float: left;
+}
+.small li:nth-child(1) a img {
+  width: 5.625rem;
+  height: 5.625rem;
+}
+ol.ol {
+  margin-left: 1.25rem;
+}
+ol.ol > a {
+  display: block;
+  width: 6.25rem;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 0.3125rem;
+  margin-bottom: 1.25rem;
+}
+ol.ol > a:hover {
+  color: black;
+}
+ol.ol > p:nth-child(2) {
+  font-size: 0.875rem;
+  color: #b49ba4;
+}
+ol.ol > p:nth-child(3) {
+  font-size: 0.875rem;
+  background-color: #1c8ce9;
+  border-radius: 1.25rem;
+  width: 6.25rem;
+  height: 2.25rem;
+  text-align: center;
+  line-height: 2.25rem;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 5rem;
+  right: 6.25rem;
+}
+ol.ol > p:nth-child(3) > span {
+  display: block;
+  width: 6.25rem;
+  height: 2.25rem;
+}
+ol.ol > p:nth-child(3):hover {
+  height: 6.75rem;
+}
+.left > dl > dt > img {
+  width: 2.5rem;
+  height: 2.5rem;
+  float: left;
+  cursor: pointer;
+  border-radius: 1.25rem;
+}
+.left > dl > dt > a {
+  display: block;
+  font-size: 0.75rem;
+  padding: 0.3125rem;
+}
+.left > dl > dt > time {
+  font-size: 0.75rem;
+  color: #9b9b9b;
+}
+.left > dl > dt > p {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.icon-more {
+  color: #d5d5d5;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.left > dl > dd > img {
+  width: 45rem;
+  height: 15rem;
+  margin-bottom: 1.5625rem;
+}
+.left > dl > dd > a:hover {
+  color: red;
+}
+.left > dl > dd > p:nth-child(3) {
+  color: #4a4a4a;
+  margin-bottom: 1.5625rem;
+}
+.left > dl > dd > .comment {
+  float: right;
+  opacity: 0.6;
+}
+.left > dl > dd > .comment i {
+  margin-right: 0.3125rem;
+}
+.left > dl > dd > .comment span {
+  margin-right: 1.25rem;
+}
+.left .list {
+  margin-bottom: 3.75rem;
+}
+.left .list li > .art_img {
+  width: 11.25rem;
+  height: 6.875rem;
+  float: right;
+  margin-top: 2.5rem;
+}
+.left .list li > img {
+  width: 2.5rem;
+  height: 2.5rem;
+  float: left;
+  cursor: pointer;
+}
+.left .list li > img:nth-child(1) {
+  border-radius: 1.25rem;
+}
+.left .list li > .name {
+  display: block;
+  font-size: 0.75rem;
+  padding: 0.3125rem;
+}
+.left .list li > time {
+  font-size: 0.75rem;
+  color: #9b9b9b;
+}
+.left .list li > .art:hover {
+  color: red;
+}
+.left .list li > .comment {
+  text-align: right;
+  opacity: 0.6;
+}
+.left .list li > .comment i {
+  margin-right: 0.3125rem;
+}
+.left .list li > .comment span {
+  margin-right: 1.25rem;
+}
+.right {
+  float: right;
+  width: 18.75rem;
+  height: 92rem;
+}
+.title {
+  width: 100%;
+  height: 1.875rem;
+  box-sizing: border-box;
+  line-height: 1.875rem;
+  border-bottom: 1px solid #dbe2e8;
+  margin-bottom: 1.25rem;
+}
+.title > span {
+  display: inline-block;
+  height: 100%;
+  margin-top: 0.0625rem;
+  font-weight: bold;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  font-size: 0.875rem;
+}
+.title > a {
+  float: right;
+  display: inline-block;
+  height: 100%;
+  color: #b29bb3;
+  font-size: 0.875rem;
+}
+.right > a {
+  display: block;
+  width: 100%;
+  height: 10rem;
+  margin-bottom: 1.25rem;
+  position: relative;
+}
+.con_bg {
+  width: 100%;
+  height: 10rem;
+  background: black;
+  opacity: 0.4;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.5s;
+}
+.con_bg:hover {
+  opacity: 0.6;
+}
+.con_title {
+  color: white;
+  position: absolute;
+  left: 1.25rem;
+  top: 1.5625rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.con_num {
+  color: white;
+  position: absolute;
+  left: 1.25rem;
+  bottom: 1.5625rem;
+  font-size: 0.75rem;
+}
+.con_collect {
+  color: white;
+  position: absolute;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  width: 4.6875rem;
+  height: 1.875rem;
+  border: 1px solid white;
+  font-size: 0.75rem;
+  border-radius: 2.25rem;
+  text-align: center;
+  line-height: 1.875rem;
+  transition: all 0.5s;
+}
+.con_collect:hover {
+  background-color: white;
+  color: black;
+}
+@media (min-width: 768px) {
+  .con {
+    width: 69.375rem;
+    height: 162.5rem;
+    margin: 2.8125rem auto;
+  }
+  .left {
+    float: left;
+    width: 47.5rem;
+    height: 125rem;
+  }
+  .big {
+    width: 47.5rem;
+    height: 8.125rem;
+    position: relative;
+  }
+  .big > p {
+    width: 2.5rem;
+    height: 8.125rem;
+  }
+  .small {
+    width: 47.5rem;
+    height: 8.125rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 0;
+  }
+  .small li {
+    width: 20.625rem;
+    height: 8.125rem;
+    border: 1px solid #dbe2e8;
+    float: left;
+    margin-right: 1.25rem;
+    padding: 1.25rem;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .left > h4 {
+    margin: 1.5625rem 0 1.25rem 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  .left > dl {
+    width: 47.5rem;
+    height: 29.875rem;
+    border: 1px solid #dbe2e8;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+    box-sizing: border-box;
+  }
+  .left > dl > dt {
+    width: 45rem;
+    height: 2.5rem;
+    position: relative;
+  }
+  .left > dl > dd {
+    width: 45rem;
+    height: 23.4375rem;
+    margin-top: 1.5625rem;
+  }
+  .left > dl > dd > a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.25rem;
+    display: block;
+  }
+  .left > dl > dd > img {
+    width: 45rem;
+    height: 15rem;
+    margin-bottom: 1.5625rem;
+  }
+  .left .list li {
+    width: 47.5rem;
+    border: 1px solid #dbe2e8;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+    box-sizing: border-box;
+  }
+  .left .list li > .art {
+    margin-top: 1.5625rem;
+    font-size: 1.5rem;
+    display: block;
+    width: 31.25rem;
+    font-weight: bold;
+  }
+  .left .list li > .art_des {
+    width: 31.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 2.25rem;
+  }
+}
+@media (max-width: 768px) {
+  .con {
+    width: 100%;
+    margin: 2.8125rem auto;
+  }
+  .left {
+    width: 100%;
+  }
+  .big {
+    width: 100%;
+    height: 8.125rem;
+    position: relative;
+  }
+  .big > p {
+    width: 1.875rem;
+    height: 8.125rem;
+    z-index: 1;
+  }
+  .small {
+    width: 88%;
+    height: 8.125rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 0;
+  }
+  .small li {
+    width: 18.75rem;
+    height: 8.125rem;
+    border: 1px solid #dbe2e8;
+    float: left;
+    padding: 1.25rem;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 50;
+  }
+  .small li:nth-child(2) {
+    display: none;
+  }
+  .small li:nth-child(3) {
+    display: none;
+  }
+  ol.ol > p:nth-child(3) {
+    font-size: 0.875rem;
+    background-color: #1c8ce9;
+    border-radius: 1.25rem;
+    width: 6.25rem;
+    height: 2.25rem;
+    text-align: center;
+    line-height: 2.25rem;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 5rem;
+    right: 3.75rem;
+    z-index: 100;
+  }
+  .left > h4 {
+    margin: 1.5625rem 0 1.25rem 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-left: 0.625rem;
+    box-sizing: border-box;
+  }
+  .left > dl {
+    width: 100%;
+    border: 1px solid #dbe2e8;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+    box-sizing: border-box;
+    border-right: 0;
+  }
+  .left > dl > dt {
+    width: 100%;
+    height: 2.5rem;
+    position: relative;
+  }
+  .left > dl > dd {
+    width: 100%;
+    height: 23.4375rem;
+    margin-top: 1.5625rem;
+    overflow: hidden;
+  }
+  .left > dl > dd > a {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 1.25rem;
+    display: block;
+  }
+  .left > dl > dd > img {
+    margin-bottom: 1.5625rem;
+    max-width: 720px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .left .list li {
+    width: 100%;
+    border: 1px solid #dbe2e8;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+    box-sizing: border-box;
+    border-right: 0;
+  }
+  .left .list > li > .art_img {
+    width: 100%;
+    height: 100%;
+    margin-top: 1.25rem;
+    margin-bottom: 0.625rem;
+  }
+  .left .list li > .art {
+    font-size: 1.125rem;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    line-height: 1.375rem;
+  }
+  .left .list li > .art_des {
+    width: 100%;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    line-height: 1.375rem;
+  }
+  .right {
+    width: 100%;
+    height: 93.75rem;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 2.25rem;
+  }
+  .title {
+    width: 100%;
+    height: 1.875rem;
+    box-sizing: border-box;
+    line-height: 1.875rem;
+    border-bottom: 1px solid #dbe2e8;
+    margin-bottom: 1.25rem;
+    padding: 0 0.625rem;
+    border-top: 2px solid white;
+    z-index: 1;
+  }
+  .right > a {
+    display: block;
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 1.25rem;
+    position: relative;
+    padding: 0 0.625rem;
+    box-sizing: border-box;
+  }
+  .con_bg {
+    width: 95%;
+    height: 10rem;
+    background: black;
+    opacity: 0.4;
+    position: absolute;
+    left: 0.625rem;
+    top: 0;
+    transition: all 0.5s;
+  }
+}

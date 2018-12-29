@@ -1,0 +1,107 @@
+.warp {
+  max-width: 575px;
+  max-height: 632px;
+  width: 100%;
+  height: 100%;
+  margin: 57px auto;
+}
+.warp h2 {
+  width: 100%;
+  height: 107px;
+  box-sizing: border-box;
+  padding: 25px 0;
+}
+.warp h2 img {
+  height: 100%;
+  width: 157px;
+  margin: 0 auto;
+}
+.warp .tex {
+  width: 100%;
+  text-align: center;
+  color: #7c7c7c;
+}
+.warp .warp-inner {
+  padding: 51px 36px;
+  margin-top: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #dbe2e8;
+}
+.warp .warp-inner form {
+  width: 100%;
+}
+.warp .warp-inner form .inp {
+  width: 100%;
+  height: 74px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.warp .warp-inner form .inp .wrong{
+	color: #d7191a;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.warp .warp-inner form .inp input {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  padding-left: 31px;
+  font-size: 15px;
+}
+.warp .warp-inner form .check {
+  font-size: 12px;
+}
+.warp .warp-inner form .check a {
+  text-decoration: none;
+}
+.warp .warp-inner .btn-submit {
+  border: 0;
+  margin-top: 24px;
+  width: 100%;
+  height: 58px;
+  text-align: center;
+  line-height: 58px;
+  background-color: #292525;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+.hint-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  box-sizing: border-box;
+  display: none;
+}
+.hint-box .hint {
+  width: 420px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  background-color: #fff;
+  border-radius: 3px;
+  overflow: hidden;
+  position: absolute;
+}
+.hint-box .hint p {
+  color: #000;
+  text-align: left;
+  padding-top: 35px;
+  padding-bottom: 43px;
+}
+.hint-box .hint .hint-btn {
+  float: right;
+  width: 60px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  background-color: #292929;
+  color: #fff;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}

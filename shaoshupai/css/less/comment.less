@@ -1,0 +1,121 @@
+.home-body .main {
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.avatar {
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    img{
+        border-radius: 50%;
+        
+    }
+
+}
+.user-card {
+    h4{
+        display: inline;
+        vertical-align: middle;
+        margin-right: 8px;
+        font-weight: 400;
+        margin: 0 10px 0 0;
+        font-size: 12px;
+        font-size: 0.75rem;
+        line-height: 1.66666667;
+    }
+    time{
+        color: #9b9b9b;
+        vertical-align: middle;
+        font-size: 12px;
+        font-size: 0.75rem;
+    }
+    
+}
+
+sup {
+    top: -0.5em;
+}
+
+hr {
+    height: 0;
+    overflow: hidden;
+    font-size: 0;
+    border: none;
+    border-bottom: 1px solid #dbe2e8;
+    background-color: transparent;
+    color: transparent;
+}
+
+html{
+    .btn-default,.btn-primary:active,.btn-primary:hover{
+        border: 1px solid #292525;
+        background-color: #fff;
+        color: #292525;
+    }
+    .btn-default:active,.btn-default:hover {
+        background-color: #292525;
+        color: #fff;
+    }
+}
+.el-textarea {
+    display: inline-block;
+    width: 100%;
+    vertical-align: bottom;
+}
+
+html .el-textarea__inner, textarea.text {
+    resize: vertical;
+    line-height: 1.6;
+    resize: none;
+    font-size: 14px;
+    font-size: .875rem;
+}
+html .el-input__inner, html .el-textarea__inner, input.text, textarea.text {
+    outline: 0;
+    border: 1px solid rgba(0,0,0,.12);
+    background-color: #fff;
+    padding: 25px 30px;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.375;
+    color: #292525;
+    font-weight: 400;
+    border-radius: 0;
+}
+.el-textarea__inner {
+    display: block;
+    resize: vertical;
+    padding: 5px 7px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #c0ccda;
+    border-radius: 4px;
+    -webkit-transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+    transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+}
+.el-textarea__inner:focus {
+    outline: none;
+    border-color: #292929;
+}
+
+@media (max-width: 768px){
+    html .el-input__inner, html .el-textarea__inner, input.text, textarea.text {
+        padding: 16px 21px;
+    }
+    .load-more {
+        font-size: 14px;
+        font-size: .875rem;
+        height: 50px;
+        line-height: 50px;
+    }
+}
+html .btn-primary {
+    border: 1px solid #292525;
+    background-color: #292525;
+    color: #fff;
+}
